@@ -5,7 +5,7 @@ using namespace std;
 
 void generateBinaryCode(int nBits);
 void generateBinaryCode_core(int nBits, string seq);
-int BinaryToDecimal(string str);
+int BinaryToDecimal(string &str);
 
 int main() {
     int a;
@@ -41,7 +41,7 @@ void generateBinaryCode_core(int nBits, string seq) {
     }
 }
 
-int BinaryToDecimal(string str){
+int BinaryToDecimal(string &str){
     int result =0;
     int power = 0;
     for (int i = str.length()-1; i > -1; i--){
