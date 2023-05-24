@@ -1,5 +1,6 @@
 # Ignore compiled object files
 *.o
+*.out
 
 # Ignore executable files
 myapp
