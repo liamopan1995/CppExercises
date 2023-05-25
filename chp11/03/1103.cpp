@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <set>
 using namespace std;
 
 string integerToString(int num, int base);
@@ -17,6 +18,8 @@ int main () {
     cout << BinaryToDecimal(input,10)<<endl;
     input = "3A";
     
+    cout << BinaryToDecimal(input,11)<<endl;
+    input = "3K";
     cout << BinaryToDecimal(input,11)<<endl;
     return 0;
 }
@@ -43,12 +46,15 @@ int BinaryToDecimal(string &str, int base){
     // }
 
     // validation check
-    // for (int i = 0;  i < str.length(); i++ ) {
-    //     if (str[i] - 55 >= char_base) {
-    //         cout<< "digits are outof range for base: "<<base<<endl;
-    //         return 0;
-    //     }
-    // }
+    for (int i = 0;  i < str.length(); i++ ) {
+        if ( !('0' <= str[i] && str[i] <= '9' || 'A' <= str[i] && str[i] <= 'B')) {
+            cout<< "digits are outof range for base: "<<base<<endl;
+            cout <<"invalid digit"<<"  "<< str[i]<<endl;
+            return -1;
+        }
+    }
+
+
 
 
     int result =0;
