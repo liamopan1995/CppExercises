@@ -2,7 +2,7 @@
 #include <math.h>
 #include <set>
 using namespace std;
-// did this to check git status ...
+
 string integerToString(int num, int base);
 int stringToInteger(string &str, int base);
 
@@ -45,32 +45,13 @@ int main () {
     cout << integerToString(8902,12)<<endl;
 
     cout << integerToString(10,2)<<endl;
+    cout << integerToString(-10,2)<<endl;
 
     return 0;
 }
 
-
-// int stringToInteger (string &str, int base){
-//     int result =0;
-//     for (int i = str.length()-1; i > -1; i--){
-
-//         if(str[i]=='1'){
-//             result += str[i] * pow(base,i);
-//         }
-//     }
-//     return result;
-// }
-
 int stringToInteger(string &str, int base){
-    // char char_base ='~';
-    // if (base > 9) {
 
-    // } else {
-    //     char_base = static_cast<char>(base);
-    //     cout<< "xxx"<< char_base;
-    // }
-
-    // validation check
     if (str[0] == '-') {
         char max = '0';
         for (int i = 1;  i < str.length(); i++ ) {
@@ -224,23 +205,52 @@ int stringToInteger(string &str, int base){
 
 string integerToString(int num, int base){
     string result;
-    string append="@";
+    string append="";
+    string sign = " ";
     if (num==0) return "0";
-    while ( num>0 ) {
-
+    if (num < 0){
+        sign = "-";
+        num *= -1;
+    }
+    while ( num > 0 ) {
         int remainder = num % base;
-        if (remainder > 9){
+        num /= base;
+        if (remainder > 9){    // as digit grow out of 9 , mappings are necessary.
             switch(remainder){
                 case 10 : append = 'A';break;
                 case 11 : append = 'B';break;
+                case 12 : append = 'C';break;
+                case 13 : append = 'D';break;
+                case 14 : append = 'E';break;
+                case 15 : append = 'F';break;
+                case 16 : append = 'G';break;
+                case 17 : append = 'H';break;
+                case 18 : append = 'I';break;
+                case 19 : append = 'J';break;
+                case 20 : append = 'K';break;
+                case 21 : append = 'L';break;
+                case 22 : append = 'M';break;
+                case 23 : append = 'N';break;
+                case 24 : append = 'O';break;
+                case 25 : append = 'P';break;
+                case 26 : append = 'Q';break;
+                case 27 : append = 'R';break;
+                case 28 : append = 'S';break;
+                case 29 : append = 'T';break;
+                case 30 : append = 'U';break;
+                case 31 : append = 'V';break;
+                case 32 : append = 'W';break;
+                case 33 : append = 'X';break;
+                case 34 : append = 'Y';break;
+                case 35 : append = 'Z';break;
             }
 
         }
         else {
-            append = to_string(remainder);
+            append = to_string(remainder);  // cast int to string 
         }
         result = append + result;
-        num /= base;
+        
     }
-    return result;
+    return sign + result; // using a rather primitive way to represent sign, could be improved in the future
 }
