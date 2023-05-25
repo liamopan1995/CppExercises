@@ -5,35 +5,46 @@ using namespace std;
 // did this to check git status ...
 string integerToString(int num, int base);
 int stringToInteger(string &str, int base);
-int BinaryToDecimal(string &str, int base);
+
 
 int main () {
     string input = "111";
-    cout << BinaryToDecimal(input,2)<<endl;
+    cout << stringToInteger(input,2)<<endl;
 
     input = "921";
-    cout << BinaryToDecimal(input,9)<<endl;
+    cout << stringToInteger(input,9)<<endl;
     input = "423";
     
-    cout << BinaryToDecimal(input,10)<<endl;
+    cout << stringToInteger(input,10)<<endl;
     input = "3A";
     
-    cout << BinaryToDecimal(input,11)<<endl;
+    cout << stringToInteger(input,11)<<endl;
     input = "3B";
     
-    cout << BinaryToDecimal(input,11)<<endl;
-    cout << BinaryToDecimal(input,12)<<endl;
+    cout << stringToInteger(input,11)<<endl;
+    cout << stringToInteger(input,12)<<endl;
     input = "3K";
-    cout << BinaryToDecimal(input,11)<<endl;
+    cout << stringToInteger(input,11)<<endl;
 
     input = "3&";
-    cout << BinaryToDecimal(input,11)<<endl;
+    cout << stringToInteger(input,11)<<endl;
 
     input = "XX";
-    cout << BinaryToDecimal(input,36)<<endl;
+    cout << stringToInteger(input,36)<<endl;
 
     input = "-356";
-    cout << BinaryToDecimal(input,10)<<endl;
+    cout << stringToInteger(input,10)<<endl;
+
+    cout<<"interger to string"<<endl;
+    cout << integerToString(121,11)<<endl;
+    cout << integerToString(8898,11)<<endl;
+    cout << integerToString(8899,11)<<endl;
+    cout << integerToString(8900,11)<<endl;
+    cout << integerToString(8904,12)<<endl;
+    cout << integerToString(8903,12)<<endl;
+    cout << integerToString(8902,12)<<endl;
+
+    cout << integerToString(10,2)<<endl;
 
     return 0;
 }
@@ -50,7 +61,7 @@ int main () {
 //     return result;
 // }
 
-int BinaryToDecimal(string &str, int base){
+int stringToInteger(string &str, int base){
     // char char_base ='~';
     // if (base > 9) {
 
@@ -208,4 +219,28 @@ int BinaryToDecimal(string &str, int base){
         }
         return result;}
     
+}
+
+
+string integerToString(int num, int base){
+    string result;
+    string append="@";
+    if (num==0) return "0";
+    while ( num>0 ) {
+
+        int remainder = num % base;
+        if (remainder > 9){
+            switch(remainder){
+                case 10 : append = 'A';break;
+                case 11 : append = 'B';break;
+            }
+
+        }
+        else {
+            append = to_string(remainder);
+        }
+        result = append + result;
+        num /= base;
+    }
+    return result;
 }
