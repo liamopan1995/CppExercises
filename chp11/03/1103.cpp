@@ -3,6 +3,19 @@
 #include <set>
 using namespace std;
 
+// Write overloaded versions of the integerToString and stringToInteger
+// functions that take a second argument indicating the numeric base, which can
+// be any integer in the range 2 through 36 (the 10 digits plus the 26 letters). For
+// example, 
+// calling
+// integerToString(42, 16)
+// should return the string "2A" . 
+// Similarly, calling
+// stringToInteger("111111", 2)
+// should return the integer 63. Y
+// our functions should allow for negative
+// numbers and should generate an error if any of the digits in the first argument
+// to stringToInteger is out of range for the specified base.
 string integerToString(int num, int base);
 int stringToInteger(string &str, int base);
 
