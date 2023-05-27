@@ -72,6 +72,11 @@ void sort(int arry[], int n){
     sort(arrfirst, n/2);
     sort(arrsecond,(n- n/2));
     merge(arrfirst,arrsecond,arry,n/2,n-n/2);
+    
+    // memory deallocation ? 
+    // No not here, only when arrays were created using new[] command !
+    // delete[] arrfirst;
+    // delete[] arrsecond;
 
 
 }
@@ -97,8 +102,5 @@ void merge(int arry1[],int arry2[],int result[],int size1, int size2){
     while(n2 < size2) {
         result[j++] = arry2[n2++];
     }
-
-
-
 
 }
