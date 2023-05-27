@@ -75,6 +75,9 @@ void sort(int arry[], int n){
     
     // memory deallocation ? 
     // No not here, only when arrays were created using new[] command !
+    // The arrfirst and arrsecond arrays are created as stack-allocated arrays within 
+    // the sort function. They are not dynamically allocated using new[],
+    // so there is no need to manually deallocate them.
     // delete[] arrfirst;
     // delete[] arrsecond;
 
