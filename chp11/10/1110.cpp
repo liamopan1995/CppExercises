@@ -15,8 +15,8 @@ bool isSpace(char c) {
 }
 
 // Function to remove punctuation marks (except spaces) from a string
-std::string removePunctuation(const std::string& str) {
-    std::string result;
+string removePunctuation(const string& str) {
+    string result;
     for (char c : str) {
         if (isAlphanumeric(c) || isSpace(c)) {
             result += c;
@@ -26,8 +26,8 @@ std::string removePunctuation(const std::string& str) {
 }
 
 // Function to convert a string to lowercase
-std::string toLowercase(const std::string& str) {
-    std::string lowercaseStr = str;
+string toLowercase(const string& str) {
+    string lowercaseStr = str;
     for (char& c : lowercaseStr) {
         if (c >= 'A' && c <= 'Z') {
             c = c - 'A' + 'a';
@@ -37,18 +37,18 @@ std::string toLowercase(const std::string& str) {
 }
 
 // Function to compare two titles subject to the given rules
-bool compareByTitle(const std::string& title1, const std::string& title2) {
+bool compareByTitle(const string& title1, const string& title2) {
     // Convert titles to lowercase
-    std::string lowercaseTitle1 = toLowercase(title1);
-    std::string lowercaseTitle2 = toLowercase(title2);
+    string lowercaseTitle1 = toLowercase(title1);
+    string lowercaseTitle2 = toLowercase(title2);
 
     // Remove punctuation marks (except spaces)
-    std::string cleanTitle1 = removePunctuation(lowercaseTitle1);
-    std::string cleanTitle2 = removePunctuation(lowercaseTitle2);
+    string cleanTitle1 = removePunctuation(lowercaseTitle1);
+    string cleanTitle2 = removePunctuation(lowercaseTitle2);
 
     // Ignore words "a", "an", or "the" at the beginning of titles
-    const std::string ignoredWords[] = { "a ", "an ", "the " };
-    for (const std::string& ignoredWord : ignoredWords) {
+    const string ignoredWords[] = { "a ", "an ", "the " };
+    for (const string& ignoredWord : ignoredWords) {
         if (cleanTitle1.substr(0, ignoredWord.length()) == ignoredWord) {
             cleanTitle1 = cleanTitle1.substr(ignoredWord.length());
         }
@@ -62,28 +62,28 @@ bool compareByTitle(const std::string& title1, const std::string& title2) {
 }
 
 int main() {
-std::string title1 = "The Great Gatsby";
-std::string title2 = "An Introduction to Computer Science";
-std::string title3 = "A Tale of Two Cities";
+string title1 = "The Great Gatsby";
+string title2 = "An Introduction to Computer Science";
+string title3 = "A Tale of Two Cities";
 
 if (compareByTitle(title1,title2)){
-    std::cout << title1 << " is the same as " << title2 << std::endl;
+    cout << title1 << " is the same as " << title2 << endl;
 } else {
-    std::cout << title1 << " is different from " << title2 << std::endl;
+    cout << title1 << " is different from " << title2 << endl;
 }
 
 title2 = "An Great Gatsby";
 if (compareByTitle(title1,title2)) {
-    std::cout << title1 << " is the same as " << title2 << std::endl;
+    cout << title1 << " is the same as " << title2 << endl;
 } else {
-    std::cout << title1 << " is different from " << title2 << std::endl;
+    cout << title1 << " is different from " << title2 << endl;
 }
 
 title2 = "An the Great Gatsby";
 if (compareByTitle(title1,title2)) {
-    std::cout << title1 << " is the same as " << title2 << std::endl;
+    cout << title1 << " is the same as " << title2 << endl;
 } else {
-    std::cout << title1 << " is different from " << title2 << std::endl;
+    cout << title1 << " is different from " << title2 << endl;
 }
 
 
