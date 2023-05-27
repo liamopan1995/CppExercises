@@ -3,7 +3,7 @@ using namespace std;
 
 
 
-int compareIgnoringCase(string s1, string s2) {
+int compareIgnoringCase(const string &s1, const string &s2) {
     int strLen = s1.length();
     if (strLen == s2.length()) {
         
