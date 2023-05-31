@@ -14,6 +14,9 @@ private:
     int arraySize;
 
     // Private copy constructor and assignment operator to prevent copying
+
+    //  says : "IntArray::IntArray(const IntArray &other)" (declared at
+    //  line 17 of "/home/liam/git/CppExercises/chp12/02/intarray.h") is inaccessible
     IntArray(const IntArray& other);
     IntArray& operator=(const IntArray& other);
 };

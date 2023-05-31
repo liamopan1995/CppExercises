@@ -22,9 +22,4 @@ int IntArray::get(int k) const {
     return arr[k];
 }
 
-// void IntArray::put(int k, int value) {
-//     if (k < 0 || k >= arraySize) {
-//         error("Index out of bounds");
-//     }
-//     arr[k] = value;
-// }
+
