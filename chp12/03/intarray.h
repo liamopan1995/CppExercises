@@ -8,7 +8,7 @@ public:
     int size() const;
     int get(int k) const;
     void put(int k, int value);
-    
+ // update an new operator 
     int & operator[](int k) const;
 
 private:

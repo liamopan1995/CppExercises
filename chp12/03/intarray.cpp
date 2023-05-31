@@ -21,16 +21,10 @@ int IntArray::get(int k) const {
     }
     return arr[k];
 }
-
-int & IntArray::operator[](int k) const {
+// followings are updates 
+int & IntArray::operator[](int k) const{
     if (k < 0 || k >= arraySize) {
         error("Index out of bounds");
     }
     return arr[k];
 }
-// void IntArray::put(int k, int value) {
-//     if (k < 0 || k >= arraySize) {
-//         error("Index out of bounds");
-//     }
-//     arr[k] = value;
-// }
