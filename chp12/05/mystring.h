@@ -1,34 +1,33 @@
 #ifndef MYSTRING_H
 #define MYSTRING_H
-#include<string>
+
+#include <string>
+
 class MyString {
 public:
-    MyString( std::string inputStr );
-    MyString(const char* inputArr, int length);
-    ~MyString();
-    std::string toString() const;
-    int length() const;
-    MyString  substr(int start, int n = -1) const;
-    // MyString  substr(int start) const;
-    MyString operator+( const MyString &adder) const;
-    char & operator[](int k) const;
+    MyString(std::string inputStr);                       // Constructor taking a string as input
+    MyString(const char* inputArr, int length);           // Constructor taking a character array and its length as input
+    ~MyString();                                          // Destructor
+    std::string toString() const;                         // Returns a string representation of the MyString object
+    int length() const;                                   // Returns the length of the MyString object
+    MyString substr(int start, int n = -1) const;         // Returns a substring of the MyString object
+    MyString operator+(const MyString& adder) const;      // Concatenates two MyString objects using the + operator
+    char& operator[](int k) const;                        // Returns a reference to the character at index k in the MyString object
 
-     // update deep copy
+    // Deep copy constructor
     MyString(const MyString& other);
+
+    // Deep copy assignment operator
     MyString& operator=(const MyString& other);
 
-
-
-    // friend M
-
-    friend std::ostream& operator<<(std::ostream& os, const MyString& obj);
+    friend std::ostream& operator<<(std::ostream& os, const MyString& obj);  // Overloaded << operator for output stream
 
 private:
-    char* arr;
-    int arraySize;
-    void copyInternalData(const MyString & other); 
-    
-    
+    char* arr;        // Pointer to the character array holding the MyString data
+    int arraySize;    // Size of the character array
+
+    void copyInternalData(const MyString& other);  // Helper function to perform a deep copy of internal data
+
 };
 
 #endif
