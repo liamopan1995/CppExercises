@@ -11,22 +11,15 @@ void error(const std::string& message) {
     throw std::runtime_error(message);
 }
 
-// void IntArray::put(int k, int value) {
-//     if (k < 0 || k >= arraySize) {
-//         error("Index out of bounds");
-//     }
-//     arr[k] = value;
-// }
+// update deep copy 
+void MyString::copyInternalData(const MyString & other) {
+arr = new char[other.arraySize];
+for (int i = 0; i < other.arraySize; i++) {
+arr[i] = other.arr[i];
+}
+arraySize = other.arraySize;
 
-// // update deep copy 
-// void IntArray::copyInternalData(const IntArray & other) {
-// arr = new int[other.arraySize];
-// for (int i = 0; i < other.arraySize; i++) {
-// arr[i] = other.arr[i];
-// }
-// arraySize = other.arraySize;
-
-// }
+}
 
 
 
