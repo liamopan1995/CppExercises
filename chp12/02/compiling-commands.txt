@@ -1,0 +1,7 @@
+Step 1: Compile each source file separately:
+g++ -std=c++11 -c 1202.cpp -o 1202.o
+g++ -std=c++11 -c intarray.cpp -o intarray.o
+
+Step 2: Link the object files together:
+g++ 1202.o intarray.o -o a.out
+
