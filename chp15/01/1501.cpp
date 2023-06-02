@@ -15,8 +15,8 @@ void initializeHash(){
   m['M'] = 1000;
 }
 
-void error(const std::string& message) {
-    std::cerr << "Error: " << message << std::endl;
+void error(const std::string& message,char invalidSym) {
+    std::cerr << "Error: " << message <<": "<<invalidSym<< std::endl;
     throw std::runtime_error(message);
 }
 
@@ -36,7 +36,7 @@ int computeValue (std::string romstr) {
 
   for (int i=0;i<strlen;i++) {
     // check if key is present
-    if (m.find(romstr[i]) == m.end())  error( "invalid symbol!");
+    if (m.find(romstr[i]) == m.end())  error( "invalid symbol!",romstr[i]);
     arr1[i] = m[romstr[i]];
   }
   for (int i=0;i<strlen-1;i++) {
@@ -48,7 +48,7 @@ int computeValue (std::string romstr) {
     arr1[i] < arr2[i] ? result -= arr1[i]:result += arr1[i];
   }
 
-  
+
   return result;
 }
 
