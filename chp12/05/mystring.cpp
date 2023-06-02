@@ -100,31 +100,6 @@ MyString MyString::substr(int start, int n) const {
     return *substring;
 }
 
-
-
-
-//  MyString MyString::substr(int start) const{
-//     return substr(start,-1);
-
-//  }
-
-
-// Return a substring of the string
-// MyString MyString::substr(int start, int n ) const {
-//     if (n == -1) {
-//         n = arraySize - start;
-//     }
-//     MyString result("");
-//     if (start < arraySize && n > 0) {
-//         n = std::min(n, arraySize - start);
-//         result.arr = new char[n + 1];
-//         std::copy(arr + start, arr + start + n, result.arr);
-//         result.arr[n] = '\0';
-//         result.arraySize = n;
-//     }
-//     return result;
-// }
-
 MyString MyString::operator+( const MyString &adder) const {
     int newSize = this->arraySize + adder.arraySize;
     char *charPlaceHolder = new char[newSize];
