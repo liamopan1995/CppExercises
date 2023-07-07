@@ -1,10 +1,4 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+// implementation of merge sort and quick sort as exercise
 
 #include <iostream>
 #include <vector>
@@ -13,20 +7,38 @@ using namespace std;
 void sort(vector<int> & vec) ;
 void quicksort (vector<int>& inp,int beg,int end) ;
 int partition (vector<int>& inp, int start, int finish);
+void mergeSort (vector<int>& inp);
+void merge(vector<int>& merged, const vector<int>& first, const vector<int>& second);
 
-int main()
-
-{
+int main() {
     vector<int> p = {6,9,4,8,7,2,3,5,1};
-    cout<<"Hello World"<<endl;
-    sort(p);
+    cout<<"the unsorted vec is :"<<endl;
     for (int i=0; i<p.size();++i) {
         cout<<p[i]<<endl;
     }
-
+    cout<<"applying merge sort"<<endl;
+    //sort(p);
+    mergeSort(p);
+    for (int i=0; i<p.size();++i) {
+        cout<<p[i]<<endl;
+    }
+    cout<<"the unsorted vec is :"<<endl;
+    vector<int> d = {6,9,23,44,111,99,4,};
+        for (int i=0; i<d.size();++i) {
+        cout<<d[i]<<endl;
+    }
+    cout<<"applying quick sort"<<endl;
+    sort(d);
+    //mergeSort(p);
+    for (int i=0; i<d.size();++i) {
+        cout<<d[i]<<endl;
+    }
+    
     return 0;
 }
 
+
+//  Implementation of quick sort
 void sort(vector<int> & vec) {
 quicksort(vec, 0, vec.size() - 1);
 }
@@ -38,8 +50,6 @@ void quicksort (vector<int>& vec,int start,int finish) {
     quicksort(vec, boundary + 1, finish);
 
 }
-
-
 
 int partition (vector<int>& inp, int start, int finish){
     
@@ -61,20 +71,38 @@ int partition (vector<int>& inp, int start, int finish){
         return rp;
 }
 
-// int partition(vector<int> & vec, int start, int finish) {
-// int pivot = vec[start];
-// int lh = start + 1;
-// int rh = finish;
-// while (true) {
-// while (lh < rh && vec[rh] >= pivot) rh--;
-// while (lh < rh && vec[lh] < pivot) lh++;
-// if (lh == rh) break;
 
-// swap(vec[lh],vec[rh]);
-// }
-// if (vec[lh] >= pivot) return start;
-// swap(vec[start],vec[lh]);
 
-// return lh;
-// }
+//  Implementation of merge sort
+void merge(vector<int>& merged,const vector<int>& first, const vector<int>& second){
+    size_t i =0, j=0;
+    size_t sizeFirst = first.size();
+    size_t sizeSecond = second.size();
 
+    //while ( !first.empty() && !second.empty()) {
+    while ( i < sizeFirst && j < sizeSecond){
+        if(first[i]<second[j]) merged.push_back(first[i++]);
+        else merged.push_back(second[j++]);
+    }
+    // Wrong 
+    //while ( !first.empty()) {
+    while (i < sizeFirst) {
+        merged.push_back(first[i++]);
+    }
+    while (j < sizeSecond) {
+        merged.push_back(second[j++]);
+    }  
+}
+
+void mergeSort (vector<int>& inp){
+    if (inp.size() <= 1) return;
+    size_t mid = inp.size()/2;
+    vector<int> first(inp.begin(), inp.begin() + mid);
+    vector<int> second(inp.begin() + mid, inp.end());
+    mergeSort(first);// first half of the vec
+    mergeSort(second);// second half o f the vec
+    // the idea of clearing inp and pass it as a empty container in merge is worth noticing
+    inp.clear();
+    merge (inp,first,second);// merge them
+
+}
