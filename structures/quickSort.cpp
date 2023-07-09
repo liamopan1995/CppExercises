@@ -1,4 +1,16 @@
-// implementation of merge sort and quick sort as exercise
+// implementation of merge sort and quick sort as an exercise
+// deciding wether to pass parameters by reference or not can be challaenging
+// but also has a significant influence on developing , so it is better to think clearly
+// from the beginning.
+// this point also makes call stack analysis  an essentail part of writting fucntion ,
+// investing more time in call stack analysis could pay a lot in return
+
+// Implementation of merge sort and quick sort as an exercise
+// Deciding whether to pass parameters by reference or not can be challenging,
+// but it also has a significant influence on development. Therefore, it is better
+// to think clearly from the beginning. This makes call stack analysis an essential
+// part of writing functions. Investing more time in call stack analysis can yield
+// substantial benefits.
 
 #include <iostream>
 #include <vector>
@@ -33,7 +45,7 @@ int main() {
     for (int i=0; i<d.size();++i) {
         cout<<d[i]<<endl;
     }
-    
+
     return 0;
 }
 
