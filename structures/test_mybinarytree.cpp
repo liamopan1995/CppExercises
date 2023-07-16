@@ -7,10 +7,13 @@ void preorder(const mytreenode* const root);
 void postorder(const mytreenode* const root);
 void inorder(const mytreenode* const root);
 void deletetree( mytreenode*& root);
-
+void insertNode(mytreenode*&  root, const string& key);
 mytreenode* buildtree(const vector<string> &vec);
-void buildtreeREC(mytreenode*&  root, const vector<string>& vec,int& index);
-bool contains(mytreenode* root, const string& key);
+mytreenode* contains(mytreenode* root, const string& key);
+string finndRightMostNode(mytreenode*& root) ;
+void deleteNode(mytreenode*&  root, const string& key);
+
+
 
 
 int main() {
@@ -55,18 +58,82 @@ int main() {
     cout<< "***************"<<endl;
     inorder(root);
     cout<< "***************"<<endl;
-    if( contains(root, "Austria")) {cout<< "found the key in tree"<<endl;}
-     cout<< "***************"<<endl;
+    mytreenode* found = contains(root, "Austria");
+    if( found ) {
+        cout<< "found the key in tree\n";
+        if (found != NULL) {
+        cout<< "at: "<<found<<endl;
+        cout<< found->value<<endl;
+            }
+        }
+    cout<< "***************"<<endl;
     deletetree(root);
 
-    cout<< "***************"<<endl;
+    cout<< "attempting to print the deleted tree: ***************"<<endl;
     preorder(root);
 
-    vector<string> list2  = {"One", "TWo", "Three", "Four", "Five", "Six", "Seven"};
-    mytreenode* anothertree  = buildtree(list2);
 
-    cout<< "***************"<<endl;
-    preorder(anothertree);
+    // Testing the build tree function
+    vector<string> list2  = {"Grumpy", "Sleepy", "Doc", "Bashful", "Dopey", "Happy", "Sneezy"};
+    mytreenode* dwarfs  = buildtree(list2);
+
+    cout<< "result of pre order travesal is:***************"<<endl;
+    preorder(dwarfs);
+    cout<< "result of in order travesal is:***************"<<endl;
+    inorder(dwarfs);
+    cout<< "result of post order travesal is:***************"<<endl;
+    postorder(dwarfs);
+
+    cout<< ":***************"<<endl;
+    found = contains(dwarfs, "Sneezy");
+    if( found ) {
+        cout<< "found the key in tree\n";
+        if (found != NULL) {
+        cout<< "at: "<<found<<endl;
+        cout<< found->value<<endl;
+            }
+        }
+    else cout<< "nothing found\n";
+
+    cout<< "                After deleting Sneezy"<<endl;
+    deleteNode(dwarfs, "Sneezy");
+    cout<< "result of pre order travesal is:***************"<<endl;
+    preorder(dwarfs);
+    cout<< "result of in order travesal is:***************"<<endl;
+    inorder(dwarfs);
+    cout<< "result of post order travesal is:***************"<<endl;
+    postorder(dwarfs);
+
+    cout<< "                After deleting Sleepy"<<endl;
+    deleteNode(dwarfs, "Sleepy");
+    cout<< "result of pre order travesal is:***************"<<endl;
+    preorder(dwarfs);
+    cout<< "result of in order travesal is:***************"<<endl;
+    inorder(dwarfs);
+    cout<< "result of post order travesal is:***************"<<endl;
+    postorder(dwarfs);
+
+
+    cout<< "                After deleting Grumpy"<<endl;
+    deleteNode(dwarfs, "Grumpy");
+    cout<< "result of pre order travesal is:***************"<<endl;
+    preorder(dwarfs);
+    cout<< "result of in order travesal is:***************"<<endl;
+    inorder(dwarfs);
+    cout<< "result of post order travesal is:***************"<<endl;
+    postorder(dwarfs);
+
+        cout<< "                After deleting Tarzan  (trying deleting non existing node)"<<endl;
+    deleteNode(dwarfs, "Tarzan");
+    cout<< "result of pre order travesal is:***************"<<endl;
+    preorder(dwarfs);
+    cout<< "result of in order travesal is:***************"<<endl;
+    inorder(dwarfs);
+    cout<< "result of post order travesal is:***************"<<endl;
+    postorder(dwarfs);
+
+    // visualizeTree(dwarfs);
+
 
 }
 
@@ -110,46 +177,104 @@ void deletetree( mytreenode*& root){
     
 }
 
-// build  a tree wrapper func
+// build  a tree func
 mytreenode* buildtree(const vector<string> &vec){
-    int  index = 0;
     mytreenode* root = nullptr;
-    buildtreeREC(root,vec,index);
+    for (auto val = vec.begin();val!=vec.end() ;++val) { 
+        insertNode(root,*val);
+    }
     return root;
-
 }
 
-// recursive one actucally does the work 
-// it successfully build tress, but these trees all have  depth of N, 
-// which just lost the point of using binary tree
-// therefore we need balanced tree method for building a better structed
-// BN tree where trees have about logN depth
-void buildtreeREC(mytreenode*&  root, const vector<string>& vec,int& index){
-    if(index < vec.size()) {
+// insert a node into a tree
+void insertNode(mytreenode*&  root, const string& key){
+    if (root ==  NULL) {
         root = new mytreenode;
-        root -> value = vec[index];
-        ++index;
-        buildtreeREC(root->left,vec,index);       
-        buildtreeREC(root->right,vec,index);
+        root->value = key;
+        root->left = root->right = NULL;
+        return;
+    }
+    if (key != root->value) {
+        if (key > root->value ) insertNode(root->right,key);
+        else insertNode(root->left,key);
 
     }
-    
 }
 
 
 
-//  balanced  tree 
 
 
-//
-
-bool contains(mytreenode* root, const string& key) {
+mytreenode* contains(mytreenode* root, const string& key) {
     /* Base case: If the tree is empty, your key isn't here. */
-    if (root == nullptr) return false;
+    if (root == NULL) return NULL;
 
     /* Recursive case: See how we compare to the root. */
-    if (key == root->value) return true;
-    else if (key < root->value) return contains(root->left, key);
-    else /*  key > root->value */ return contains(root->right, key);
+    if (key == root->value) {
+        return root;
+    }
+    else {
+        if (key < root->value) return contains(root->left, key);
+        else /*  key > root->value */ return contains(root->right, key);
+    }
 }
 
+
+string finndRightMostNode(mytreenode*& root) {
+    while(root->right != NULL){
+        if(root->right->right != NULL) root = root->right;
+        else {
+            string nodevalue = root->right->value;
+            delete root->right;
+            root->right = NULL;
+            return nodevalue;
+        }
+    }
+    return "";
+
+}
+
+void deleteNode(mytreenode*&  root, const string& key){
+    if (root == NULL) return;
+    
+    if (root->value == key) {
+        // The node to delete is a child node:
+        if(root->left ==NULL && root->right ==NULL) {
+            delete root;
+            root = NULL;
+            return;
+        }
+        // The node to delete is a parent node with only one child node ,
+        // Case 1:
+        if(root->left ==NULL) {
+            root->value = root->right->value;
+            delete root->right;
+            root->right = NULL;
+            
+        }
+        // Case 2:
+        if(root->right ==NULL) {
+            root->value = root->left->value;
+            delete root->left;
+            root->left = NULL;
+            
+        }
+        // The node to delete is a parent node ,which has two child nodes
+        else {
+            // Find the most right most node in the left subtree
+            // reserve its value and free it
+            string leftmostnodeval = finndRightMostNode(root->left);
+            root->value = leftmostnodeval;
+        }
+        return;
+        
+    }
+    if (key > root->value) deleteNode(root->right,key);
+    if (key < root->value) deleteNode(root->left,key);
+
+
+}
+
+
+
+// Implementing balanced tree
