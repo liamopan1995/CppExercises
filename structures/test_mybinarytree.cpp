@@ -13,6 +13,9 @@ mytreenode* contains(mytreenode* root, const string& key);
 string finndRightMostNode(mytreenode*& root) ;
 void deleteNode(mytreenode*&  root, const string& key);
 
+//  experiment of a hypothesis
+mytreenode** finndRightMostNodeAddress(mytreenode*& root);
+void deleteNodeHypothesis(mytreenode*&  root, const string& key);
 
 
 
@@ -97,6 +100,8 @@ int main() {
 
     cout<< "                After deleting Sneezy"<<endl;
     deleteNode(dwarfs, "Sneezy");
+    //deleteNodeHypothesis(dwarfs, "Sneezy"); // TESTING OF THE HYPOTHESIS OF POINTER'S POINTER
+    // It turnt out the hypothesis is true
     cout<< "result of pre order travesal is:***************"<<endl;
     preorder(dwarfs);
     cout<< "result of in order travesal is:***************"<<endl;
@@ -220,6 +225,7 @@ mytreenode* contains(mytreenode* root, const string& key) {
 }
 
 
+// find the right most node of a sub tree and return the value inside of it
 string finndRightMostNode(mytreenode*& root) {
     while(root->right != NULL){
         if(root->right->right != NULL) root = root->right;
@@ -233,6 +239,8 @@ string finndRightMostNode(mytreenode*& root) {
     return "";
 
 }
+
+// Originally implemented deleteNode 
 
 void deleteNode(mytreenode*&  root, const string& key){
     if (root == NULL) return;
@@ -274,6 +282,109 @@ void deleteNode(mytreenode*&  root, const string& key){
 
 
 }
+
+
+// A test of the hypothesis of using mytreenode**
+
+mytreenode** finndRightMostNodeAddress(mytreenode*& root) {
+    while(root->right != NULL){
+        if(root->right->right != NULL) root = root->right;
+        else {
+            return &root->right;
+        }
+    }
+    return NULL;
+
+}
+
+// mytreenode**  v.s. mytreenode*&
+// In summary, mytreenode*& is a reference to a pointer, 
+// allowing direct modification of the pointer itself, 
+// while mytreenode** is a pointer to a pointer, providing 
+// an indirect way to access and modify the original pointer.
+
+// a better way to realize this function : findRight...
+
+
+// mytreenode** findRightMostNodeAddress(mytreenode*& root) {
+//     if (root->right == NULL) {
+//         return &root;
+//     }
+//     return findRightMostNodeAddress(root->right);
+// }
+
+// following is even more better as it avoids pointer's pointer
+
+// mytreenode*& findRightMostNodeAddress(mytreenode*& root) {
+//     if (root->right == NULL) {
+//         return root;
+//     }
+//     return findRightMostNodeAddress(root->right);
+// }
+
+// and in the deleteNode function rewrite the following part as so:
+
+// mytreenode*& rightmostnode = findRightMostNodeAddress(root->left);
+// root->value = rightmostnode->value;
+// delete rightmostnode;
+// rightmostnode = NULL;
+
+//
+
+
+
+// deleteNode using the func finndRightMostNodeAddress
+
+
+void deleteNodeHypothesis(mytreenode*&  root, const string& key){
+    if (root == NULL) return;
+    
+    if (root->value == key) {
+        // The node to delete is a child node:
+        if(root->left ==NULL && root->right ==NULL) {
+            delete root;
+            root = NULL;
+            return;
+        }
+        // The node to delete is a parent node with only one child node ,
+        // Case 1:
+        if(root->left ==NULL) {
+            root->value = root->right->value;
+            delete root->right;
+            root->right = NULL;
+            
+        }
+        // Case 2:
+        if(root->right ==NULL) {
+            root->value = root->left->value;
+            delete root->left;
+            root->left = NULL;
+            
+        }
+        // The node to delete is a parent node ,which has two child nodes
+        else {
+            // Find the most right most node in the left subtree
+            // reserve its value and free it
+            mytreenode** rightmostnode = finndRightMostNodeAddress(root->left);
+            root->value = (*rightmostnode)->value;
+// NOTE:
+//rightmostnode is a pointer to a pointer to a mytreenode.
+// *rightmostnode dereferences the pointer, giving you a pointer to a mytreenode. 
+// accessing members of a object by a pointer using ->
+// (*rightmostnode)->value accesses the value member of the mytreenode object being pointed to.
+            
+            delete (*rightmostnode);
+            (*rightmostnode) = NULL;
+        }
+        return;
+        
+    }
+    if (key > root->value) deleteNode(root->right,key);
+    if (key < root->value) deleteNode(root->left,key);
+
+
+}
+
 
 
 
