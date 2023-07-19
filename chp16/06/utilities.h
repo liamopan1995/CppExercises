@@ -26,8 +26,15 @@ void deleteNodeHypothesis(mytreenode*&  root, const string& key);
 // Exercise 6: take a binary tree and return its height
 int height(BSTNode *tree);
 // int heightRec (BSTNode *tree); implement the recursive approach
+int heightRec(BSTNode* tree);
 
+// Exercise 7: take a binary tree and return whether it is balanced ( height difference betwenn left and right node is less or euqal to 1)
+bool isBalanced(BSTNode *tree);
 
+// Exercise 8: take a binary tree and return whether it has bianry search property
+bool hasBinarySearchProperty(BSTNode *tree);
+
+// Tree travesal approaches
 void preorder(const mytreenode* const root){
     if(root == nullptr) return;
     cout<<root->value<<endl;
@@ -302,5 +309,42 @@ int height(BSTNode *tree){
 
 }
 
+int heightRec(BSTNode* tree){
+    if(tree==nullptr) return 0;
+    return std::max(heightRec(tree->left),heightRec(tree->right))+1;
+}
 
+
+bool isBalanced(BSTNode *tree){
+    if(tree==nullptr) return true;
+    // int heightLeft = heightRec(tree->left);
+    // int htightRight = heightRec(tree->right);
+
+    else{
+        int heightDiff = heightRec(tree->left)-heightRec(tree->right);
+        if(heightDiff>=-1 && heightDiff<=1) {
+            return isBalanced(tree->left)&&isBalanced(tree->right);
+        }
+        else return false;
+    }
+
+}
+
+bool hasBinarySearchProperty(BSTNode *tree){
+    if(tree==nullptr) return true;
+    else {
+        if(tree->left !=nullptr && tree->right !=nullptr) {
+            return (tree->left->value<tree->value && tree->right->value>tree->value)&&hasBinarySearchProperty(tree->left)&&hasBinarySearchProperty(tree->right);
+        }
+        if(tree->left !=nullptr) {
+            return (tree->left->value<tree->value)&&hasBinarySearchProperty(tree->left);
+        }
+        if(tree->right !=nullptr) {
+            return (tree->right->value>tree->value)&&hasBinarySearchProperty(tree->right);
+        }
+        else{
+            return true;
+        }
+    }
+}
 #endif

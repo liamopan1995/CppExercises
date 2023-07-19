@@ -8,9 +8,17 @@ struct mytreenode
     mytreenode* left;
     mytreenode* right;
     int bf;
-    mytreenode() :left(nullptr), right(nullptr), bf(0) {
+
+    mytreenode() 
+        : left(nullptr), right(nullptr), bf(0) {
         // Default constructor
     }
+
+    mytreenode(const std::string& nodeValue, mytreenode* leftNode, mytreenode* rightNode, int balanceFactor = 0)
+        : value(nodeValue), left(leftNode), right(rightNode), bf(balanceFactor) {
+        // Constructor with parameters
+    }
+
 
 };
 
