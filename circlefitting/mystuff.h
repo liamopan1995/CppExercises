@@ -10,7 +10,9 @@ using namespace std;
 
 //  define precision by commenting out one of the two lines:
 
-typedef double reals;       //  defines reals as double (standard for scientific calculations)
+// typedef double reals;       //  defines reals as double (standard for scientific calculations)
+typedef float reals; //  overide it to float , if works , consider change reals in this file totally to float  , we want faster computing
+
 //typedef long double reals;  //  defines reals as long double 
 
 //   Note: long double is an 80-bit format (more accurate, but more memory demanding and slower)
