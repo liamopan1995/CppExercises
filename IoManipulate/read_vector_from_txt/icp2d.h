@@ -9,6 +9,23 @@ Class: ICP 2d  Implementation
 #include <glog/logging.h>
 #include "bfnn.h"
 
+struct MovementData {
+    double timestamp_;
+    Mat3d R_= Mat3d::Identity();
+    Eigen::Vector3d v_;
+    Eigen::Vector3d p_;
+
+    MovementData() 
+        : timestamp_(0.0), v_(Eigen::Vector3d::Zero()), p_(Eigen::Vector3d::Zero()) {} 
+    
+    MovementData(double timestamp, 
+            const Mat3d &rotation_matrix = Mat3d::Identity(),
+            const Eigen::Vector3d &velocity = Eigen::Vector3d::Zero(),
+            const Eigen::Vector3d &position = Eigen::Vector3d::Zero())
+        : timestamp_(timestamp),  v_(velocity), p_(position),R_(rotation_matrix) {}
+};
+
+
 class Icp2d {
    public:
     struct Options {
@@ -56,12 +73,23 @@ class Icp2d {
 
     int check_matches(std::vector<std::pair<size_t, size_t>>& matches);
 
-    void pose_estimation_3d3d(
-        Mat3d& R, Vec3d& t
+    bool pose_estimation_3d3d(
+        // Mat3d& R, Vec3d& t
     );
     bool isSourceSet()const {
         return !source_.empty();
     } 
+
+    MovementData Get_Odometry()const{
+        return MovementData(0, R_,Vec3d(0, 0, 0), t_);
+    }
+
+
+    //     IMUData Get_IMU () const{ 
+    // return IMUData(current_time_, 
+    //                Sophus::SO3(Eigen::Matrix3d::Identity()), 
+    //                Eigen::Vector3d(v_ *cos(sphi_), v_ *sin(sphi_), 0), 
+    //                Eigen::Vector3d(sx_, sy_, 0));
    private:
     // 建立目标点云的Kdtree
     //void BuildTargetKdTree();
@@ -78,6 +106,8 @@ class Icp2d {
     SE2 gt_pose_;// the ground  truth: translation & rotaion  that aligns the target to the source
 
     Options options_;
+    Mat3d R_ = Mat3d::Zero();
+    Vec3d t_ = Vec3d::Zero();
 };
 
 #endif  // ICP_2D_CLASS

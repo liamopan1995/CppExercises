@@ -31,6 +31,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # find_package(glog REQUIRED) could not find it as the apt downloaded version of glog does not contain a cmakeconfig file
 # which is necessary for find_package command to working correctly. 
 include_directories("/usr/include/glog")
+# Find gflag
+find_package(gflags REQUIRED)
+
 
 
 # Add the top-level project directory to the list of paths the compiler should check for include files
@@ -50,4 +53,4 @@ target_link_libraries(test  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} t
 
 add_executable( test_serial_processing test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
 target_include_directories(test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
-target_link_libraries(test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog)
+target_link_libraries(test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)

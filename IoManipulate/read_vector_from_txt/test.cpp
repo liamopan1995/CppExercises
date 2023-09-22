@@ -60,11 +60,11 @@ int main(int argc, char* argv[]) {
     // Mat3f R = Mat3f::Zero();
     // Vec3f t = Vec3f::Zero();
     // icp_2d.pose_estimation_3d3d(R,t);
-    Mat3d R = Mat3d::Zero();
-    Vec3d t = Vec3d::Zero();
-    icp_2d.pose_estimation_3d3d(R,t);
-    cout<<"R:\n"<<R<<endl;
-    cout<<"t:\n"<<t<<endl;
+    // Mat3d R = Mat3d::Zero();
+    // Vec3d t = Vec3d::Zero();
+    icp_2d.pose_estimation_3d3d();
+    cout<<"R:\n"<<icp_2d.Get_Odometry().R_<<endl;
+    cout<<"t:\n"<<icp_2d.Get_Odometry().p_<<endl;
 
     return 0;
 }
