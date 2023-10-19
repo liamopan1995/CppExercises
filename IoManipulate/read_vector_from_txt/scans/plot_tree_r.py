@@ -37,10 +37,8 @@ def plot_txt_file(filename):
     plt.show(block=False)
 
 # Provide the names of your txt files below
-plot_txt_file('single_scan_0.txt')
-plot_txt_file('single_scan_10.txt')
-plot_txt_file('single_scan_25.txt')
-plot_txt_file('single_scan_50.txt')
+plot_txt_file('global_map.txt')
+
 
 plt.show()
 

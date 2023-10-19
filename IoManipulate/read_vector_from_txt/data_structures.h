@@ -1,5 +1,0 @@
-/*
-grid
-kd tree
-oct tree
-*/

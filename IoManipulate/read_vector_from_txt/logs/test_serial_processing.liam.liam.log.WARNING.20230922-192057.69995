@@ -1,0 +1,2733 @@
+Log file created at: 2023/09/22 19:20:57
+Running on machine: liam
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0922 19:20:57.203354 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 7
+distance: 15.4117
+W0922 19:20:57.203476 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 38.8107
+W0922 19:20:57.204124 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 14
+distance: 10.133
+W0922 19:20:57.205570 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 10
+distance: 83.6998
+W0922 19:20:57.205803 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 12
+distance: 38.7633
+W0922 19:20:57.206422 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 14
+distance: 14.2806
+W0922 19:20:57.208631 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 11
+distance: 3.35395
+W0922 19:20:57.210067 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 14
+distance: 38.9709
+W0922 19:20:57.211730 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 13
+distance: 39.3898
+W0922 19:20:57.211746 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 15
+distance: 10.572
+W0922 19:20:57.211757 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 16
+distance: 89.1811
+W0922 19:20:57.212615 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 11
+distance: 25.2431
+W0922 19:20:57.212633 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 14
+distance: 270.042
+W0922 19:20:57.213317 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 11
+distance: 124.342
+W0922 19:20:57.214514 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 12
+distance: 117.922
+W0922 19:20:57.216814 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 11
+distance: 27.6375
+W0922 19:20:57.217029 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 24.6156
+W0922 19:20:57.217039 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 17
+distance: 110.331
+W0922 19:20:57.217880 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 15
+distance: 125.407
+W0922 19:20:57.217891 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 16
+distance: 268.307
+W0922 19:20:57.218498 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 15
+distance: 35.4222
+W0922 19:20:57.218518 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 16
+distance: 67.327
+W0922 19:20:57.219682 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 116.912
+W0922 19:20:57.219700 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 40.0213
+W0922 19:20:57.220566 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 6
+distance: 297.067
+W0922 19:20:57.221367 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 13
+distance: 28.6992
+W0922 19:20:57.221387 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 16
+distance: 143.218
+W0922 19:20:57.221405 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 17
+distance: 108.663
+W0922 19:20:57.223750 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 39.2577
+W0922 19:20:57.223768 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 19.1052
+W0922 19:20:57.223780 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 15
+distance: 36.8457
+W0922 19:20:57.224584 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 67.1575
+W0922 19:20:57.224599 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 15
+distance: 267.661
+W0922 19:20:57.225256 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 13
+distance: 25.7501
+W0922 19:20:57.226104 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 135.581
+W0922 19:20:57.226119 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 68.0835
+W0922 19:20:57.226130 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 15
+distance: 108.626
+W0922 19:20:57.227237 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 11
+distance: 75.6004
+W0922 19:20:57.227257 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 13
+distance: 11.3068
+W0922 19:20:57.227895 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 9
+distance: 193.271
+W0922 19:20:57.227908 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 12
+distance: 39.9131
+W0922 19:20:57.227917 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 149.137
+W0922 19:20:57.228678 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 15
+distance: 67.8555
+W0922 19:20:57.229430 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 13
+distance: 71.0594
+W0922 19:20:57.230667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 13
+distance: 17.1402
+W0922 19:20:57.230685 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 15
+distance: 74.8687
+W0922 19:20:57.230697 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 18
+distance: 10.8446
+W0922 19:20:57.231667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 10
+distance: 3.15148
+W0922 19:20:57.232684 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 10
+distance: 25.9291
+W0922 19:20:57.232703 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 15
+distance: 39.9839
+W0922 19:20:57.232715 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 16
+distance: 3.4802
+W0922 19:20:57.233574 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 11
+distance: 37.8678
+W0922 19:20:57.233875 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 18
+distance: 126.182
+W0922 19:20:57.235288 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 7
+distance: 107.009
+W0922 19:20:57.235307 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 8
+distance: 23.8116
+W0922 19:20:57.235319 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 27.9553
+W0922 19:20:57.236215 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 9
+distance: 9.92914
+W0922 19:20:57.236236 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 11
+distance: 57.3916
+W0922 19:20:57.236248 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 12
+distance: 3.63961
+W0922 19:20:57.236258 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 14
+distance: 41.0176
+W0922 19:20:57.236979 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 18
+distance: 37.4967
+W0922 19:20:57.237771 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 18
+distance: 3.21178
+W0922 19:20:57.239431 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 11
+distance: 28.8184
+W0922 19:20:57.240667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 5
+distance: 18.9639
+W0922 19:20:57.240689 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 15
+distance: 138.682
+W0922 19:20:57.240701 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 19
+distance: 28.2799
+W0922 19:20:57.240711 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 20
+distance: 3.11979
+W0922 19:20:57.241530 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 10
+distance: 151.336
+W0922 19:20:57.241545 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 17
+distance: 34.3468
+W0922 19:20:57.241556 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 20
+distance: 68.3011
+W0922 19:20:57.242357 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 12
+distance: 13.571
+W0922 19:20:57.242372 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 2.60079
+W0922 19:20:57.242383 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 16
+distance: 130.187
+W0922 19:20:57.242396 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 21
+distance: 40.5314
+W0922 19:20:57.243817 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 12
+distance: 3.9264
+W0922 19:20:57.243836 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 21
+distance: 68.5022
+W0922 19:20:57.244813 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 13
+distance: 139.087
+W0922 19:20:57.244832 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 21
+distance: 19.6053
+W0922 19:20:57.245704 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 12
+distance: 14.2619
+W0922 19:20:57.245719 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 15
+distance: 4.21014
+W0922 19:20:57.245738 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 23
+distance: 10.7465
+W0922 19:20:57.245749 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 24
+distance: 58.4206
+W0922 19:20:57.246593 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 19
+distance: 29.7951
+W0922 19:20:57.246608 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 21
+distance: 18.9303
+W0922 19:20:57.246618 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 22
+distance: 11.1388
+W0922 19:20:57.247453 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 20
+distance: 66.3615
+W0922 19:20:57.247469 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 22
+distance: 113.012
+W0922 19:20:57.247480 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 23
+distance: 58.5045
+W0922 19:20:57.248378 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 21
+distance: 10.8511
+W0922 19:20:57.249223 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 17
+distance: 140.896
+W0922 19:20:57.249244 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 22
+distance: 59.0129
+W0922 19:20:57.250072 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 14
+distance: 38.6444
+W0922 19:20:57.250093 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 21
+distance: 37.5209
+W0922 19:20:57.250104 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 22
+distance: 135.116
+W0922 19:20:57.250910 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 21
+distance: 66.432
+W0922 19:20:57.252406 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 10
+distance: 153.083
+W0922 19:20:57.252426 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 16
+distance: 26.8863
+W0922 19:20:57.253300 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 18
+distance: 62.4384
+W0922 19:20:57.253317 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 19
+distance: 19.328
+W0922 19:20:57.254137 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 10
+distance: 138.627
+W0922 19:20:57.254156 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 13
+distance: 2.78081
+W0922 19:20:57.254169 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 19
+distance: 39.8079
+W0922 19:20:57.254181 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 23
+distance: 84.3317
+W0922 19:20:57.255004 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 17
+distance: 22.7478
+W0922 19:20:57.255226 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 19
+distance: 2.82623
+W0922 19:20:57.255236 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 21
+distance: 75.3759
+W0922 19:20:57.255242 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 22
+distance: 227.697
+W0922 19:20:57.256031 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 22
+distance: 18.7877
+W0922 19:20:57.256970 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 2.82298
+W0922 19:20:57.256986 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   23and 12
+distance: 3.71607
+W0922 19:20:57.256999 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 18
+distance: 40.0011
+W0922 19:20:57.257012 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 24
+distance: 14.277
+W0922 19:20:57.257023 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 25
+distance: 250.742
+W0922 19:20:57.257033 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 27
+distance: 58.4595
+W0922 19:20:57.257889 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 13
+distance: 20.9484
+W0922 19:20:57.257903 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 16
+distance: 11.2542
+W0922 19:20:57.258806 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 16
+distance: 38.1734
+W0922 19:20:57.258821 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 19
+distance: 5.45604
+W0922 19:20:57.258832 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 21
+distance: 10.5449
+W0922 19:20:57.258843 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 23
+distance: 22.2692
+W0922 19:20:57.258853 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 24
+distance: 34.9176
+W0922 19:20:57.260303 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 12
+distance: 151.932
+W0922 19:20:57.260322 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 15
+distance: 34.1976
+W0922 19:20:57.260336 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 21
+distance: 34.0071
+W0922 19:20:57.260347 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 22
+distance: 111.802
+W0922 19:20:57.260358 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 23
+distance: 138.535
+W0922 19:20:57.261152 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 14
+distance: 2.75873
+W0922 19:20:57.262007 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 22
+distance: 36.2653
+W0922 19:20:57.263026 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 13
+distance: 40.2431
+W0922 19:20:57.263049 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 22
+distance: 30.1284
+W0922 19:20:57.263060 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 24
+distance: 22.0052
+W0922 19:20:57.263070 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 25
+distance: 139.52
+W0922 19:20:57.263948 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   24and 18
+distance: 33.6835
+W0922 19:20:57.263968 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 22
+distance: 106.867
+W0922 19:20:57.264863 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   20and 15
+distance: 55.3436
+W0922 19:20:57.264885 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 23
+distance: 62.6595
+W0922 19:20:57.264896 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 24
+distance: 8.8488
+W0922 19:20:57.264906 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 25
+distance: 134.19
+W0922 19:20:57.266695 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   22and 8
+distance: 16.7886
+W0922 19:20:57.266716 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 20
+distance: 3.59387
+W0922 19:20:57.266728 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 23
+distance: 37.3639
+W0922 19:20:57.266739 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 24
+distance: 13.0168
+W0922 19:20:57.266749 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 26
+distance: 11.5756
+W0922 19:20:57.267541 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 0
+distance: 30.3691
+W0922 19:20:57.267562 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 13
+distance: 58.7082
+W0922 19:20:57.267572 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 14
+distance: 5.4459
+W0922 19:20:57.267585 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 19
+distance: 16.013
+W0922 19:20:57.267596 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 22
+distance: 24.2574
+W0922 19:20:57.267606 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 23
+distance: 334.449
+W0922 19:20:57.268388 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 14
+distance: 12.9058
+W0922 19:20:57.268406 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 20
+distance: 76.5134
+W0922 19:20:57.269225 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 21
+distance: 10.6876
+W0922 19:20:57.270051 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 30.7794
+W0922 19:20:57.270076 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 19
+distance: 24.1061
+W0922 19:20:57.270089 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 23
+distance: 135.149
+W0922 19:20:57.271760 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 11
+distance: 30.9124
+W0922 19:20:57.271780 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 19
+distance: 16.582
+W0922 19:20:57.271792 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 22
+distance: 66.1686
+W0922 19:20:57.272591 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 17
+distance: 64.3353
+W0922 19:20:57.273411 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 16
+distance: 42.5872
+W0922 19:20:57.273432 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 18
+distance: 10.3172
+W0922 19:20:57.273447 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 20
+distance: 23.1346
+W0922 19:20:57.274972 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 10
+distance: 26.8064
+W0922 19:20:57.274993 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 18
+distance: 16.5257
+W0922 19:20:57.275005 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 20
+distance: 3.19722
+W0922 19:20:57.275751 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 16
+distance: 114.714
+W0922 19:20:57.275769 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 17
+distance: 46.3306
+W0922 19:20:57.276515 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 2
+distance: 3.32079
+W0922 19:20:57.276538 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 13
+distance: 32.7461
+W0922 19:20:57.276558 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 19.9795
+W0922 19:20:57.277211 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 0
+distance: 24.2648
+W0922 19:20:57.277230 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 11
+distance: 127.751
+W0922 19:20:57.277241 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 12
+distance: 17.8576
+W0922 19:20:57.277253 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 20.174
+W0922 19:20:57.277263 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 15
+distance: 4.13625
+W0922 19:20:57.277273 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 17
+distance: 89.7303
+W0922 19:20:57.277283 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 18
+distance: 8.11619
+W0922 19:20:57.277921 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 11
+distance: 100.312
+W0922 19:20:57.278704 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 35.6011
+W0922 19:20:57.279434 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 1
+distance: 22.6286
+W0922 19:20:57.279453 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 40.5386
+W0922 19:20:57.279464 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 12
+distance: 57.2719
+W0922 19:20:57.279475 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 15
+distance: 21.8649
+W0922 19:20:57.280056 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 11
+distance: 22.0422
+W0922 19:20:57.280073 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 16
+distance: 57.4893
+W0922 19:20:57.280766 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 15
+distance: 14.6183
+W0922 19:20:57.281477 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 35.1131
+W0922 19:20:57.282634 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 0
+distance: 9.43943
+W0922 19:20:57.282658 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 2
+distance: 23.949
+W0922 19:20:57.283303 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 6
+distance: 32.9123
+W0922 19:20:57.283324 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 16
+distance: 62.8471
+W0922 19:20:57.284077 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 13
+distance: 12.0689
+W0922 19:20:57.284093 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 15
+distance: 3.6099
+W0922 19:20:57.284103 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 16
+distance: 54.7179
+W0922 19:20:57.284739 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 2
+distance: 9.34436
+W0922 19:20:57.285482 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 9
+distance: 35.571
+W0922 19:20:57.285498 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 17
+distance: 17.0291
+W0922 19:20:57.285507 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 18
+distance: 3.35557
+W0922 19:20:57.285517 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 19
+distance: 22.2794
+W0922 19:20:57.286198 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 16
+distance: 71.213
+W0922 19:20:57.286914 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 19
+distance: 3.50001
+W0922 19:20:57.288326 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   19and 19
+distance: 86.6155
+W0922 19:20:57.289129 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 17
+distance: 11.987
+W0922 19:20:57.289325 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 20
+distance: 3.50204
+W0922 19:20:57.289335 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 21
+distance: 70.2057
+W0922 19:20:57.290045 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 18
+distance: 40.8653
+W0922 19:20:57.290809 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 18
+distance: 72.9803
+W0922 19:20:57.292390 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 15
+distance: 20.09
+W0922 19:20:57.292407 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 18
+distance: 42.0442
+W0922 19:20:57.292418 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 20
+distance: 25.5792
+W0922 19:20:57.292428 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 21
+distance: 3.45524
+W0922 19:20:57.293154 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 12.3726
+W0922 19:20:57.293169 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 17
+distance: 33.1248
+W0922 19:20:57.293180 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 18
+distance: 205.922
+W0922 19:20:57.293876 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 0
+distance: 5.94845
+W0922 19:20:57.293898 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 16
+distance: 77.0208
+W0922 19:20:57.294576 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 12
+distance: 163.879
+W0922 19:20:57.294595 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 32.3113
+W0922 19:20:57.295218 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 30.4632
+W0922 19:20:57.295864 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 23.2897
+W0922 19:20:57.295881 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 26.0901
+W0922 19:20:57.296566 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 10
+distance: 30.55
+W0922 19:20:57.296584 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 20.1029
+W0922 19:20:57.297243 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 2
+distance: 28.7368
+W0922 19:20:57.297262 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 70.4267
+W0922 19:20:57.297274 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 15
+distance: 74.236
+W0922 19:20:57.297904 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 4.33981
+W0922 19:20:57.297916 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 8
+distance: 26.1671
+W0922 19:20:57.298565 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 11
+distance: 42.5885
+W0922 19:20:57.299197 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 12
+distance: 18.3005
+W0922 19:20:57.300603 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 4
+distance: 40.2193
+W0922 19:20:57.300622 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 7
+distance: 28.1333
+W0922 19:20:57.300634 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 9
+distance: 22.976
+W0922 19:20:57.300647 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 12
+distance: 42.6024
+W0922 19:20:57.300657 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 27.077
+W0922 19:20:57.301267 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 0
+distance: 28.0455
+W0922 19:20:57.301285 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 6
+distance: 44.532
+W0922 19:20:57.301299 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 13
+distance: 77.5414
+W0922 19:20:57.301892 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 12
+distance: 41.5758
+W0922 19:20:57.301908 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 15
+distance: 108.177
+W0922 19:20:57.302531 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 2
+distance: 8.24371
+W0922 19:20:57.302547 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 5
+distance: 38.7568
+W0922 19:20:57.302564 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 19.1746
+W0922 19:20:57.302578 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 27.1085
+W0922 19:20:57.303179 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 12
+distance: 65.7588
+W0922 19:20:57.303194 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 108.673
+W0922 19:20:57.303831 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 10
+distance: 26.3811
+W0922 19:20:57.303845 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 12
+distance: 276.132
+W0922 19:20:57.303856 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 13
+distance: 34.3246
+W0922 19:20:57.304589 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 14
+distance: 4.71004
+W0922 19:20:57.304605 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 16
+distance: 26.3288
+W0922 19:20:57.304615 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 17
+distance: 108.328
+W0922 19:20:57.305287 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 13
+distance: 20.3606
+W0922 19:20:57.305966 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 41.4876
+W0922 19:20:57.306632 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 3
+distance: 42.0001
+W0922 19:20:57.306651 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 15
+distance: 144.05
+W0922 19:20:57.307293 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 4.61746
+W0922 19:20:57.307308 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 15
+distance: 41.648
+W0922 19:20:57.307962 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 0
+distance: 15.4013
+W0922 19:20:57.307986 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 48.5599
+W0922 19:20:57.307996 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 36.8827
+W0922 19:20:57.308008 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 14
+distance: 3.73149
+W0922 19:20:57.308017 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 107.094
+W0922 19:20:57.310984 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 70.9576
+W0922 19:20:57.311619 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 44.4594
+W0922 19:20:57.311637 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 15
+distance: 11.2902
+W0922 19:20:57.312762 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 0
+distance: 15.9502
+W0922 19:20:57.312789 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 15
+distance: 50.0427
+W0922 19:20:57.312799 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 16
+distance: 172.092
+W0922 19:20:57.313591 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 5.09796
+W0922 19:20:57.313609 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 14
+distance: 19.2528
+W0922 19:20:57.313620 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 122.841
+W0922 19:20:57.314250 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 0
+distance: 14.9076
+W0922 19:20:57.314270 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 14
+distance: 29.9786
+W0922 19:20:57.314281 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 15
+distance: 14.6691
+W0922 19:20:57.314971 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 11
+distance: 22.6365
+W0922 19:20:57.315801 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 0
+distance: 28.1757
+W0922 19:20:57.315820 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 78.9208
+W0922 19:20:57.315832 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 16
+distance: 16.5753
+W0922 19:20:57.315843 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 17
+distance: 48.0871
+W0922 19:20:57.315853 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 18
+distance: 19.4249
+W0922 19:20:57.315863 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 19
+distance: 108.316
+W0922 19:20:57.316619 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 13
+distance: 22.0943
+W0922 19:20:57.317338 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 16
+distance: 114.416
+W0922 19:20:57.317355 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 18
+distance: 108.986
+W0922 19:20:57.318073 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 13
+distance: 18.7887
+W0922 19:20:57.318086 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 3.71889
+W0922 19:20:57.318095 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 16
+distance: 91.1563
+W0922 19:20:57.318106 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 17
+distance: 72.0748
+W0922 19:20:57.318125 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 18
+distance: 130.369
+W0922 19:20:57.319414 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 48.5729
+W0922 19:20:57.320075 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 16
+distance: 33.6849
+W0922 19:20:57.321549 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 10
+distance: 23.2163
+W0922 19:20:57.322352 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 14
+distance: 4.23961
+W0922 19:20:57.322368 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 15
+distance: 34.1501
+W0922 19:20:57.322384 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 16
+distance: 48.5437
+W0922 19:20:57.323087 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 7
+distance: 39.9756
+W0922 19:20:57.323103 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 83.5255
+W0922 19:20:57.323117 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 17
+distance: 43.1189
+W0922 19:20:57.323799 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   18and 12
+distance: 191.391
+W0922 19:20:57.323820 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 18
+distance: 108.588
+W0922 19:20:57.324656 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 1
+distance: 5.49194
+W0922 19:20:57.324669 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 7
+distance: 66.3118
+W0922 19:20:57.324683 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 17
+distance: 43.8871
+W0922 19:20:57.324694 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 18
+distance: 75.4739
+W0922 19:20:57.324704 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 19
+distance: 3.15761
+W0922 19:20:57.324715 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 21
+distance: 41.1742
+W0922 19:20:57.324725 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 22
+distance: 93.4791
+W0922 19:20:57.325402 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 13
+distance: 19.7551
+W0922 19:20:57.326114 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 12
+distance: 18.9318
+W0922 19:20:57.326130 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 15
+distance: 77.936
+W0922 19:20:57.326141 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 17
+distance: 43.1933
+W0922 19:20:57.326824 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 9
+distance: 91.1509
+W0922 19:20:57.326845 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 13
+distance: 74.8115
+W0922 19:20:57.326856 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 15
+distance: 371.874
+W0922 19:20:57.326867 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 17
+distance: 23.1454
+W0922 19:20:57.327513 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 12
+distance: 78.7392
+W0922 19:20:57.327531 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 15
+distance: 4.30024
+W0922 19:20:57.328186 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 8
+distance: 274.573
+W0922 19:20:57.328207 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 15
+distance: 94.9415
+W0922 19:20:57.328217 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 16
+distance: 107.321
+W0922 19:20:57.329634 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 0
+distance: 28.2389
+W0922 19:20:57.329659 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 5
+distance: 15.9085
+W0922 19:20:57.329671 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 8
+distance: 3.64173
+W0922 19:20:57.329685 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 16
+distance: 17.8973
+W0922 19:20:57.329695 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 17
+distance: 74.4779
+W0922 19:20:57.329705 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 18
+distance: 48.1825
+W0922 19:20:57.330353 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 12
+distance: 83.0866
+W0922 19:20:57.331043 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 5
+distance: 274.568
+W0922 19:20:57.331060 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 14
+distance: 14.679
+W0922 19:20:57.331739 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 13
+distance: 19.6054
+W0922 19:20:57.331758 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 15
+distance: 69.2628
+W0922 19:20:57.332473 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 2
+distance: 96.1603
+W0922 19:20:57.332491 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 9
+distance: 65.2054
+W0922 19:20:57.332505 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 15
+distance: 13.4127
+W0922 19:20:57.333164 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 12
+distance: 70.7684
+W0922 19:20:57.333185 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 18
+distance: 43.9739
+W0922 19:20:57.333927 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 16
+distance: 78.9933
+W0922 19:20:57.333946 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 18
+distance: 84.1791
+W0922 19:20:57.334654 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 15
+distance: 43.9559
+W0922 19:20:57.334671 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 18
+distance: 80.4061
+W0922 19:20:57.335332 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 0
+distance: 25.428
+W0922 19:20:57.335350 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 273.246
+W0922 19:20:57.335363 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 12
+distance: 6.47889
+W0922 19:20:57.336017 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 13
+distance: 27.0947
+W0922 19:20:57.336720 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 11
+distance: 41.3071
+W0922 19:20:57.336743 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 18
+distance: 44.0303
+W0922 19:20:57.337483 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 6
+distance: 101.412
+W0922 19:20:57.337507 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 15
+distance: 4.76283
+W0922 19:20:57.337523 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 19
+distance: 117.135
+W0922 19:20:57.338243 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 0
+distance: 26.0242
+W0922 19:20:57.338263 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 4
+distance: 208.489
+W0922 19:20:57.338281 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 18
+distance: 26.5209
+W0922 19:20:57.338956 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 8
+distance: 80.1822
+W0922 19:20:57.340415 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   17and 17
+distance: 19.3411
+W0922 19:20:57.341157 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 13
+distance: 6.8031
+W0922 19:20:57.341172 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 17
+distance: 23.3437
+W0922 19:20:57.341897 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 7
+distance: 97.0983
+W0922 19:20:57.341909 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 8
+distance: 36.2949
+W0922 19:20:57.341923 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 15
+distance: 68.4502
+W0922 19:20:57.341934 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 16
+distance: 162.399
+W0922 19:20:57.341945 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 18
+distance: 24.1312
+W0922 19:20:57.342604 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 6
+distance: 45.0304
+W0922 19:20:57.343331 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 79.4327
+W0922 19:20:57.343348 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 13
+distance: 71.7656
+W0922 19:20:57.343359 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 16
+distance: 167.194
+W0922 19:20:57.343370 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 17
+distance: 198.23
+W0922 19:20:57.343379 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 18
+distance: 7.18226
+W0922 19:20:57.344658 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 12
+distance: 6.12841
+W0922 19:20:57.344672 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 13
+distance: 6.83363
+W0922 19:20:57.344684 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 16
+distance: 3.59223
+W0922 19:20:57.344694 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 17
+distance: 25.8245
+W0922 19:20:57.345355 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 80.5752
+W0922 19:20:57.346462 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 15
+distance: 25.3873
+W0922 19:20:57.346480 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 16
+distance: 166.698
+W0922 19:20:57.347293 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 7
+distance: 42.5219
+W0922 19:20:57.347312 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 11
+distance: 5.80712
+W0922 19:20:57.347323 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 12
+distance: 6.09259
+W0922 19:20:57.347983 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 0
+distance: 26.9682
+W0922 19:20:57.348008 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 11
+distance: 37.5455
+W0922 19:20:57.348021 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 170.774
+W0922 19:20:57.348030 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 15
+distance: 226.095
+W0922 19:20:57.348614 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 25.1248
+W0922 19:20:57.348635 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 11
+distance: 78.0408
+W0922 19:20:57.349237 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 44.913
+W0922 19:20:57.349846 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 6
+distance: 29.8289
+W0922 19:20:57.349867 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 13
+distance: 19.567
+W0922 19:20:57.350479 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 38.3621
+W0922 19:20:57.351058 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 6
+distance: 44.2582
+W0922 19:20:57.351073 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 13
+distance: 18.0442
+W0922 19:20:57.351658 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 0
+distance: 63.8537
+W0922 19:20:57.351680 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 43.0406
+W0922 19:20:57.352257 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 11
+distance: 115.141
+W0922 19:20:57.353449 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 3
+distance: 64.4202
+W0922 19:20:57.353466 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 45.0208
+W0922 19:20:57.353478 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 13
+distance: 68.7347
+W0922 19:20:57.354075 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 173.257
+W0922 19:20:57.354682 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 13
+distance: 86.4432
+W0922 19:20:57.355340 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 97.2084
+W0922 19:20:57.355362 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 14
+distance: 220.888
+W0922 19:20:57.356001 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 9
+distance: 24.3695
+W0922 19:20:57.356618 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 6
+distance: 19.6782
+W0922 19:20:57.357259 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 11
+distance: 55.111
+W0922 19:20:57.357283 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 12
+distance: 116.166
+W0922 19:20:57.357301 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 79.4732
+W0922 19:20:57.357312 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 14
+distance: 206.637
+W0922 19:20:57.357863 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 6
+distance: 21.9419
+W0922 19:20:57.357890 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 24.8545
+W0922 19:20:57.358460 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 167.435
+W0922 19:20:57.358480 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 14
+distance: 117.911
+W0922 19:20:57.359086 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 1
+distance: 55.6907
+W0922 19:20:57.359102 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 23.0215
+W0922 19:20:57.359113 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 11
+distance: 56.4916
+W0922 19:20:57.359124 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 13
+distance: 76.8181
+W0922 19:20:57.359679 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 8
+distance: 71.9668
+W0922 19:20:57.359694 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 10
+distance: 13.4755
+W0922 19:20:57.359704 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 11
+distance: 170.659
+W0922 19:20:57.360993 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 14
+distance: 84.5359
+W0922 19:20:57.361631 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 3
+distance: 30.1669
+W0922 19:20:57.361649 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 6
+distance: 165.596
+W0922 19:20:57.361667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 115.669
+W0922 19:20:57.362241 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 5
+distance: 22.3152
+W0922 19:20:57.362268 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 10
+distance: 53.2642
+W0922 19:20:57.362279 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 74.9021
+W0922 19:20:57.362824 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 0
+distance: 31.2514
+W0922 19:20:57.362838 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 1
+distance: 56.6893
+W0922 19:20:57.362854 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 11
+distance: 43.2635
+W0922 19:20:57.363428 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 5
+distance: 25.8731
+W0922 19:20:57.363442 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 12.5125
+W0922 19:20:57.363451 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 73.9783
+W0922 19:20:57.364526 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 167.346
+W0922 19:20:57.364547 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 30.1845
+W0922 19:20:57.364558 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 7
+distance: 25.7193
+W0922 19:20:57.364579 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 116.836
+W0922 19:20:57.365070 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 1
+distance: 55.5439
+W0922 19:20:57.365638 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 35.8393
+W0922 19:20:57.365658 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 9
+distance: 43.3021
+W0922 19:20:57.366220 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 165.638
+W0922 19:20:57.366240 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 5
+distance: 25.9447
+W0922 19:20:57.366771 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 179.432
+W0922 19:20:57.366791 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 140.982
+W0922 19:20:57.366801 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 53.621
+W0922 19:20:57.368636 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 9
+distance: 46.2477
+W0922 19:20:57.368657 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 106.342
+W0922 19:20:57.369711 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 54.5276
+W0922 19:20:57.369727 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 26.5661
+W0922 19:20:57.369738 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 44.9198
+W0922 19:20:57.369750 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 116.518
+W0922 19:20:57.369760 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 14
+distance: 54.4417
+W0922 19:20:57.370678 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 9
+distance: 87.9472
+W0922 19:20:57.370695 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 11
+distance: 123.797
+W0922 19:20:57.371351 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 27.3837
+W0922 19:20:57.371368 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 10
+distance: 78.7097
+W0922 19:20:57.371380 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 180.692
+W0922 19:20:57.371937 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 8
+distance: 57.3328
+W0922 19:20:57.371953 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 44.681
+W0922 19:20:57.371964 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 207.67
+W0922 19:20:57.372524 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 10
+distance: 77.2293
+W0922 19:20:57.373735 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 6
+distance: 67.2359
+W0922 19:20:57.373756 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 14
+distance: 109.144
+W0922 19:20:57.374357 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 73.6116
+W0922 19:20:57.374382 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 14
+distance: 177.051
+W0922 19:20:57.374392 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 15
+distance: 57.914
+W0922 19:20:57.374965 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 4
+distance: 55.9792
+W0922 19:20:57.375546 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 3
+distance: 39.0099
+W0922 19:20:57.375561 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 79.0499
+W0922 19:20:57.375572 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 11
+distance: 24.5747
+W0922 19:20:57.375582 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 12
+distance: 25.9235
+W0922 19:20:57.376109 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 10
+distance: 140.965
+W0922 19:20:57.376129 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 12
+distance: 183.092
+W0922 19:20:57.376700 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 26.5172
+W0922 19:20:57.377279 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 3
+distance: 31.0639
+W0922 19:20:57.377900 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 12
+distance: 22.7388
+W0922 19:20:57.378895 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 2
+distance: 25.9604
+W0922 19:20:57.379994 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 11
+distance: 26.9581
+W0922 19:20:57.380010 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 13
+distance: 50.6898
+W0922 19:20:57.380023 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 16
+distance: 184.277
+W0922 19:20:57.381175 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 13
+distance: 117.066
+W0922 19:20:57.381192 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 15
+distance: 39.8395
+W0922 19:20:57.382362 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 1
+distance: 83.1797
+W0922 19:20:57.382390 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 6
+distance: 163.056
+W0922 19:20:57.382402 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 8
+distance: 36.5886
+W0922 19:20:57.382416 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 15
+distance: 107.088
+W0922 19:20:57.383404 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 1
+distance: 30.0339
+W0922 19:20:57.383428 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 8
+distance: 12.7315
+W0922 19:20:57.383441 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 93.4272
+W0922 19:20:57.384117 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 3
+distance: 73.37
+W0922 19:20:57.384137 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 10
+distance: 19.3961
+W0922 19:20:57.384770 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 1
+distance: 30.6805
+W0922 19:20:57.384788 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 7
+distance: 30.9948
+W0922 19:20:57.384799 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 55.355
+W0922 19:20:57.384811 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 13
+distance: 94.6851
+W0922 19:20:57.385346 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 74.238
+W0922 19:20:57.385363 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 11
+distance: 29.8981
+W0922 19:20:57.386528 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 0
+distance: 28.5927
+W0922 19:20:57.386543 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 72.43
+W0922 19:20:57.386551 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 27.318
+W0922 19:20:57.386565 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 11
+distance: 30.2928
+W0922 19:20:57.387511 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 6
+distance: 20.2069
+W0922 19:20:57.387526 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 105.42
+W0922 19:20:57.388298 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 7
+distance: 40.4568
+W0922 19:20:57.388312 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 10
+distance: 26.4747
+W0922 19:20:57.388823 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 0
+distance: 32.8185
+W0922 19:20:57.388837 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 3
+distance: 116.578
+W0922 19:20:57.389500 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 27.2521
+W0922 19:20:57.389518 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 212.74
+W0922 19:20:57.389528 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 24.0177
+W0922 19:20:57.390090 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 129.978
+W0922 19:20:57.390715 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 93.5408
+W0922 19:20:57.390731 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 16
+distance: 24.7373
+W0922 19:20:57.392089 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 3
+distance: 63.1816
+W0922 19:20:57.392796 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 3
+distance: 33.3244
+W0922 19:20:57.392813 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 14
+distance: 12.8227
+W0922 19:20:57.393491 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 2
+distance: 60.6871
+W0922 19:20:57.393513 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 67.4411
+W0922 19:20:57.394189 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 2
+distance: 29.708
+W0922 19:20:57.394210 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 14
+distance: 93.6721
+W0922 19:20:57.394222 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   15and 18
+distance: 24.2979
+W0922 19:20:57.394891 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 11
+distance: 77.2553
+W0922 19:20:57.394907 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 17.8829
+W0922 19:20:57.396230 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 1
+distance: 25.5138
+W0922 19:20:57.396248 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 10
+distance: 18.1968
+W0922 19:20:57.396260 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 94.5308
+W0922 19:20:57.396948 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 61.5417
+W0922 19:20:57.396973 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 95.2651
+W0922 19:20:57.398990 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 0
+distance: 62.0733
+W0922 19:20:57.399010 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 9
+distance: 28.5436
+W0922 19:20:57.399024 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 95.0281
+W0922 19:20:57.399034 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 16
+distance: 4.25514
+W0922 19:20:57.399667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 1
+distance: 25.4107
+W0922 19:20:57.400375 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 12
+distance: 37.9336
+W0922 19:20:57.400394 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   16and 17
+distance: 97.1105
+W0922 19:20:57.400405 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 19
+distance: 96.562
+W0922 19:20:57.401100 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 1
+distance: 28.5575
+W0922 19:20:57.401783 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 4.19853
+W0922 19:20:57.402419 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 1
+distance: 47.874
+W0922 19:20:57.402451 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 28.8602
+W0922 19:20:57.403795 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 3
+distance: 82.4269
+W0922 19:20:57.403820 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 68.2725
+W0922 19:20:57.403833 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 11
+distance: 4.44108
+W0922 19:20:57.403844 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 13
+distance: 157.194
+W0922 19:20:57.404608 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 0
+distance: 56.9246
+W0922 19:20:57.404630 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 5
+distance: 35.9968
+W0922 19:20:57.404644 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 10
+distance: 30.0058
+W0922 19:20:57.404654 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 13
+distance: 90.7087
+W0922 19:20:57.404664 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 14
+distance: 103.414
+W0922 19:20:57.405215 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 13
+distance: 129.859
+W0922 19:20:57.405848 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 1
+distance: 61.1254
+W0922 19:20:57.405869 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 12
+distance: 28.5968
+W0922 19:20:57.406423 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 0
+distance: 25.5265
+W0922 19:20:57.406445 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 10
+distance: 61.9388
+W0922 19:20:57.406455 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 31.677
+W0922 19:20:57.406466 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 129.732
+W0922 19:20:57.407006 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 1
+distance: 39.639
+W0922 19:20:57.407027 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 97.3084
+W0922 19:20:57.407557 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 12
+distance: 72.4592
+W0922 19:20:57.408397 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 1
+distance: 61.1281
+W0922 19:20:57.409054 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 8
+distance: 10.0206
+W0922 19:20:57.409073 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 12
+distance: 51.9362
+W0922 19:20:57.409085 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 88.8946
+W0922 19:20:57.409648 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 7.43653
+W0922 19:20:57.409668 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 13
+distance: 60.9157
+W0922 19:20:57.409679 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 122.328
+W0922 19:20:57.409690 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 15
+distance: 30.9088
+W0922 19:20:57.410421 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 8
+distance: 41.2652
+W0922 19:20:57.410441 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 9
+distance: 13.2835
+W0922 19:20:57.411461 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 7
+distance: 23.8052
+W0922 19:20:57.411476 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 11
+distance: 5.26764
+W0922 19:20:57.412534 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 62.6105
+W0922 19:20:57.412551 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 11
+distance: 125.784
+W0922 19:20:57.412562 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 84.9867
+W0922 19:20:57.412575 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 14
+distance: 98.9453
+W0922 19:20:57.413146 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 11
+distance: 60.8326
+W0922 19:20:57.413888 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 5
+distance: 26.2954
+W0922 19:20:57.413902 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 7
+distance: 66.0674
+W0922 19:20:57.414472 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 3
+distance: 8.24249
+W0922 19:20:57.414489 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 8
+distance: 3.39441
+W0922 19:20:57.414500 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 125.483
+W0922 19:20:57.415087 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 5
+distance: 26.3298
+W0922 19:20:57.415689 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 14
+distance: 126.697
+W0922 19:20:57.415709 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 15
+distance: 112.017
+W0922 19:20:57.416347 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 6
+distance: 35.0357
+W0922 19:20:57.416366 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 10
+distance: 35.6361
+W0922 19:20:57.416378 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 12
+distance: 58.9591
+W0922 19:20:57.416996 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 9
+distance: 25.6591
+W0922 19:20:57.417631 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 12.7319
+W0922 19:20:57.417647 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 14
+distance: 111.38
+W0922 19:20:57.418434 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 0
+distance: 5.4333
+W0922 19:20:57.418457 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 9
+distance: 60.4529
+W0922 19:20:57.419075 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 6
+distance: 34.8036
+W0922 19:20:57.419095 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 14
+distance: 106.07
+W0922 19:20:57.419780 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 7
+distance: 61.0341
+W0922 19:20:57.419804 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 15
+distance: 74.0737
+W0922 19:20:57.420595 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 2
+distance: 31.8898
+W0922 19:20:57.420619 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 14
+distance: 52.3901
+W0922 19:20:57.420629 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 15
+distance: 100.006
+W0922 19:20:57.421284 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 53.5039
+W0922 19:20:57.421305 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 15
+distance: 309.627
+W0922 19:20:57.422027 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 7.58111
+W0922 19:20:57.422046 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 13
+distance: 125.145
+W0922 19:20:57.422058 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 14
+distance: 123.761
+W0922 19:20:57.422716 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 6.33637
+W0922 19:20:57.422734 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   14and 13
+distance: 95.9947
+W0922 19:20:57.422744 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 134.95
+W0922 19:20:57.423370 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 5
+distance: 47.7036
+W0922 19:20:57.423385 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 11
+distance: 59.6583
+W0922 19:20:57.423396 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 12
+distance: 25.7575
+W0922 19:20:57.423408 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 14
+distance: 161.047
+W0922 19:20:57.423427 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 16
+distance: 44.11
+W0922 19:20:57.423439 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 17
+distance: 189.311
+W0922 19:20:57.423998 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 32.1807
+W0922 19:20:57.424016 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 135.393
+W0922 19:20:57.424602 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 6.9106
+W0922 19:20:57.424618 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 13.4872
+W0922 19:20:57.425814 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 10
+distance: 4.76675
+W0922 19:20:57.427182 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 8
+distance: 17.7067
+W0922 19:20:57.427202 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 14
+distance: 14.8201
+W0922 19:20:57.427213 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 15
+distance: 108.851
+W0922 19:20:57.428238 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 10.2344
+W0922 19:20:57.428258 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 9
+distance: 36.5626
+W0922 19:20:57.428272 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 12
+distance: 143.548
+W0922 19:20:57.428283 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 14
+distance: 8.88359
+W0922 19:20:57.428293 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 15
+distance: 38.8806
+W0922 19:20:57.428846 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 25.8881
+W0922 19:20:57.429455 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 12
+distance: 41.672
+W0922 19:20:57.430085 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 9
+distance: 44.991
+W0922 19:20:57.430101 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 12
+distance: 133.93
+W0922 19:20:57.430775 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 10
+distance: 32.4863
+W0922 19:20:57.430791 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 108.631
+W0922 19:20:57.431891 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 8
+distance: 54.8669
+W0922 19:20:57.432523 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 8
+distance: 47.0597
+W0922 19:20:57.432539 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 11
+distance: 104.824
+W0922 19:20:57.433568 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 8
+distance: 47.0542
+W0922 19:20:57.434091 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 9
+distance: 144.073
+W0922 19:20:57.434612 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 8
+distance: 13.421
+W0922 19:20:57.435184 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 140.734
+W0922 19:20:57.436079 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 62.9677
+W0922 19:20:57.436102 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 46.8102
+W0922 19:20:57.437582 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 1
+distance: 60.7351
+W0922 19:20:57.437603 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 10
+distance: 241.484
+W0922 19:20:57.437614 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 13
+distance: 53.2439
+W0922 19:20:57.437625 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 15
+distance: 83.0257
+W0922 19:20:57.438726 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 5
+distance: 70.322
+W0922 19:20:57.438741 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 90.7431
+W0922 19:20:57.438753 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 12
+distance: 40.3445
+W0922 19:20:57.439304 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 6
+distance: 84.9527
+W0922 19:20:57.439862 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 5
+distance: 81.5274
+W0922 19:20:57.439878 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 10
+distance: 49.4523
+W0922 19:20:57.439889 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 14.8741
+W0922 19:20:57.439900 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 12
+distance: 20.4667
+W0922 19:20:57.440486 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 9
+distance: 158.863
+W0922 19:20:57.441066 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 10
+distance: 37.3911
+W0922 19:20:57.441084 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 12
+distance: 38.6201
+W0922 19:20:57.442498 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 61.8906
+W0922 19:20:57.442513 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 72.4937
+W0922 19:20:57.442528 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 14
+distance: 44.242
+W0922 19:20:57.443257 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 76.8341
+W0922 19:20:57.443279 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 111.236
+W0922 19:20:57.443289 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 12
+distance: 26.3424
+W0922 19:20:57.443300 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 14
+distance: 20.7422
+W0922 19:20:57.444244 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 8
+distance: 37.259
+W0922 19:20:57.444262 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 9
+distance: 27.2897
+W0922 19:20:57.444273 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 12
+distance: 57.8957
+W0922 19:20:57.445204 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 60.1337
+W0922 19:20:57.445219 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 9
+distance: 54.7042
+W0922 19:20:57.445233 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 142.88
+W0922 19:20:57.446215 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 8
+distance: 28.0615
+W0922 19:20:57.446995 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 97.3299
+W0922 19:20:57.447008 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 60.8624
+W0922 19:20:57.447018 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 8
+distance: 121.654
+W0922 19:20:57.447029 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 6.33964
+W0922 19:20:57.447049 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 12
+distance: 21.1927
+W0922 19:20:57.447060 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 214.275
+W0922 19:20:57.447530 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 3.95186
+W0922 19:20:57.448107 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 9
+distance: 61.4296
+W0922 19:20:57.448129 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 11
+distance: 99.2585
+W0922 19:20:57.448709 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 213.405
+W0922 19:20:57.449537 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 31.7847
+W0922 19:20:57.449551 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 11
+distance: 15.8443
+W0922 19:20:57.449563 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 12
+distance: 3.36233
+W0922 19:20:57.449571 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 13
+distance: 43.1332
+W0922 19:20:57.450134 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 1
+distance: 49.37
+W0922 19:20:57.451014 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 4.23756
+W0922 19:20:57.451028 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 23.654
+W0922 19:20:57.451043 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 12
+distance: 15.2226
+W0922 19:20:57.451925 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 239.732
+W0922 19:20:57.451941 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 8
+distance: 182.083
+W0922 19:20:57.451953 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 3.92095
+W0922 19:20:57.452977 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 0
+distance: 122.912
+W0922 19:20:57.452994 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 6
+distance: 138.54
+W0922 19:20:57.453007 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 9
+distance: 111.731
+W0922 19:20:57.453523 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 9
+distance: 120.193
+W0922 19:20:57.454649 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 0
+distance: 118.589
+W0922 19:20:57.454666 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 119.533
+W0922 19:20:57.454679 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 13
+distance: 163.846
+W0922 19:20:57.456502 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 6
+distance: 28.8398
+W0922 19:20:57.456522 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 12
+distance: 111.267
+W0922 19:20:57.457085 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 0
+distance: 77.3844
+W0922 19:20:57.457672 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 3.93673
+W0922 19:20:57.457687 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 12
+distance: 140.359
+W0922 19:20:57.458271 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 182.143
+W0922 19:20:57.458858 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 76.179
+W0922 19:20:57.459601 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 29.0927
+W0922 19:20:57.459621 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 85.7776
+W0922 19:20:57.459632 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 10.7974
+W0922 19:20:57.459643 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 339.019
+W0922 19:20:57.459653 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 12
+distance: 182.749
+W0922 19:20:57.459662 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 13
+distance: 103.891
+W0922 19:20:57.460662 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 0
+distance: 39.1057
+W0922 19:20:57.460685 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 9
+distance: 8.43054
+W0922 19:20:57.461540 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 0
+distance: 4.37796
+W0922 19:20:57.461561 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 5
+distance: 28.2247
+W0922 19:20:57.461575 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 85.4942
+W0922 19:20:57.461588 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 13
+distance: 181.685
+W0922 19:20:57.462512 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 7
+distance: 87.1783
+W0922 19:20:57.462536 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 11
+distance: 111.736
+W0922 19:20:57.462548 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 12
+distance: 10.7738
+W0922 19:20:57.462558 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   12and 13
+distance: 4.19419
+W0922 19:20:57.463166 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 0
+distance: 39.2288
+W0922 19:20:57.463189 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 5
+distance: 31.3193
+W0922 19:20:57.463202 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   11and 10
+distance: 14.5429
+W0922 19:20:57.463215 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 13
+distance: 219.781
+W0922 19:20:57.464138 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 11
+distance: 78.652
+W0922 19:20:57.465171 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 13
+distance: 172.083
+W0922 19:20:57.466225 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 10
+distance: 57.64
+W0922 19:20:57.466239 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 12
+distance: 4.14585
+W0922 19:20:57.466249 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 13
+distance: 77.1544
+W0922 19:20:57.466265 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 14
+distance: 22.8039
+W0922 19:20:57.466276 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 15
+distance: 110.146
+W0922 19:20:57.467234 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 8.21619
+W0922 19:20:57.467248 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 10
+distance: 6.63592
+W0922 19:20:57.467259 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   13and 12
+distance: 8.63711
+W0922 19:20:57.467991 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 0
+distance: 3.566
+W0922 19:20:57.468008 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 82.4372
+W0922 19:20:57.468017 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 4
+distance: 67.0622
+W0922 19:20:57.468029 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 28.8575
+W0922 19:20:57.468039 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 23.5581
+W0922 19:20:57.468050 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 12
+distance: 184.013
+W0922 19:20:57.468844 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 5
+distance: 17.7594
+W0922 19:20:57.468858 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 6
+distance: 111.837
+W0922 19:20:57.468868 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 9
+distance: 8.98075
+W0922 19:20:57.469661 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 4.41683
+W0922 19:20:57.470503 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 27.2461
+W0922 19:20:57.470525 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 8
+distance: 11.7426
+W0922 19:20:57.470537 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 17.859
+W0922 19:20:57.471370 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 7
+distance: 4.12812
+W0922 19:20:57.471387 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 9
+distance: 138.825
+W0922 19:20:57.471400 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 10
+distance: 56.5773
+W0922 19:20:57.472743 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 4
+distance: 84.1766
+W0922 19:20:57.472764 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 119.885
+W0922 19:20:57.472777 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 10
+distance: 11.9625
+W0922 19:20:57.472787 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 12
+distance: 9.35694
+W0922 19:20:57.473289 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 6
+distance: 3.78509
+W0922 19:20:57.473307 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 10
+distance: 94.553
+W0922 19:20:57.473837 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   9and 8
+distance: 3.58933
+W0922 19:20:57.474382 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 9.17828
+W0922 19:20:57.474397 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 9
+distance: 375.505
+W0922 19:20:57.474409 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 11
+distance: 183.568
+W0922 19:20:57.474921 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 7
+distance: 109.546
+W0922 19:20:57.474934 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 9.81805
+W0922 19:20:57.475399 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 116.089
+W0922 19:20:57.475898 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 46.2446
+W0922 19:20:57.476467 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 26.0203
+W0922 19:20:57.476486 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 2
+distance: 70.9458
+W0922 19:20:57.476500 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 9
+distance: 71.9812
+W0922 19:20:57.476511 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 11
+distance: 40.705
+W0922 19:20:57.476990 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 120.057
+W0922 19:20:57.477008 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 13.6746
+W0922 19:20:57.477453 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 6
+distance: 108.164
+W0922 19:20:57.477468 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 9
+distance: 65.3192
+W0922 19:20:57.477955 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 3
+distance: 69.0683
+W0922 19:20:57.477967 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 137.394
+W0922 19:20:57.477981 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 112.637
+W0922 19:20:57.478417 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 384.481
+W0922 19:20:57.478435 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 8
+distance: 184.56
+W0922 19:20:57.479334 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 10
+distance: 63.9277
+W0922 19:20:57.480193 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   10and 3
+distance: 70.5472
+W0922 19:20:57.480209 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 8.97158
+W0922 19:20:57.481058 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 10
+distance: 64.4921
+W0922 19:20:57.481588 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 26.8452
+W0922 19:20:57.481599 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 2
+distance: 70.8714
+W0922 19:20:57.481614 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 7
+distance: 5.17503
+W0922 19:20:57.481623 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 8
+distance: 114.221
+W0922 19:20:57.481632 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 7.82709
+W0922 19:20:57.481649 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 11
+distance: 9.0313
+W0922 19:20:57.482053 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 391.557
+W0922 19:20:57.482065 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 7
+distance: 17.7521
+W0922 19:20:57.483258 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 8
+distance: 11.0134
+W0922 19:20:57.483274 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 9
+distance: 115.215
+W0922 19:20:57.483285 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 11
+distance: 64.9512
+W0922 19:20:57.484527 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 8
+distance: 14.5132
+W0922 19:20:57.484544 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 10
+distance: 111.305
+W0922 19:20:57.485042 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 27.4346
+W0922 19:20:57.485055 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 3
+distance: 5.72052
+W0922 19:20:57.485066 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 8
+distance: 84.7757
+W0922 19:20:57.485505 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 5
+distance: 30.1227
+W0922 19:20:57.485518 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   7and 6
+distance: 68.7385
+W0922 19:20:57.485960 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 7
+distance: 14.5825
+W0922 19:20:57.485975 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 7.41838
+W0922 19:20:57.486407 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 81.0943
+W0922 19:20:57.486419 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 7
+distance: 230.552
+W0922 19:20:57.486428 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 8
+distance: 66.7969
+W0922 19:20:57.486821 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 3
+distance: 133.885
+W0922 19:20:57.487223 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 102.88
+W0922 19:20:57.487632 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 3
+distance: 133.283
+W0922 19:20:57.487648 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 6
+distance: 11.2303
+W0922 19:20:57.487658 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 7
+distance: 230.801
+W0922 19:20:57.487665 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 8
+distance: 330.021
+W0922 19:20:57.488034 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 1
+distance: 27.3345
+W0922 19:20:57.488055 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 103.002
+W0922 19:20:57.488066 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 341.927
+W0922 19:20:57.488427 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 4
+distance: 231.304
+W0922 19:20:57.489569 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 27.407
+W0922 19:20:57.489583 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 6.70611
+W0922 19:20:57.489593 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 352.768
+W0922 19:20:57.490097 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 39.2673
+W0922 19:20:57.490113 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 4
+distance: 334.682
+W0922 19:20:57.490613 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 109.045
+W0922 19:20:57.491154 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 6
+distance: 385.278
+W0922 19:20:57.491778 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 109.695
+W0922 19:20:57.492256 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 27.2046
+W0922 19:20:57.492626 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 38.9097
+W0922 19:20:57.492640 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 111.542
+W0922 19:20:57.492650 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 347.112
+W0922 19:20:57.492974 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 27.9243
+W0922 19:20:57.493314 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 4
+distance: 30.2795
+W0922 19:20:57.493685 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 0
+distance: 27.684
+W0922 19:20:57.494093 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 30.539
+W0922 19:20:57.494506 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 6
+distance: 59.6365
+W0922 19:20:57.494913 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 5
+distance: 315.34
+W0922 19:20:57.495298 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 0
+distance: 109.225
+W0922 19:20:57.495312 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 2
+distance: 79.9072
+W0922 19:20:57.495326 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 6
+distance: 116.361
+W0922 19:20:57.495680 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 3
+distance: 283.498
+W0922 19:20:57.495690 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 7.4359
+W0922 19:20:57.495697 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 49.3144
+W0922 19:20:57.496048 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 2
+distance: 80.865
+W0922 19:20:57.496436 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 27.2018
+W0922 19:20:57.496452 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 283.676
+W0922 19:20:57.496464 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 38.3667
+W0922 19:20:57.496474 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 6
+distance: 7.34187
+W0922 19:20:57.497207 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 27.0525
+W0922 19:20:57.497795 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 346.414
+W0922 19:20:57.497808 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 49.513
+W0922 19:20:57.498337 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 28.156
+W0922 19:20:57.499617 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 80.2563
+W0922 19:20:57.499627 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 49.6854
+W0922 19:20:57.500367 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 116.965
+W0922 19:20:57.500996 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 48.9004
+W0922 19:20:57.501588 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 80.5327
+W0922 19:20:57.501601 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 117.78
+W0922 19:20:57.502741 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 78.0708
+W0922 19:20:57.503340 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 79.6633
+W0922 19:20:57.503773 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 2
+distance: 39.0156
+W0922 19:20:57.503787 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 7.72928
+W0922 19:20:57.504846 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 38.7297
+W0922 19:20:57.505275 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 3
+distance: 44.9463
+W0922 19:20:57.505827 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 7.63032
+W0922 19:20:57.506434 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 79.8201
+W0922 19:20:57.506959 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 3
+distance: 8.06211
+W0922 19:20:57.506974 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 38.4528
+W0922 19:20:57.506985 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 49.4604
+W0922 19:20:57.508001 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 3
+distance: 8.03843
+W0922 19:20:57.508018 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 37.8558
+W0922 19:20:57.508608 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 80.443
+W0922 19:20:57.509172 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 5
+distance: 7.41845
+W0922 19:20:57.509801 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   8and 5
+distance: 31.3408
+W0922 19:20:57.510460 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 4
+distance: 45.4335
+W0922 19:20:57.510478 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 7
+distance: 79.5635
+W0922 19:20:57.511059 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 80.1162
+W0922 19:20:57.511071 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 39.3248
+W0922 19:20:57.511080 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   6and 6
+distance: 263.651
+W0922 19:20:57.511577 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 86.8952
+W0922 19:20:57.511592 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 7.99328
+W0922 19:20:57.511603 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 5
+distance: 116.54
+W0922 19:20:57.512722 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 86.7075
+W0922 19:20:57.512733 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 263.782
+W0922 19:20:57.513656 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 39.4488
+W0922 19:20:57.513667 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 80.0042
+W0922 19:20:57.513674 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 7
+distance: 7.96035
+W0922 19:20:57.514515 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 79.1151
+W0922 19:20:57.514915 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 85.2481
+W0922 19:20:57.515321 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 39.0461
+W0922 19:20:57.515338 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 4
+distance: 47.9438
+W0922 19:20:57.515689 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 86.5719
+W0922 19:20:57.516228 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 80.5436
+W0922 19:20:57.516619 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 4
+distance: 48.1633
+W0922 19:20:57.517417 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 3
+distance: 86.3117
+W0922 19:20:57.517436 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   0and 6
+distance: 48.8909
+W0922 19:20:57.518203 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   5and 4
+distance: 141.249
+W0922 19:20:57.518224 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 80.3615
+W0922 19:20:57.518625 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 37.7084
+W0922 19:20:57.520637 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 39.4274
+W0922 19:20:57.520653 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 79.7274
+W0922 19:20:57.521966 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 5
+distance: 7.70526
+W0922 19:20:57.522632 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 2
+distance: 37.6995
+W0922 19:20:57.522650 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 6
+distance: 155.128
+W0922 19:20:57.523303 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 45.6457
+W0922 19:20:57.524350 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 7.60616
+W0922 19:20:57.524360 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 79.6598
+W0922 19:20:57.524785 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   4and 3
+distance: 45.5504
+W0922 19:20:57.527756 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 2
+distance: 37.0072
+W0922 19:20:57.528328 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 4
+distance: 7.48939
+W0922 19:20:57.528787 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 3
+distance: 36.7418
+W0922 19:20:57.528805 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 5
+distance: 80.1314
+W0922 19:20:57.528818 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 8
+distance: 101.23
+W0922 19:20:57.530071 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 0
+distance: 26.9366
+W0922 19:20:57.530086 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   3and 4
+distance: 44.5617
+W0922 19:20:57.530905 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   2and 5
+distance: 7.72014
+W0922 19:20:57.531714 69995 icp2d.cc:107] *******************distance exceeds the threshold! for the pair****************:
+   1and 4
+distance: 80.6296

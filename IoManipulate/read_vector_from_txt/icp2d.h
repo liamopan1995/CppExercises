@@ -85,11 +85,6 @@ class Icp2d {
     }
 
 
-    //     IMUData Get_IMU () const{ 
-    // return IMUData(current_time_, 
-    //                Sophus::SO3(Eigen::Matrix3d::Identity()), 
-    //                Eigen::Vector3d(v_ *cos(sphi_), v_ *sin(sphi_), 0), 
-    //                Eigen::Vector3d(sx_, sy_, 0));
    private:
     // 建立目标点云的Kdtree
     //void BuildTargetKdTree();

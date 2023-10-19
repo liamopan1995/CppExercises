@@ -32,6 +32,31 @@ vector<Eigen::Vector3f> readXYFromFile(const string &filename) {
     file.close();
     return data;
 }
+
+vector<Eigen::Vector3d> readXYRFromFile_double(const string &filename) {
+    vector<Eigen::Vector3d> data;
+    ifstream file(filename);
+    if (!file.is_open()) {
+        cerr << "Failed to open file: " << filename << endl;
+        return data;
+    }
+
+    string line;
+    while (getline(file, line)) {
+        istringstream iss(line);
+        double time, x, y, radius;
+        if (!(iss >> time >> x >> y >> radius)) {
+            break;  // Error in reading
+        }
+        Eigen::Vector3d vec(x, y,radius);
+        data.push_back(vec);
+    }
+
+    file.close();
+    return data;
+}
+
+
 vector<Eigen::Vector3d> readXYFromFile_double(const string &filename) {
     vector<Eigen::Vector3d> data;
     ifstream file(filename);
