@@ -1,4 +1,4 @@
-
+// This version takes the scan to map matching approach in finding correspondence 
 
 /*
 1.Run with default arguments(Fendt):
@@ -14,13 +14,14 @@
 #include <iomanip>
 #include <glog/logging.h>
 #include <gflags/gflags.h>
-
+#include <pcl
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
 DEFINE_int32(max_iteration, 253, "Max iteration number");
 
 std::vector<MovementData> odometry;
 std::vector<Eigen::Vector3d> global_map;
+
 int main(int argc, char* argv[]) {
     google::ParseCommandLineFlags(&argc, &argv, true);
     google::InitGoogleLogging(argv[0]);

@@ -51,6 +51,6 @@ target_include_directories(test PRIVATE ${CMAKE_SOURCE_DIR})
 # linking to tbb explictly in order to use multi threading
 target_link_libraries(test  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog)
 
-add_executable( test_serial_processing test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
-target_include_directories(test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
-target_link_libraries(test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
+add_executable( scan2scan_test_serial_processing scan2scan_test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
+target_include_directories(scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
