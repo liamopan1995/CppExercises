@@ -22,8 +22,8 @@ Circle CircleFitByTaubin (Data& data)
      Output:	       
                circle - parameters of the fitting circle:
 		        
-	       circle.Px - the X-coordinate of the center of the fitting circle
-	       circle.Py - the Y-coordinate of the center of the fitting circle
+	       circle.a - the X-coordinate of the center of the fitting circle
+	       circle.b - the Y-coordinate of the center of the fitting circle
  	       circle.r - the radius of the fitting circle
  	       circle.s - the root mean square error (the estimate of sigma)
  	       circle.j - the total number of iterations
@@ -120,8 +120,8 @@ Circle CircleFitByTaubin (Data& data)
 
 //       assembling the output
 
-    circle.Px = Xcenter + data.meanX;
-    circle.Py = Ycenter + data.meanY;
+    circle.a = Xcenter + data.meanX;
+    circle.b = Ycenter + data.meanY;
     circle.r = sqrt(Xcenter*Xcenter + Ycenter*Ycenter + Mz);
     circle.s = Sigma(data,circle);
     circle.i = 0;

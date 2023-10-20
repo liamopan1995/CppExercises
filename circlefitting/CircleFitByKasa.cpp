@@ -21,8 +21,8 @@ Circle CircleFitByKasa (Data& data)
      Output:	       
                circle - parameters of the fitting circle:
 		        
-	       circle.Px - the X-coordinate of the center of the fitting circle
-	       circle.Py - the Y-coordinate of the center of the fitting circle
+	       circle.a - the X-coordinate of the center of the fitting circle
+	       circle.b - the Y-coordinate of the center of the fitting circle
  	       circle.r - the radius of the fitting circle
  	       circle.s - the root mean square error (the estimate of sigma)
  	       circle.j - the total number of iterations
@@ -95,8 +95,8 @@ Circle CircleFitByKasa (Data& data)
 
 //       assembling the output
 
-    circle.Px = B + data.meanX;
-    circle.Py = C + data.meanY;
+    circle.a = B + data.meanX;
+    circle.b = C + data.meanY;
     circle.r = sqrt(B*B + C*C + Mxx + Myy);
     circle.s = Sigma(data,circle);
     circle.i = 0;

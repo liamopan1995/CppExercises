@@ -17,26 +17,26 @@ inline void simpletest (Data& data, const string& radian, const string& GR, int 
      cout << "\n Test from numpy data";
      cout << "\n Num of samples:  "<< n << "    radian: "<<radian<<"Ground truth:  "<<GR;
      cout << "\n  Pratt  fit:  center (" 
-          << circle.Px <<","<< circle.Py <<")  radius "
+          << circle.a <<","<< circle.b <<")  radius "
           << circle.r << "  sigma " << circle.s << endl;
 
      circle = CircleFitByPratt (data);
      cout << "\n  Pratt  fit:  center (" 
-          << circle.Px <<","<< circle.Py <<")  radius "
+          << circle.a <<","<< circle.b <<")  radius "
           << circle.r << "  sigma " << circle.s << endl;
 
      circle = CircleFitByTaubin (data);
      cout << "\n  Taubin fit:  center (" 
-          << circle.Px <<","<< circle.Py <<")  radius "
+          << circle.a <<","<< circle.b <<")  radius "
           << circle.r << "  sigma " << circle.s << endl;
 
      circle = CircleFitByHyper (data);
      cout << "\n  Hyper  fit:  center (" 
-          << circle.Px <<","<< circle.Py <<")  radius "
+          << circle.a <<","<< circle.b <<")  radius "
           << circle.r << "  sigma " << circle.s << endl;
      circle = CircleFitByLeastSquare (data);
      cout << "\n  LS  fit:  center (" 
-          << circle.Px <<","<< circle.Py <<")  radius "
+          << circle.a <<","<< circle.b <<")  radius "
           << circle.r << "  sigma " << circle.s << endl;
 }
 
@@ -71,26 +71,26 @@ int main()
 */
     circle = CircleFitByKasa (data1);
     cout << "\nTest One:\n  Kasa   fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByPratt (data1);
     cout << "\n  Pratt  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByTaubin (data1);
     cout << "\n  Taubin fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByHyper (data1);
     cout << "\n  Hyper  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     circle = CircleFitByLeastSquare (data1);
     cout << "\n  LS  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
 //            Test Two:  a randomly generated data set
@@ -104,26 +104,26 @@ int main()
 
     circle = CircleFitByKasa (data2);
     cout << "\nTest Two:\n  Kasa   fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByPratt (data2);
     cout << "\n  Pratt  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByTaubin (data2);
     cout << "\n  Taubin fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByHyper (data2);
     cout << "\n  Hyper  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     circle = CircleFitByLeastSquare (data2);
     cout << "\n  LS  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
 /*
        Test Thee:  benchmark example from the journal paper
@@ -151,26 +151,26 @@ int main()
 
     circle = CircleFitByKasa (data3);
     cout << "\nTest Three:\n  Kasa   fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByPratt (data3);
     cout << "\n  Pratt  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByTaubin (data3);
     cout << "\n  Taubin fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByHyper (data3);
     cout << "\n  Hyper  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     circle = CircleFitByLeastSquare (data3);
     cout << "\n  LS  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
 
 
@@ -195,26 +195,26 @@ Numpy data Test One:
     cout << "\n Test from numpy data";
     cout << "\n Num of samples:  "<< n << "    radian: "<<radian<<"Ground truth:  "<<GR;
     cout << "\n  Pratt  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByPratt (data);
     cout << "\n  Pratt  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByTaubin (data);
     cout << "\n  Taubin fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     
     circle = CircleFitByHyper (data);
     cout << "\n  Hyper  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
     circle = CircleFitByLeastSquare (data);
     cout << "\n  LS  fit:  center (" 
-         << circle.Px <<","<< circle.Py <<")  radius "
+         << circle.a <<","<< circle.b <<")  radius "
          << circle.r << "  sigma " << circle.s << endl;
      
 

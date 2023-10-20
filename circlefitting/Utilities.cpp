@@ -117,8 +117,8 @@ reals Sigma (Data& data, Circle& circle)
 
     for (int i=0; i<data.n; i++)
     {
-        dx = data.X[i] - circle.Px;
-        dy = data.Y[i] - circle.Py;
+        dx = data.X[i] - circle.a;
+        dy = data.Y[i] - circle.b;
         sum += SQR(sqrt(dx*dx+dy*dy) - circle.r);
     }
     return sqrt(sum/data.n);
@@ -139,8 +139,8 @@ reals SigmaReduced (Data& data, Circle& circle)
 
     for (i=0; i<n; i++)
     {
-        dx = data.X[i] - circle.Px;
-        dy = data.Y[i] - circle.Py;
+        dx = data.X[i] - circle.a;
+        dy = data.Y[i] - circle.b;
         D[i] = sqrt(dx*dx+dy*dy);
         sum += D[i];
     }
@@ -160,7 +160,7 @@ reals SigmaReducedNearLinearCase (Data& data, Circle& circle)
     int i,n=data.n;
 	reals a0,b0,del,s,c,x,y,z,p,t,g,W,Z;
 	
-	a0 = circle.Px-data.meanX;  b0 = circle.Py-data.meanY;
+	a0 = circle.a-data.meanX;  b0 = circle.b-data.meanY;
 	del = One/sqrt(a0*a0 + b0*b0);
 	s = b0*del;  c = a0*del;
 	
@@ -192,13 +192,13 @@ reals SigmaReducedForCenteredScaled (Data& data, Circle& circle)
 
     for (i=0; i<n; i++)
     {
-        dx = data.X[i] - circle.Px;
-        dy = data.Y[i] - circle.Py;
+        dx = data.X[i] - circle.a;
+        dy = data.Y[i] - circle.b;
         sum += sqrt(dx*dx+dy*dy);
     }
     r = sum/n;
   
-    return sqrt(SQR(circle.Px)+SQR(circle.Py)-r*r+Two);
+    return sqrt(SQR(circle.a)+SQR(circle.b)-r*r+Two);
 }
 
 //****************** OptimalRadius ******************************
@@ -211,8 +211,8 @@ reals OptimalRadius (Data& data, Circle& circle)
 
     for (int i=0; i<data.n; i++)
     {
-        dx = data.X[i] - circle.Px;
-        dy = data.Y[i] - circle.Py;
+        dx = data.X[i] - circle.a;
+        dy = data.Y[i] - circle.b;
         Mr += sqrt(dx*dx + dy*dy);
     }
     return Mr/data.n;
