@@ -8,6 +8,8 @@ Class: ICP 2d  Implementation
 #include <numeric>
 #include <glog/logging.h>
 #include "bfnn.h"
+#include <pcl/registration/icp.h>
+#include <pcl/common/transforms.h> 
 
 struct MovementData {
     double timestamp_;
@@ -60,6 +62,12 @@ class Icp2d {
         LOG(INFO) << "source center: " << source_center_.transpose();
     }
 
+
+
+    // void SetTargetCloud(pcl::PointCloud<pcl::PointXYZ>::Ptr p) {
+    //     targetcloud_  = p;
+    // }
+
     void SetGroundTruth(const SE2& gt_pose) {
         gt_pose_ = gt_pose;
         gt_set_ = true;
@@ -80,15 +88,35 @@ class Icp2d {
         return !source_.empty();
     } 
 
+
+
     MovementData Get_Odometry()const{
         return MovementData(0, R_,Vec3d(0, 0, 0), t_);
     }
 
 
+    // /*  followings are for PCL  ICP  
+
+
+
+
+    // */
+
+
+    // bool isTargetCloudSet()const {
+    //     return !(targetcloud_ == nullptr);
+    // } 
+
    private:
     // 建立目标点云的Kdtree
     //void BuildTargetKdTree();
 
+    // /// ******Followings are for pcl icp 
+
+    // pcl::PointCloud<pcl::PointXYZ>::Ptr targetcloud_ = nullptr;
+    // pcl::PointCloud<pcl::PointXYZ>::Ptr sourcecloud_ = nullptr;
+
+    // /// ******
     std::shared_ptr<sad::KdTree> kdtree_ = nullptr;  // 第5章的kd树
 
     std::vector<Vec3d>  target_ ;
@@ -103,6 +131,57 @@ class Icp2d {
     Options options_;
     Mat3d R_ = Mat3d::Zero();
     Vec3d t_ = Vec3d::Zero();
+
+
+
+
+    // /*  followings are for PCL  ICP  
+
+
+
+
+    // */
 };
+
+
+class pcl_icp {
+public:
+    pcl_icp() {
+        // Configuration of ICP parameters can be done here
+        // e.g., setting max iterations, transformation epsilon, etc.
+        icp.setMaximumIterations(50);
+    }
+
+    void align(const pcl::PointCloud<pcl::PointXYZ>::Ptr source,
+               const pcl::PointCloud<pcl::PointXYZ>::Ptr target
+               ) {
+        icp.setInputSource(source);
+        icp.setInputTarget(target);
+        pcl::PointCloud<pcl::PointXYZ> Final;
+        icp.align(Final);
+    }
+
+    bool hasConverged() const {
+        return icp.hasConverged();
+    }
+
+    Eigen::Matrix4f getFinalTransformation() {
+        return icp.getFinalTransformation();
+    }
+
+
+    // pcl::PointCloud<pcl::PointXYZ>::Ptr getAlignedTargetCloud(const pcl::PointCloud<pcl::PointXYZ>::Ptr& target) {
+    //     pcl::PointCloud<pcl::PointXYZ>::Ptr aligned_cloud(new pcl::PointCloud<pcl::PointXYZ>);
+    //     if (icp.hasConverged()) {
+    //         // Applying the final transformation to the target cloud
+    //         pcl::transformPointCloud(*target, *aligned_cloud, icp.getFinalTransformation());
+    //     }
+    //     return aligned_cloud;
+    // }
+
+private:
+    pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
+};
+
 
 #endif  // ICP_2D_CLASS

@@ -1,0 +1,4058 @@
+Log file created at: 2023/10/23 12:59:11
+Running on machine: liam
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1023 12:59:11.213555 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999983 00.0057658 0000000000
+-0.0057658 000.999983 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.213804 12842 scan2map_test_serial_processing.cpp:85] t:
+0.180985
+0.135487
+00000000
+I1023 12:59:11.213830 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.213853 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.214829 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999838 -0.017997 000000000
+00.017997 00.999838 000000000
+000000000 000000000 000000001
+I1023 12:59:11.214865 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.472695
+-0.340411
+000000000
+I1023 12:59:11.214887 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.214911 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.216253 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.999999 -0.000495255 000000000000
+00.000495255 00000.999999 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.216290 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.00103998
+-0.00825786
+00000000000
+I1023 12:59:11.216313 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.216336 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.216897 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99997 00.00774212 00000000000
+-0.00774212 00000.99997 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.216938 12842 scan2map_test_serial_processing.cpp:85] t:
+000.1961
+0.164556
+00000000
+I1023 12:59:11.216959 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.216981 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.224227 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999573 00.0292299 0000000000
+-0.0292299 000.999573 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.224257 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.14225
+0.507655
+00000000
+I1023 12:59:11.224282 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.224303 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.225386 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99999 00.00443816 00000000000
+-0.00443816 00000.99999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.225458 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0323591
+0-0.274405
+0000000000
+I1023 12:59:11.225481 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.225495 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.231453 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.999997 00.000230595 000000000000
+-0.000230595 00000.999997 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.231482 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0263795
+-0.0065454
+0000000000
+I1023 12:59:11.231498 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.231509 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.237764 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 00.00132411 00000000000
+-0.00132411 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.237790 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0187342
+0.00548816
+0000000000
+I1023 12:59:11.237805 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.237818 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.239750 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99989 -0.0147537 0000000000
+00.0147537 0000.99989 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.239797 12842 scan2map_test_serial_processing.cpp:85] t:
+-1.44001
+0.150311
+00000000
+I1023 12:59:11.239825 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.239883 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.246763 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998074 -0.0620492 0000000000
+00.0620492 000.998074 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.246801 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.214819
+00.282652
+000000000
+I1023 12:59:11.246826 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.247052 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.249271 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999396 00.0347412 0000000000
+-0.0347412 000.999396 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.249307 12842 scan2map_test_serial_processing.cpp:85] t:
+000.19095
+-0.141829
+000000000
+I1023 12:59:11.249330 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.249363 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.256175 12842 scan2map_test_serial_processing.cpp:84] R:
+00.994646 -0.103346 000000000
+00.103346 00.994646 000000000
+000000000 000000000 000000001
+I1023 12:59:11.256191 12842 scan2map_test_serial_processing.cpp:85] t:
+00.675878
+0.0275114
+000000000
+I1023 12:59:11.256203 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.256214 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.256882 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998698 -0.0510065 0000000000
+00.0510065 000.998698 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.256919 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.512327
+-0.884686
+000000000
+I1023 12:59:11.256943 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.256975 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.258574 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998822 00.0485224 0000000000
+-0.0485224 000.998822 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.258610 12842 scan2map_test_serial_processing.cpp:85] t:
+0-1.04053
+-0.294183
+000000000
+I1023 12:59:11.258633 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.258719 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.264920 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998575 00.0532638 0000000000
+-0.0532638 000.998575 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.264955 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.473627
+00.992859
+000000000
+I1023 12:59:11.264979 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.265012 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.265818 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999833 00.0182996 0000000000
+-0.0182996 000.999833 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.265853 12842 scan2map_test_serial_processing.cpp:85] t:
+00.272583
+-0.140622
+000000000
+I1023 12:59:11.265877 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.265908 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.267006 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998636 -0.0522173 0000000000
+00.0522173 000.998636 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.267041 12842 scan2map_test_serial_processing.cpp:85] t:
+0001.11612
+-0.0895625
+0000000000
+I1023 12:59:11.267067 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.267230 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.273298 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999672 00.0256187 0000000000
+-0.0256187 000.999672 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.273370 12842 scan2map_test_serial_processing.cpp:85] t:
+00.409196
+-0.626557
+000000000
+I1023 12:59:11.273403 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.273445 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.274996 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999491 00.031894 000000000
+-0.031894 00.999491 000000000
+000000000 000000000 000000001
+I1023 12:59:11.275010 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.057837
+00.516574
+000000000
+I1023 12:59:11.275035 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.275082 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.281553 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999991 00.00540886 00000000000
+-0.00540886 0000.999991 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.281569 12842 scan2map_test_serial_processing.cpp:85] t:
+00-0.437512
+-0.00858777
+00000000000
+I1023 12:59:11.281582 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.281594 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.287542 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999986 00.0053764 0000000000
+-0.0053764 000.999986 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.287559 12842 scan2map_test_serial_processing.cpp:85] t:
+00.181092
+0.0836601
+000000000
+I1023 12:59:11.287575 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.287607 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.293191 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99959 00.0285894 0000000000
+-0.0285894 0000.99959 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.293216 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.457644
+0.0886556
+000000000
+I1023 12:59:11.293231 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.293243 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.293905 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99994 -0.0109764 0000000000
+00.0109764 0000.99994 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.293927 12842 scan2map_test_serial_processing.cpp:85] t:
+00.337334
+-0.721157
+000000000
+I1023 12:59:11.293941 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.293952 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.301750 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998591 00.052995 000000000
+-0.052995 00.998591 000000000
+000000000 000000000 000000001
+I1023 12:59:11.301769 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.361005
+-0.216766
+000000000
+I1023 12:59:11.301782 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.301793 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.305059 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998076 -0.0619862 0000000000
+00.0619862 000.998076 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.305104 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0658863
+00.0465558
+0000000000
+I1023 12:59:11.305125 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.305146 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.313167 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999573 -0.0295173 0000000000
+00.0295173 000.999573 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.313184 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.138001
+00.139451
+000000000
+I1023 12:59:11.313197 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.313208 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.319139 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999773 00.0212652 0000000000
+-0.0212652 000.999773 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.319155 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0277257
+00.410873
+000000000
+I1023 12:59:11.319168 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.319180 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.321553 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999985 00.00597936 00000000000
+-0.00597936 0000.999985 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.321568 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0962971
+000.339777
+0000000000
+I1023 12:59:11.321580 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.321591 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.327144 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997095 -0.0761748 0000000000
+00.0761748 000.997095 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.327158 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.359624
+-0.339331
+000000000
+I1023 12:59:11.327170 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.327181 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.328469 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99996 -0.00892548 00000000000
+00.00892548 00000.99996 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.328482 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0821685
+-0.636152
+000000000
+I1023 12:59:11.328495 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.328506 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.329397 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999724 -0.0235182 0000000000
+00.0235182 000.999724 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.329411 12842 scan2map_test_serial_processing.cpp:85] t:
+00.181972
+-0.493504
+000000000
+I1023 12:59:11.329423 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.329434 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.336097 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999776 00.021573 000000000
+-0.021573 00.999776 000000000
+000000000 000000000 000000001
+I1023 12:59:11.336123 12842 scan2map_test_serial_processing.cpp:85] t:
+00.525517
+-0.351008
+000000000
+I1023 12:59:11.336143 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.336163 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.341233 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999928 00.0120246 0000000000
+-0.0120246 000.999928 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.341248 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0613384
+00.115524
+000000000
+I1023 12:59:11.341264 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.341276 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.346521 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999167 00.0408264 0000000000
+-0.0408264 000.999167 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.346535 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.712218
+00.187807
+000000000
+I1023 12:59:11.346547 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.346558 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.351470 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999938 -0.0114682 0000000000
+00.0114682 000.999938 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.351513 12842 scan2map_test_serial_processing.cpp:85] t:
+0.463768
+0.194273
+00000000
+I1023 12:59:11.351528 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.351539 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.358893 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998677 00.0513485 0000000000
+-0.0513485 000.998677 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.358909 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.290006
+00.551533
+000000000
+I1023 12:59:11.358922 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.358933 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.365123 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999965 -0.00833735 00000000000
+00.00833735 0000.999965 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.365136 12842 scan2map_test_serial_processing.cpp:85] t:
+00.446037
+-0.202089
+000000000
+I1023 12:59:11.365149 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.365160 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.370671 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998281 00.0586132 0000000000
+-0.0586132 000.998281 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.370725 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.189582
+00.010121
+000000000
+I1023 12:59:11.370759 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.370770 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.371816 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998024 00.0628307 0000000000
+-0.0628307 000.998024 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.371834 12842 scan2map_test_serial_processing.cpp:85] t:
+00.522909
+-0.411323
+000000000
+I1023 12:59:11.371848 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.371860 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.373117 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997541 00.0700805 0000000000
+-0.0700805 000.997541 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.373131 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.21588
+0.721562
+00000000
+I1023 12:59:11.373162 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.373173 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.373800 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 00.000684679 000000000000
+-0.000684679 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.373812 12842 scan2map_test_serial_processing.cpp:85] t:
+000.260224
+-0.0227403
+0000000000
+I1023 12:59:11.373826 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.373836 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.380607 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999819 00.0190247 0000000000
+-0.0190247 000.999819 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.380621 12842 scan2map_test_serial_processing.cpp:85] t:
+00.548587
+-0.255516
+000000000
+I1023 12:59:11.380633 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.380645 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.381471 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999891 00.0147999 0000000000
+-0.0147999 000.999891 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.381485 12842 scan2map_test_serial_processing.cpp:85] t:
+000.776587
+-0.0128046
+0000000000
+I1023 12:59:11.381497 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.381528 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.382619 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999072 -0.0430777 0000000000
+00.0430777 000.999072 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.382632 12842 scan2map_test_serial_processing.cpp:85] t:
+01.05396
+0.116609
+00000000
+I1023 12:59:11.382645 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.382656 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.383993 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99962 -0.0275709 0000000000
+00.0275709 0000.99962 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.384068 12842 scan2map_test_serial_processing.cpp:85] t:
+0.832538
+-1.17517
+00000000
+I1023 12:59:11.384088 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.384100 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.384639 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999998 00.00216401 00000000000
+-0.00216401 0000.999998 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.384652 12842 scan2map_test_serial_processing.cpp:85] t:
+000.780307
+-0.0754241
+0000000000
+I1023 12:59:11.384665 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.384676 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.385349 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999575 -0.029156 000000000
+00.029156 00.999575 000000000
+000000000 000000000 000000001
+I1023 12:59:11.385361 12842 scan2map_test_serial_processing.cpp:85] t:
+00.948645
+-0.475721
+000000000
+I1023 12:59:11.385375 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.385385 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.386628 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999968 00.00808934 00000000000
+-0.00808934 0000.999968 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.386641 12842 scan2map_test_serial_processing.cpp:85] t:
+00.484122
+-0.288732
+000000000
+I1023 12:59:11.386653 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.386664 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.393252 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99984 00.0178658 0000000000
+-0.0178658 0000.99984 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.393267 12842 scan2map_test_serial_processing.cpp:85] t:
+00.402477
+-0.192833
+000000000
+I1023 12:59:11.393280 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.393291 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.394152 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99947 00.0325616 0000000000
+-0.0325616 0000.99947 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.394166 12842 scan2map_test_serial_processing.cpp:85] t:
+00.671086
+0.0995003
+000000000
+I1023 12:59:11.394179 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.394191 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.401666 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999993 00.00391951 00000000000
+-0.00391951 0000.999993 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.401741 12842 scan2map_test_serial_processing.cpp:85] t:
+0.552187
+0.141997
+00000000
+I1023 12:59:11.401759 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.401783 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.402820 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999985 -0.00535244 00000000000
+00.00535244 0000.999985 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.402880 12842 scan2map_test_serial_processing.cpp:85] t:
+00.46454
+0.384119
+00000000
+I1023 12:59:11.402912 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.402945 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.403967 12842 scan2map_test_serial_processing.cpp:84] R:
+00000000001 -0.00092265 00000000000
+00.00092265 00000000001 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.403981 12842 scan2map_test_serial_processing.cpp:85] t:
+000.539615
+-0.0328122
+0000000000
+I1023 12:59:11.403995 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.404006 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.405449 12842 scan2map_test_serial_processing.cpp:84] R:
+000.99952 00.031007 000000000
+-0.031007 000.99952 000000000
+000000000 000000000 000000001
+I1023 12:59:11.405462 12842 scan2map_test_serial_processing.cpp:85] t:
+00.917317
+-0.189357
+000000000
+I1023 12:59:11.405475 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.405486 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.409565 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999917 00.0128582 0000000000
+-0.0128582 000.999917 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.409579 12842 scan2map_test_serial_processing.cpp:85] t:
+000.314125
+-0.0676769
+0000000000
+I1023 12:59:11.409591 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.409602 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.412460 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999971 00.00765238 00000000000
+-0.00765238 0000.999971 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.412473 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0873723
+-0.0253545
+0000000000
+I1023 12:59:11.412526 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.412537 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.413317 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999973 00.00729194 00000000000
+-0.00729194 0000.999973 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.413331 12842 scan2map_test_serial_processing.cpp:85] t:
+000.72049
+0.0297804
+000000000
+I1023 12:59:11.413343 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.413354 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.417814 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999939 00.0107571 0000000000
+-0.0107571 000.999939 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.417831 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0794043
+0-0.164516
+0000000000
+I1023 12:59:11.417845 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.417856 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.423960 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999997 -0.0025548 0000000000
+00.0025548 000.999997 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.423974 12842 scan2map_test_serial_processing.cpp:85] t:
+0.219839
+-0.13925
+00000000
+I1023 12:59:11.424022 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.424033 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.424854 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999809 00.0195189 0000000000
+-0.0195189 000.999809 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.424867 12842 scan2map_test_serial_processing.cpp:85] t:
+000.307906
+-0.0673002
+0000000000
+I1023 12:59:11.424880 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.424911 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.425359 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999779 00.0210216 0000000000
+-0.0210216 000.999779 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.425372 12842 scan2map_test_serial_processing.cpp:85] t:
+00.190849
+0.0250871
+000000000
+I1023 12:59:11.425385 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.425396 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.426102 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999565 -0.0295043 0000000000
+00.0295043 000.999565 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.426116 12842 scan2map_test_serial_processing.cpp:85] t:
+00.263318
+-0.130004
+000000000
+I1023 12:59:11.426128 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.426139 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.426586 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999702 -0.0244094 0000000000
+00.0244094 000.999702 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.426599 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.169185
+-0.317006
+000000000
+I1023 12:59:11.426612 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.426623 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.431912 12842 scan2map_test_serial_processing.cpp:84] R:
+000.996279 -0.0861895 0000000000
+00.0861895 000.996279 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.431929 12842 scan2map_test_serial_processing.cpp:85] t:
+0001.894
+-2.43917
+00000000
+I1023 12:59:11.431943 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.431954 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.432792 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999878 -0.0156071 0000000000
+00.0156071 000.999878 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.432806 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.163781
+-0.096853
+000000000
+I1023 12:59:11.432823 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.432835 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.433188 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999826 -0.0186291 0000000000
+00.0186291 000.999826 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.433229 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0789313
+-0.282849
+000000000
+I1023 12:59:11.433257 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.433269 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.435128 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997998 -0.0632421 0000000000
+00.0632421 000.997998 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.435142 12842 scan2map_test_serial_processing.cpp:85] t:
+001.73819
+-0.208438
+000000000
+I1023 12:59:11.435154 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.435165 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.436501 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999939 -0.0110543 0000000000
+00.0110543 000.999939 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.436523 12842 scan2map_test_serial_processing.cpp:85] t:
+001.05559
+-0.242336
+000000000
+I1023 12:59:11.436542 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.436563 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.442013 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999973 00.0073916 0000000000
+-0.0073916 000.999973 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.442046 12842 scan2map_test_serial_processing.cpp:85] t:
+00.352783
+-0.353429
+000000000
+I1023 12:59:11.442061 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.442072 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.442639 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999994 00.00334045 00000000000
+-0.00334045 0000.999994 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.442653 12842 scan2map_test_serial_processing.cpp:85] t:
+0.174515
+0.666139
+00000000
+I1023 12:59:11.442665 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.442677 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.448462 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99975 -0.0223493 0000000000
+00.0223493 0000.99975 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.448493 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.744376
+-0.518472
+000000000
+I1023 12:59:11.448508 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.448518 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.449935 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999575 -0.0291461 0000000000
+00.0291461 000.999575 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.449976 12842 scan2map_test_serial_processing.cpp:85] t:
+00.460246
+0.0293515
+000000000
+I1023 12:59:11.450004 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.450016 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.452523 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.9999 -0.0140623 0000000000
+00.0140623 00000.9999 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.452560 12842 scan2map_test_serial_processing.cpp:85] t:
+0.809747
+0.248559
+00000000
+I1023 12:59:11.452592 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.452603 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.458323 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 -0.000597984 000000000000
+00.000597984 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.458338 12842 scan2map_test_serial_processing.cpp:85] t:
+000.642056
+-0.0300734
+0000000000
+I1023 12:59:11.458349 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.458360 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.464681 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999996 -0.00111177 00000000000
+00.00111177 0000.999996 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.464699 12842 scan2map_test_serial_processing.cpp:85] t:
+00.355988
+-0.163286
+000000000
+I1023 12:59:11.464711 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.464722 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.465713 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999997 -0.00245786 00000000000
+00.00245786 0000.999997 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.465727 12842 scan2map_test_serial_processing.cpp:85] t:
+000.615939
+-0.0262133
+0000000000
+I1023 12:59:11.465739 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.465750 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.471446 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999984 -0.00566191 00000000000
+00.00566191 0000.999984 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.471505 12842 scan2map_test_serial_processing.cpp:85] t:
+00.789758
+-0.502208
+000000000
+I1023 12:59:11.471519 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.471550 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.476589 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998112 00.0614066 0000000000
+-0.0614066 000.998112 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.476603 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.112889
+-0.466629
+000000000
+I1023 12:59:11.476615 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.476626 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.478284 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999817 00.0191315 0000000000
+-0.0191315 000.999817 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.478297 12842 scan2map_test_serial_processing.cpp:85] t:
+0.913361
+0.242225
+00000000
+I1023 12:59:11.478310 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.478322 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.483629 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999632 00.0271215 0000000000
+-0.0271215 000.999632 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.483644 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0217922
+0-0.380459
+0000000000
+I1023 12:59:11.483656 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.483667 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.484072 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999869 00.0161863 0000000000
+-0.0161863 000.999869 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.484086 12842 scan2map_test_serial_processing.cpp:85] t:
+0.616204
+00.25818
+00000000
+I1023 12:59:11.484098 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.484109 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.485002 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999993 -0.00368345 00000000000
+00.00368345 0000.999993 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.485014 12842 scan2map_test_serial_processing.cpp:85] t:
+00.452342
+-0.337839
+000000000
+I1023 12:59:11.485028 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.485038 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.487282 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998864 -0.0476277 0000000000
+00.0476277 000.998864 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.487295 12842 scan2map_test_serial_processing.cpp:85] t:
+00.17499
+0.454376
+00000000
+I1023 12:59:11.487308 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.487319 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.493234 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999794 -0.0201404 0000000000
+00.0201404 000.999794 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.493273 12842 scan2map_test_serial_processing.cpp:85] t:
+0000.661355
+-0.00949457
+00000000000
+I1023 12:59:11.493296 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.493330 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.494740 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999918 00.0128086 0000000000
+-0.0128086 000.999918 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.494774 12842 scan2map_test_serial_processing.cpp:85] t:
+01.04116
+0.569594
+00000000
+I1023 12:59:11.494798 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.494830 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.500377 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999547 -0.0300958 0000000000
+00.0300958 000.999547 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.500466 12842 scan2map_test_serial_processing.cpp:85] t:
+00.458549
+-0.642304
+000000000
+I1023 12:59:11.500502 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.500557 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.505848 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998754 -0.0499045 0000000000
+00.0499045 000.998754 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.505882 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.385979
+0-1.01321
+000000000
+I1023 12:59:11.505911 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.505923 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.506645 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999985 -0.0054815 0000000000
+00.0054815 000.999985 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.506659 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.45432
+-0.25962
+00000000
+I1023 12:59:11.506706 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.506717 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.512161 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999972 00.00620828 00000000000
+-0.00620828 0000.999972 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.512174 12842 scan2map_test_serial_processing.cpp:85] t:
+0.760654
+0.328235
+00000000
+I1023 12:59:11.512187 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.512198 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.517114 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 -0.000424611 000000000000
+00.000424611 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.517133 12842 scan2map_test_serial_processing.cpp:85] t:
+0000.36222
+-0.0174188
+0000000000
+I1023 12:59:11.517148 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.517158 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.521582 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995252 -0.0973732 0000000000
+00.0973732 000.995252 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.521598 12842 scan2map_test_serial_processing.cpp:85] t:
+00.621265
+-0.540284
+000000000
+I1023 12:59:11.521611 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.521622 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.526676 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 -0.00156152 00000000000
+00.00156152 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.526690 12842 scan2map_test_serial_processing.cpp:85] t:
+00.355762
+0.0034492
+000000000
+I1023 12:59:11.526705 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.526715 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.527980 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99995 -0.0100093 0000000000
+00.0100093 0000.99995 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.528013 12842 scan2map_test_serial_processing.cpp:85] t:
+00.40388
+0.704314
+00000000
+I1023 12:59:11.528043 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.528053 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.530320 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999413 -0.0342259 0000000000
+00.0342259 000.999413 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.530333 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0849319
+0-0.613308
+0000000000
+I1023 12:59:11.530364 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.530376 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.531111 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998491 -0.0549176 0000000000
+00.0549176 000.998491 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.531123 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.700864
+0-1.00324
+000000000
+I1023 12:59:11.531136 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.531147 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.536741 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999617 00.0276718 0000000000
+-0.0276718 000.999617 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.536803 12842 scan2map_test_serial_processing.cpp:85] t:
+0.129342
+0.423274
+00000000
+I1023 12:59:11.536835 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.536846 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.537441 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999805 -0.0197408 0000000000
+00.0197408 000.999805 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.537454 12842 scan2map_test_serial_processing.cpp:85] t:
+0.450518
+0-0.7108
+00000000
+I1023 12:59:11.537467 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.537477 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.542274 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99904 00.0437709 0000000000
+-0.0437709 0000.99904 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.542289 12842 scan2map_test_serial_processing.cpp:85] t:
+0.59029
+1.14635
+0000000
+I1023 12:59:11.542300 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.542311 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.548163 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999997 00.00229105 00000000000
+-0.00229105 0000.999997 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.548197 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.692692
+-0.145645
+000000000
+I1023 12:59:11.548209 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.548220 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.548784 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999937 00.0112128 0000000000
+-0.0112128 000.999937 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.548816 12842 scan2map_test_serial_processing.cpp:85] t:
+0.652884
+0.467028
+00000000
+I1023 12:59:11.548846 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.548856 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.554662 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997528 -0.0701829 0000000000
+00.0701829 000.997528 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.554699 12842 scan2map_test_serial_processing.cpp:85] t:
+00.376046
+-0.340494
+000000000
+I1023 12:59:11.554713 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.554724 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.559965 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99999 00.00447857 00000000000
+-0.00447857 00000.99999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.559998 12842 scan2map_test_serial_processing.cpp:85] t:
+0000.104687
+-0.00974274
+00000000000
+I1023 12:59:11.560012 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.560024 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.560900 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999881 00.0154382 0000000000
+-0.0154382 000.999881 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.560932 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.203224
+00.171673
+000000000
+I1023 12:59:11.560946 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.560958 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.565106 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999728 -0.0232078 0000000000
+00.0232078 000.999728 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.565140 12842 scan2map_test_serial_processing.cpp:85] t:
+00.696281
+-0.809801
+000000000
+I1023 12:59:11.565177 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.565197 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.565954 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999994 -0.00333342 00000000000
+00.00333342 0000.999994 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.565970 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0563381
+-0.0514863
+0000000000
+I1023 12:59:11.565984 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.566013 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.567699 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999686 -0.0250866 0000000000
+00.0250866 000.999686 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.567716 12842 scan2map_test_serial_processing.cpp:85] t:
+0.859004
+0.365283
+00000000
+I1023 12:59:11.567730 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.567742 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.568444 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99955 -0.0300009 0000000000
+00.0300009 0000.99955 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.568485 12842 scan2map_test_serial_processing.cpp:85] t:
+00.484924
+-0.406221
+000000000
+I1023 12:59:11.568501 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.568543 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.574033 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999998 -0.00207424 00000000000
+00.00207424 0000.999998 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.574066 12842 scan2map_test_serial_processing.cpp:85] t:
+0.194599
+0.448871
+00000000
+I1023 12:59:11.574093 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.574105 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.574780 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999961 00.00884786 00000000000
+-0.00884786 0000.999961 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.574793 12842 scan2map_test_serial_processing.cpp:85] t:
+00.343277
+-0.338972
+000000000
+I1023 12:59:11.574826 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.574836 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.575762 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998997 00.0447746 0000000000
+-0.0447746 000.998997 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.575804 12842 scan2map_test_serial_processing.cpp:85] t:
+01.40761
+0.679814
+00000000
+I1023 12:59:11.575819 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.575830 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.576684 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999948 00.0101547 0000000000
+-0.0101547 000.999948 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.576699 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.985282
+-0.261053
+000000000
+I1023 12:59:11.576766 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.576778 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.579188 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999997 -0.00151258 00000000000
+00.00151258 0000.999997 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.579205 12842 scan2map_test_serial_processing.cpp:85] t:
+000.342315
+-0.0254641
+0000000000
+I1023 12:59:11.579233 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.579244 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.585373 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995711 00.0925125 0000000000
+-0.0925125 000.995711 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.585391 12842 scan2map_test_serial_processing.cpp:85] t:
+1.20324
+0.43212
+0000000
+I1023 12:59:11.585405 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.585417 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.585955 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997883 00.0650309 0000000000
+-0.0650309 000.997883 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.585990 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.139708
+00.181178
+000000000
+I1023 12:59:11.586014 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.586047 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.587198 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 -0.000531971 000000000000
+00.000531971 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.587235 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0137661
+-0.914836
+000000000
+I1023 12:59:11.587260 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.587292 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.588227 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999989 00.00473896 00000000000
+-0.00473896 0000.999989 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.588240 12842 scan2map_test_serial_processing.cpp:85] t:
+0.181998
+0.501057
+00000000
+I1023 12:59:11.588253 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.588264 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.590293 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998769 00.049612 000000000
+-0.049612 00.998769 000000000
+000000000 000000000 000000001
+I1023 12:59:11.590306 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.902087
+-0.428665
+000000000
+I1023 12:59:11.590319 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.590330 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.591594 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999407 -0.0344187 0000000000
+00.0344187 000.999407 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.591607 12842 scan2map_test_serial_processing.cpp:85] t:
+00.693978
+-0.595414
+000000000
+I1023 12:59:11.591620 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.591631 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.598793 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99999 -0.00455088 00000000000
+00.00455088 00000.99999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.598829 12842 scan2map_test_serial_processing.cpp:85] t:
+00.032279
+-0.346137
+000000000
+I1023 12:59:11.598842 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.598853 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.600121 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999889 00.0148819 0000000000
+-0.0148819 000.999889 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.600154 12842 scan2map_test_serial_processing.cpp:85] t:
+0.321701
+00.69827
+00000000
+I1023 12:59:11.600168 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.600179 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.605576 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999995 -0.00325349 00000000000
+00.00325349 0000.999995 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.605605 12842 scan2map_test_serial_processing.cpp:85] t:
+00.645399
+0.0852647
+000000000
+I1023 12:59:11.605619 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.605630 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.611217 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999719 -0.0237175 0000000000
+00.0237175 000.999719 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.611250 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0314186
+000.753763
+0000000000
+I1023 12:59:11.611279 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.611290 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.614099 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997332 -0.0729972 0000000000
+00.0729972 000.997332 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.614114 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.615846
+0-1.21218
+000000000
+I1023 12:59:11.614145 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.614174 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.620473 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999935 00.0112259 0000000000
+-0.0112259 000.999935 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.620492 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0110397
+00.594256
+000000000
+I1023 12:59:11.620507 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.620517 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.626134 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999159 00.0410111 0000000000
+-0.0410111 000.999159 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.626152 12842 scan2map_test_serial_processing.cpp:85] t:
+000-0.251
+-0.487426
+000000000
+I1023 12:59:11.626165 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.626176 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.627692 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999714 -0.0238979 0000000000
+00.0238979 000.999714 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.627727 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0913836
+0-0.255266
+0000000000
+I1023 12:59:11.627751 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.627789 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.633796 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999583 00.0290217 0000000000
+-0.0290217 000.999583 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.633812 12842 scan2map_test_serial_processing.cpp:85] t:
+0.375322
+0.298171
+00000000
+I1023 12:59:11.633852 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.633879 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.639262 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99975 -0.0221748 0000000000
+00.0221748 0000.99975 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.639277 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.23996
+-0.65791
+00000000
+I1023 12:59:11.639312 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.639325 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.640107 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999448 -0.0332242 0000000000
+00.0332242 000.999448 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.640120 12842 scan2map_test_serial_processing.cpp:85] t:
+00.281823
+0.0834002
+000000000
+I1023 12:59:11.640146 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.640158 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.641659 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998186 00.0602231 0000000000
+-0.0602231 000.998186 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.641672 12842 scan2map_test_serial_processing.cpp:85] t:
+00.27878
+0.242132
+00000000
+I1023 12:59:11.641685 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.641696 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.649000 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998906 00.046701 000000000
+-0.046701 00.998906 000000000
+000000000 000000000 000000001
+I1023 12:59:11.649019 12842 scan2map_test_serial_processing.cpp:85] t:
+01.24624
+0.546505
+00000000
+I1023 12:59:11.649034 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.649045 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.655942 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999045 00.043741 000000000
+-0.043741 00.999045 000000000
+000000000 000000000 000000001
+I1023 12:59:11.655979 12842 scan2map_test_serial_processing.cpp:85] t:
+00.448907
+-0.402241
+000000000
+I1023 12:59:11.656004 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.656037 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.662570 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999156 00.0410194 0000000000
+-0.0410194 000.999156 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.662606 12842 scan2map_test_serial_processing.cpp:85] t:
+0-1.43166
+-0.131465
+000000000
+I1023 12:59:11.662631 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.662663 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.663601 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999984 00.00572562 00000000000
+-0.00572562 0000.999984 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.663637 12842 scan2map_test_serial_processing.cpp:85] t:
+00.42948
+-0.76637
+00000000
+I1023 12:59:11.663661 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.663694 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.665125 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999855 00.0170916 0000000000
+-0.0170916 000.999855 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.665160 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.268198
+00.211873
+000000000
+I1023 12:59:11.665182 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.665212 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.665948 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999928 00.012003 000000000
+-0.012003 00.999928 000000000
+000000000 000000000 000000001
+I1023 12:59:11.665983 12842 scan2map_test_serial_processing.cpp:85] t:
+00.422963
+-0.226743
+000000000
+I1023 12:59:11.666008 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.666041 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.672046 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999987 -0.00391482 00000000000
+00.00391482 0000.999987 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.672091 12842 scan2map_test_serial_processing.cpp:85] t:
+00.382246
+-0.022708
+000000000
+I1023 12:59:11.672106 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.672117 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.672760 12842 scan2map_test_serial_processing.cpp:84] R:
+0.999791 -0.02043 00000000
+00.02043 0.999791 00000000
+00000000 00000000 00000001
+I1023 12:59:11.672775 12842 scan2map_test_serial_processing.cpp:85] t:
+0.725803
+-0.49964
+00000000
+I1023 12:59:11.672787 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.672798 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.673648 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999642 -0.0267481 0000000000
+00.0267481 000.999642 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.673661 12842 scan2map_test_serial_processing.cpp:85] t:
+0.748172
+0.295665
+00000000
+I1023 12:59:11.673674 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.673686 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.678810 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99999 -0.00289601 00000000000
+00.00289601 00000.99999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.678825 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.762982
+-0.514793
+000000000
+I1023 12:59:11.678840 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.678851 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.680828 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999283 -0.0378257 0000000000
+00.0378257 000.999283 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.680843 12842 scan2map_test_serial_processing.cpp:85] t:
+00.826264
+-0.806665
+000000000
+I1023 12:59:11.680856 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.680867 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.682971 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998133 00.0611059 0000000000
+-0.0611059 000.998133 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.682987 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.558172
+00.550507
+000000000
+I1023 12:59:11.683003 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.683015 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.683969 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998479 00.0551328 0000000000
+-0.0551328 000.998479 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.683984 12842 scan2map_test_serial_processing.cpp:85] t:
+0-0.536751
+-0.0656753
+0000000000
+I1023 12:59:11.683998 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.684010 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.689085 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999956 -0.00941853 00000000000
+00.00941853 0000.999956 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.689098 12842 scan2map_test_serial_processing.cpp:85] t:
+0001.41121
+-0.0407904
+0000000000
+I1023 12:59:11.689111 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.689122 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.693795 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999458 -0.0329088 0000000000
+00.0329088 000.999458 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.693809 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0149059
+0-0.136719
+0000000000
+I1023 12:59:11.693840 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.693853 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.698912 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999918 -0.0129389 0000000000
+00.0129389 000.999918 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.698926 12842 scan2map_test_serial_processing.cpp:85] t:
+0.625241
+0.500102
+00000000
+I1023 12:59:11.698940 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.698951 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.704082 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998673 00.0513819 0000000000
+-0.0513819 000.998673 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.704094 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.290171
+00.809979
+000000000
+I1023 12:59:11.704107 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.704119 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.704568 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998227 -0.0595166 0000000000
+00.0595166 000.998227 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.704581 12842 scan2map_test_serial_processing.cpp:85] t:
+001.27779
+-0.584818
+000000000
+I1023 12:59:11.704594 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.704607 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.709547 12842 scan2map_test_serial_processing.cpp:84] R:
+00.991664 00.128897 000000000
+-0.128897 00.991664 000000000
+000000000 000000000 000000001
+I1023 12:59:11.709563 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.190521
+00.968489
+000000000
+I1023 12:59:11.709578 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.709589 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.714740 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999884 -0.0152502 0000000000
+00.0152502 000.999884 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.714756 12842 scan2map_test_serial_processing.cpp:85] t:
+00.696698
+-0.190975
+000000000
+I1023 12:59:11.714769 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.714780 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.716181 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999244 00.0388713 0000000000
+-0.0388713 000.999244 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.716194 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0775931
+00.965027
+000000000
+I1023 12:59:11.716207 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.716219 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.721110 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997148 00.0754222 0000000000
+-0.0754222 000.997148 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.721124 12842 scan2map_test_serial_processing.cpp:85] t:
+000.907799
+-0.0810682
+0000000000
+I1023 12:59:11.721138 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.721148 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.726039 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998446 -0.055728 000000000
+00.055728 00.998446 000000000
+000000000 000000000 000000001
+I1023 12:59:11.726053 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0712633
+-0.412351
+000000000
+I1023 12:59:11.726066 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.726078 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.726606 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99998 -0.00636009 00000000000
+00.00636009 00000.99998 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.726637 12842 scan2map_test_serial_processing.cpp:85] t:
+00.844254
+-0.863303
+000000000
+I1023 12:59:11.726651 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.726663 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.727483 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995381 00.0960045 0000000000
+-0.0960045 000.995381 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.727495 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.844434
+-0.433413
+000000000
+I1023 12:59:11.727509 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.727520 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.732434 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999974 -0.00741402 00000000000
+00.00741402 0000.999974 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.732447 12842 scan2map_test_serial_processing.cpp:85] t:
+0-0.31475
+-0.194511
+000000000
+I1023 12:59:11.732460 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.732471 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.733309 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999818 00.0190591 0000000000
+-0.0190591 000.999818 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.733323 12842 scan2map_test_serial_processing.cpp:85] t:
+1.68166
+0.72904
+0000000
+I1023 12:59:11.733336 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.733347 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.733990 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997235 00.0743097 0000000000
+-0.0743097 000.997235 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.734004 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0895185
+00.806077
+000000000
+I1023 12:59:11.734016 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.734027 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.734964 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999534 -0.0305299 0000000000
+00.0305299 000.999534 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.734978 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0304298
+-0.269539
+000000000
+I1023 12:59:11.734992 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.735002 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.740128 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997981 00.0635045 0000000000
+-0.0635045 000.997981 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.740144 12842 scan2map_test_serial_processing.cpp:85] t:
+0.227213
+0.608831
+00000000
+I1023 12:59:11.740157 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.740170 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.740787 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998791 -0.0491535 0000000000
+00.0491535 000.998791 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.740801 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.336043
+-0.756802
+000000000
+I1023 12:59:11.740813 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.740825 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.742229 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998882 -0.0472587 0000000000
+00.0472587 000.998882 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.742245 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.407807
+-0.286195
+000000000
+I1023 12:59:11.742259 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.742290 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.747004 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999978 00.00655921 00000000000
+-0.00655921 0000.999978 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.747018 12842 scan2map_test_serial_processing.cpp:85] t:
+001.40165
+-0.836495
+000000000
+I1023 12:59:11.747031 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.747042 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.747678 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999252 00.0386593 0000000000
+-0.0386593 000.999252 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.747690 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.476889
+001.61815
+000000000
+I1023 12:59:11.747704 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.747715 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.752727 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998264 -0.0588929 0000000000
+00.0588929 000.998264 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.752740 12842 scan2map_test_serial_processing.cpp:85] t:
+01.46093
+-1.47748
+00000000
+I1023 12:59:11.752753 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.752764 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.757467 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997715 00.0675671 0000000000
+-0.0675671 000.997715 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.757481 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0150986
+0001.64146
+0000000000
+I1023 12:59:11.757494 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.757505 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.758049 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999238 00.0390262 0000000000
+-0.0390262 000.999238 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.758064 12842 scan2map_test_serial_processing.cpp:85] t:
+0.170311
+-1.15187
+00000000
+I1023 12:59:11.758076 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.758087 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.759745 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998796 00.0490574 0000000000
+-0.0490574 000.998796 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.759758 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.617057
+00.070713
+000000000
+I1023 12:59:11.759771 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.759783 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.760838 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99993 -0.0118663 0000000000
+00.0118663 0000.99993 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.760851 12842 scan2map_test_serial_processing.cpp:85] t:
+0.184729
+0.422584
+00000000
+I1023 12:59:11.760864 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.760874 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.764830 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998286 -0.0585275 0000000000
+00.0585275 000.998286 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.764843 12842 scan2map_test_serial_processing.cpp:85] t:
+001.25238
+-0.825595
+000000000
+I1023 12:59:11.764855 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.764866 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.769940 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.999997 -0.000336035 000000000000
+00.000336035 00000.999997 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.769973 12842 scan2map_test_serial_processing.cpp:85] t:
+000.403158
+-0.0227993
+0000000000
+I1023 12:59:11.769986 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.769997 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.775144 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999964 -0.00849908 00000000000
+00.00849908 0000.999964 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.775182 12842 scan2map_test_serial_processing.cpp:85] t:
+00.26039
+0.386087
+00000000
+I1023 12:59:11.775206 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.775238 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.778295 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999512 -0.0312442 0000000000
+00.0312442 000.999512 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.778329 12842 scan2map_test_serial_processing.cpp:85] t:
+0.837511
+0.304956
+00000000
+I1023 12:59:11.778353 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.778385 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.779917 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999777 00.0211444 0000000000
+-0.0211444 000.999777 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.779953 12842 scan2map_test_serial_processing.cpp:85] t:
+01.06452
+-0.37317
+00000000
+I1023 12:59:11.779976 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.780009 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.780879 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999833 -0.0182736 0000000000
+00.0182736 000.999833 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.780915 12842 scan2map_test_serial_processing.cpp:85] t:
+0.659608
+0.234038
+00000000
+I1023 12:59:11.780937 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.780969 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.788453 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999819 00.0190681 0000000000
+-0.0190681 000.999819 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.788467 12842 scan2map_test_serial_processing.cpp:85] t:
+00.972623
+-0.296832
+000000000
+I1023 12:59:11.788480 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.788491 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.790458 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999986 -0.00547553 00000000000
+00.00547553 0000.999986 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.790472 12842 scan2map_test_serial_processing.cpp:85] t:
+0.392244
+0.641675
+00000000
+I1023 12:59:11.790484 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.790495 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.791559 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999665 00.0258794 0000000000
+-0.0258794 000.999665 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.791572 12842 scan2map_test_serial_processing.cpp:85] t:
+0.904496
+-1.15862
+00000000
+I1023 12:59:11.791606 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.791635 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.794858 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999695 00.0247497 0000000000
+-0.0247497 000.999695 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.794893 12842 scan2map_test_serial_processing.cpp:85] t:
+00.410667
+0.0461894
+000000000
+I1023 12:59:11.794924 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.794955 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.795498 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.99986 00.0167412 0000000000
+-0.0167412 0000.99986 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.795512 12842 scan2map_test_serial_processing.cpp:85] t:
+0.566361
+00.87537
+00000000
+I1023 12:59:11.795559 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.795570 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.796607 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999877 -0.0156651 0000000000
+00.0156651 000.999877 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.796620 12842 scan2map_test_serial_processing.cpp:85] t:
+0.697999
+-0.30384
+00000000
+I1023 12:59:11.796669 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.796679 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.801707 12842 scan2map_test_serial_processing.cpp:84] R:
+00.996474 -0.083798 000000000
+00.083798 00.996474 000000000
+000000000 000000000 000000001
+I1023 12:59:11.801723 12842 scan2map_test_serial_processing.cpp:85] t:
+02.52804
+0.677547
+00000000
+I1023 12:59:11.801736 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.801748 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.804455 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999593 -0.0285465 0000000000
+00.0285465 000.999593 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.804472 12842 scan2map_test_serial_processing.cpp:85] t:
+001.30475
+-0.331628
+000000000
+I1023 12:59:11.804486 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.804497 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.809435 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999993 00.00365341 00000000000
+-0.00365341 0000.999993 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.809451 12842 scan2map_test_serial_processing.cpp:85] t:
+0.00933075
+0-0.678538
+0000000000
+I1023 12:59:11.809464 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.809475 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.810042 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998498 00.0547856 0000000000
+-0.0547856 000.998498 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.810091 12842 scan2map_test_serial_processing.cpp:85] t:
+0.143112
+0.894749
+00000000
+I1023 12:59:11.810120 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.810166 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.813148 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999675 -0.0254386 0000000000
+00.0254386 000.999675 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.813161 12842 scan2map_test_serial_processing.cpp:85] t:
+001.2237
+-1.26546
+00000000
+I1023 12:59:11.813215 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.813226 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.815562 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999094 -0.0425894 0000000000
+00.0425894 000.999094 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.815588 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.667838
+0-0.24211
+000000000
+I1023 12:59:11.815608 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.815626 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.821280 12842 scan2map_test_serial_processing.cpp:84] R:
+00.993422 00.114515 000000000
+-0.114515 00.993422 000000000
+000000000 000000000 000000001
+I1023 12:59:11.821355 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.734041
+0-1.57326
+000000000
+I1023 12:59:11.821390 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.821419 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.826674 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999049 -0.0435878 0000000000
+00.0435878 000.999049 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.826689 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.176297
+0-0.98892
+000000000
+I1023 12:59:11.826700 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.826711 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.832289 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999987 00.00378869 00000000000
+-0.00378869 0000.999987 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.832304 12842 scan2map_test_serial_processing.cpp:85] t:
+00.601714
+0.0678963
+000000000
+I1023 12:59:11.832319 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.832329 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.833647 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.999999 -0.000177383 000000000000
+00.000177383 00000.999999 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.833686 12842 scan2map_test_serial_processing.cpp:85] t:
+000.453909
+-0.0673933
+0000000000
+I1023 12:59:11.833719 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.833730 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.834638 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999917 00.0128761 0000000000
+-0.0128761 000.999917 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.834676 12842 scan2map_test_serial_processing.cpp:85] t:
+00.217878
+0.0897704
+000000000
+I1023 12:59:11.834692 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.834702 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.840606 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999904 -0.0138008 0000000000
+00.0138008 000.999904 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.840623 12842 scan2map_test_serial_processing.cpp:85] t:
+00.548959
+-0.948675
+000000000
+I1023 12:59:11.840636 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.840648 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.841275 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999679 -0.025343 000000000
+00.025343 00.999679 000000000
+000000000 000000000 000000001
+I1023 12:59:11.841288 12842 scan2map_test_serial_processing.cpp:85] t:
+00.199449
+-0.193821
+000000000
+I1023 12:59:11.841301 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.841312 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.844126 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999795 00.0203939 0000000000
+-0.0203939 000.999795 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.844139 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0655457
+0-0.186981
+0000000000
+I1023 12:59:11.844152 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.844163 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.847412 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999626 -0.0272178 0000000000
+00.0272178 000.999626 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.847425 12842 scan2map_test_serial_processing.cpp:85] t:
+00.361928
+-0.928447
+000000000
+I1023 12:59:11.847438 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.847468 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.853221 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999482 00.0321954 0000000000
+-0.0321954 000.999482 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.853235 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0798024
+0000.73869
+0000000000
+I1023 12:59:11.853248 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.853260 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.854390 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 -0.00105198 00000000000
+00.00105198 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.854403 12842 scan2map_test_serial_processing.cpp:85] t:
+000.429973
+-0.0234058
+0000000000
+I1023 12:59:11.854415 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.854427 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.859278 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 -0.00114313 00000000000
+00.00114313 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.859292 12842 scan2map_test_serial_processing.cpp:85] t:
+000.444082
+-0.0323229
+0000000000
+I1023 12:59:11.859304 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.859315 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.864589 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999929 00.0118856 0000000000
+-0.0118856 000.999929 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.864606 12842 scan2map_test_serial_processing.cpp:85] t:
+000.297886
+0.00533117
+0000000000
+I1023 12:59:11.864619 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.864630 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.866145 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999979 00.00639623 00000000000
+-0.00639623 0000.999979 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.866160 12842 scan2map_test_serial_processing.cpp:85] t:
+0.386147
+00.29338
+00000000
+I1023 12:59:11.866174 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.866185 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.868178 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997933 -0.0642406 0000000000
+00.0642406 000.997933 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.868192 12842 scan2map_test_serial_processing.cpp:85] t:
+001.93074
+-0.148083
+000000000
+I1023 12:59:11.868206 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.868216 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.874215 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999991 00.00385852 00000000000
+-0.00385852 0000.999991 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.874229 12842 scan2map_test_serial_processing.cpp:85] t:
+000.238655
+-0.0215065
+0000000000
+I1023 12:59:11.874243 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.874253 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.875102 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999906 -0.0136817 0000000000
+00.0136817 000.999906 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.875116 12842 scan2map_test_serial_processing.cpp:85] t:
+001.11231
+-0.236788
+000000000
+I1023 12:59:11.875145 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.875156 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.875779 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 -3.20077e-05 000000000000
+03.20077e-05 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.875862 12842 scan2map_test_serial_processing.cpp:85] t:
+000.465042
+-0.0357022
+0000000000
+I1023 12:59:11.875877 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.875888 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.876917 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999954 00.00959188 00000000000
+-0.00959188 0000.999954 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.876930 12842 scan2map_test_serial_processing.cpp:85] t:
+0001.01714
+-0.0331945
+0000000000
+I1023 12:59:11.876943 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.876955 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.882169 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999244 00.0388721 0000000000
+-0.0388721 000.999244 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.882182 12842 scan2map_test_serial_processing.cpp:85] t:
+00.919272
+-0.752704
+000000000
+I1023 12:59:11.882195 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.882206 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.887010 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999813 00.0193064 0000000000
+-0.0193064 000.999813 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.887023 12842 scan2map_test_serial_processing.cpp:85] t:
+00.438717
+0.0709257
+000000000
+I1023 12:59:11.887037 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.887048 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.887667 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999245 -0.0388545 0000000000
+00.0388545 000.999245 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.887681 12842 scan2map_test_serial_processing.cpp:85] t:
+002.87806
+-0.331991
+000000000
+I1023 12:59:11.887693 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.887704 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.889739 12842 scan2map_test_serial_processing.cpp:84] R:
+000.998818 00.0486188 0000000000
+-0.0486188 000.998818 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.889752 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.317439
+00.534783
+000000000
+I1023 12:59:11.889765 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.889776 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.890458 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999701 00.0244534 0000000000
+-0.0244534 000.999701 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.890471 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.166582
+-0.326611
+000000000
+I1023 12:59:11.890484 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.890496 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.891003 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998237 00.059356 000000000
+-0.059356 00.998237 000000000
+000000000 000000000 000000001
+I1023 12:59:11.891016 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.635105
+-0.229783
+000000000
+I1023 12:59:11.891028 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.891039 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.896009 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999876 -0.0157421 0000000000
+00.0157421 000.999876 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.896025 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.310487
+00.641098
+000000000
+I1023 12:59:11.896060 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.896073 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.901139 12842 scan2map_test_serial_processing.cpp:84] R:
+00.999999 00.001378 000000000
+-0.001378 00.999999 000000000
+000000000 000000000 000000001
+I1023 12:59:11.901154 12842 scan2map_test_serial_processing.cpp:85] t:
+000.447827
+-0.0479841
+0000000000
+I1023 12:59:11.901166 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.901177 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.902698 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995025 00.0996266 0000000000
+-0.0996266 000.995025 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.902730 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.881433
+00.845846
+000000000
+I1023 12:59:11.902760 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.902770 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.904013 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999967 -0.00808474 00000000000
+00.00808474 0000.999967 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.904027 12842 scan2map_test_serial_processing.cpp:85] t:
+00.681949
+-0.170239
+000000000
+I1023 12:59:11.904039 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.904050 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.904595 12842 scan2map_test_serial_processing.cpp:84] R:
+00000.99999 00.00445211 00000000000
+-0.00445211 00000.99999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.904609 12842 scan2map_test_serial_processing.cpp:85] t:
+0001.13208
+-0.0282473
+0000000000
+I1023 12:59:11.904621 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.904633 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.905323 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997635 00.0687389 0000000000
+-0.0687389 000.997635 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.905335 12842 scan2map_test_serial_processing.cpp:85] t:
+0.0266256
+00.580887
+000000000
+I1023 12:59:11.905349 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.905359 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.905791 12842 scan2map_test_serial_processing.cpp:84] R:
+000.996321 00.0856929 0000000000
+-0.0856929 000.996321 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.905804 12842 scan2map_test_serial_processing.cpp:85] t:
+00.537269
+-0.660526
+000000000
+I1023 12:59:11.905817 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.905828 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.910856 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997902 00.0646769 0000000000
+-0.0646769 000.997902 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.910869 12842 scan2map_test_serial_processing.cpp:85] t:
+00.709757
+-0.359571
+000000000
+I1023 12:59:11.910882 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.910893 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.913554 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995963 00.0898121 0000000000
+-0.0898121 000.995963 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.913568 12842 scan2map_test_serial_processing.cpp:85] t:
+-1.50489
+01.59952
+00000000
+I1023 12:59:11.913580 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.913591 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.915226 12842 scan2map_test_serial_processing.cpp:84] R:
+00.992827 00.119548 000000000
+-0.119548 00.992827 000000000
+000000000 000000000 000000001
+I1023 12:59:11.915241 12842 scan2map_test_serial_processing.cpp:85] t:
+0.199611
+01.73328
+00000000
+I1023 12:59:11.915252 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.915263 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.915714 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999954 -0.00958472 00000000000
+00.00958472 0000.999954 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.915727 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.686309
+-0.245507
+000000000
+I1023 12:59:11.915740 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.915751 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.916077 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 00.000348449 000000000000
+-0.000348449 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.916090 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.544535
+-0.265723
+000000000
+I1023 12:59:11.916102 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.916113 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.917367 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997486 00.0708506 0000000000
+-0.0708506 000.997486 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.917382 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.606274
+00.552395
+000000000
+I1023 12:59:11.917393 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.917404 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.919387 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997062 00.0766312 0000000000
+-0.0766312 000.997062 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.919400 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.350289
+001.31899
+000000000
+I1023 12:59:11.919413 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.919425 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.920368 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999996 -0.0030041 0000000000
+00.0030041 000.999996 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.920382 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0653515
+-0.0134386
+0000000000
+I1023 12:59:11.920394 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.920405 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.924171 12842 scan2map_test_serial_processing.cpp:84] R:
+00.994079 00.108662 000000000
+-0.108662 00.994079 000000000
+000000000 000000000 000000001
+I1023 12:59:11.924213 12842 scan2map_test_serial_processing.cpp:85] t:
+01.39955
+0.885619
+00000000
+I1023 12:59:11.924237 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.924261 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.927487 12842 scan2map_test_serial_processing.cpp:84] R:
+00.992795 00.119845 000000000
+-0.119845 00.992795 000000000
+000000000 000000000 000000001
+I1023 12:59:11.927502 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0827896
+00001.8117
+0000000000
+I1023 12:59:11.927515 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.927526 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.927917 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 00.000332892 000000000000
+-0.000332892 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.927930 12842 scan2map_test_serial_processing.cpp:85] t:
+00.021533
+0.0129478
+000000000
+I1023 12:59:11.927963 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.927975 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.928296 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 -0.00145125 00000000000
+00.00145125 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.928309 12842 scan2map_test_serial_processing.cpp:85] t:
+000.0392561
+-0.00337243
+00000000000
+I1023 12:59:11.928323 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.928333 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.928635 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 00.000353664 000000000000
+-0.000353664 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.928648 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0284576
+0.00900906
+0000000000
+I1023 12:59:11.928661 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.928673 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.929054 12842 scan2map_test_serial_processing.cpp:84] R:
+00.972409 00.233284 000000000
+-0.233284 00.972409 000000000
+000000000 000000000 000000001
+I1023 12:59:11.929066 12842 scan2map_test_serial_processing.cpp:85] t:
+1.53798
+2.72012
+0000000
+I1023 12:59:11.929078 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.929090 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.929455 12842 scan2map_test_serial_processing.cpp:84] R:
+00.998933 -0.046175 000000000
+00.046175 00.998933 000000000
+000000000 000000000 000000001
+I1023 12:59:11.929468 12842 scan2map_test_serial_processing.cpp:85] t:
+0-1.29687
+-0.804458
+000000000
+I1023 12:59:11.929481 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.929492 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.929805 12842 scan2map_test_serial_processing.cpp:84] R:
+00.972422 00.233228 000000000
+-0.233228 00.972422 000000000
+000000000 000000000 000000001
+I1023 12:59:11.929817 12842 scan2map_test_serial_processing.cpp:85] t:
+1.56925
+02.7265
+0000000
+I1023 12:59:11.929829 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.929841 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.930140 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 00.000354409 000000000000
+-0.000354409 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.930152 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0335269
+0.00448441
+0000000000
+I1023 12:59:11.930166 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.930176 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.930672 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999995 -0.00331302 00000000000
+00.00331302 0000.999995 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.930685 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.417624
+001.65943
+000000000
+I1023 12:59:11.930698 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.930709 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.931476 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999275 00.0380814 0000000000
+-0.0380814 000.999275 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.931489 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.858433
+0.0259738
+000000000
+I1023 12:59:11.931502 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.931514 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.932047 12842 scan2map_test_serial_processing.cpp:84] R:
+0.994725 00.10258 00000000
+-0.10258 0.994725 00000000
+00000000 00000000 00000001
+I1023 12:59:11.932060 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.344987
+001.96432
+000000000
+I1023 12:59:11.932073 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.932085 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.932343 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999756 00.0221043 0000000000
+-0.0221043 000.999756 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.932355 12842 scan2map_test_serial_processing.cpp:85] t:
+00.302216
+0.0297527
+000000000
+I1023 12:59:11.932368 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.932379 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.932806 12842 scan2map_test_serial_processing.cpp:84] R:
+00.985195 -0.171436 000000000
+00.171436 00.985195 000000000
+000000000 000000000 000000001
+I1023 12:59:11.932818 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.0605325
+0-0.426326
+0000000000
+I1023 12:59:11.932830 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.932842 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.934613 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999544 00.0301465 0000000000
+-0.0301465 000.999544 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.934628 12842 scan2map_test_serial_processing.cpp:85] t:
+00.348358
+0.0861806
+000000000
+I1023 12:59:11.934639 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.934650 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.935575 12842 scan2map_test_serial_processing.cpp:84] R:
+000.996151 00.0876461 0000000000
+-0.0876461 000.996151 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.935612 12842 scan2map_test_serial_processing.cpp:85] t:
+00.96492
+0.853495
+00000000
+I1023 12:59:11.935638 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.935674 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.936841 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999793 00.0203912 0000000000
+-0.0203912 000.999793 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.936854 12842 scan2map_test_serial_processing.cpp:85] t:
+00.286454
+0.0105178
+000000000
+I1023 12:59:11.936867 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.936878 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.940639 12842 scan2map_test_serial_processing.cpp:84] R:
+000000000001 -0.000241667 000000000000
+00.000241667 000000000001 000000000000
+000000000000 000000000000 000000000001
+I1023 12:59:11.940652 12842 scan2map_test_serial_processing.cpp:85] t:
+000.0109005
+-0.00304794
+00000000000
+I1023 12:59:11.940665 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.940676 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.941151 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 00.00169882 00000000000
+-0.00169882 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.941165 12842 scan2map_test_serial_processing.cpp:85] t:
+0.000536919
+000.0336883
+00000000000
+I1023 12:59:11.941179 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.941190 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.941522 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999999 -0.0012112 0000000000
+00.0012112 000.999999 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.941535 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.00471782
+0-0.0276344
+00000000000
+I1023 12:59:11.941561 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.941573 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.945562 12842 scan2map_test_serial_processing.cpp:84] R:
+000.995355 00.0962799 0000000000
+-0.0962799 000.995355 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.945575 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.443268
+001.75754
+000000000
+I1023 12:59:11.945588 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.945600 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.946413 12842 scan2map_test_serial_processing.cpp:84] R:
+00000000001 -0.00112501 00000000000
+00.00112501 00000000001 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.946432 12842 scan2map_test_serial_processing.cpp:85] t:
+000.0190325
+-0.00624705
+00000000000
+I1023 12:59:11.946465 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.946475 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.946902 12842 scan2map_test_serial_processing.cpp:84] R:
+0000.999999 -0.00144142 00000000000
+00.00144142 0000.999999 00000000000
+00000000000 00000000000 00000000001
+I1023 12:59:11.946945 12842 scan2map_test_serial_processing.cpp:85] t:
+00.0294113
+-0.0189323
+0000000000
+I1023 12:59:11.946976 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.947026 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.948681 12842 scan2map_test_serial_processing.cpp:84] R:
+000.999596 00.0284073 0000000000
+-0.0284073 000.999596 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.948695 12842 scan2map_test_serial_processing.cpp:85] t:
+00.416529
+0.0928316
+000000000
+I1023 12:59:11.948709 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.948719 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.949579 12842 scan2map_test_serial_processing.cpp:84] R:
+00.982277 00.187435 000000000
+-0.187435 00.982277 000000000
+000000000 000000000 000000001
+I1023 12:59:11.949592 12842 scan2map_test_serial_processing.cpp:85] t:
+0.789358
+02.63858
+00000000
+I1023 12:59:11.949621 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.949632 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.950718 12842 scan2map_test_serial_processing.cpp:84] R:
+000.997917 00.0645136 0000000000
+-0.0645136 000.997917 0000000000
+0000000000 0000000000 0000000001
+I1023 12:59:11.950732 12842 scan2map_test_serial_processing.cpp:85] t:
+-0.494349
+000.10145
+000000000
+I1023 12:59:11.950745 12842 scan2map_test_serial_processing.cpp:91] *R_accumulated:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.950757 12842 scan2map_test_serial_processing.cpp:92] *t_accumulated:******************
+0
+0
+0
+I1023 12:59:11.950775 12842 scan2map_test_serial_processing.cpp:107] final displacement is believed to be
+:0 0 0
+I1023 12:59:11.950783 12842 scan2map_test_serial_processing.cpp:108] final ROTATION is believed to be:
+1 0 0
+0 1 0
+0 0 1
+I1023 12:59:11.968027 12842 scan2map_test_serial_processing.cpp:158] done
