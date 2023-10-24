@@ -62,3 +62,9 @@ target_link_libraries(scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBR
 add_executable( pcl_scan2scan_test_serial_processing pcl_scan2scan_test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
 target_include_directories(pcl_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(pcl_scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
+
+
+
+add_executable( pcl_scan2map_test_serial_processing pcl_scan2map_test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
+target_include_directories(pcl_scan2map_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(pcl_scan2map_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)

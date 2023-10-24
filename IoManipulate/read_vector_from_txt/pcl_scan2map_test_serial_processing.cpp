@@ -8,6 +8,9 @@
 ./test_serial_processing --filename_prefix="../scans/gassel/single_scan_" --max_iteration=702
 ./test_serial_processing --filename_prefix="../scans/Fendt_new/single_scan_" --max_iteration=474
 */
+
+
+
 #include "read_vector_from_txt.hpp"
 #include "icp2d.h"
 #include <vector>
@@ -15,11 +18,6 @@
 #include <glog/logging.h>
 #include <gflags/gflags.h>
 #include <pcl/registration/icp.h>
-
-
-
-
-
 
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
@@ -40,9 +38,7 @@ int main(int argc, char* argv[]) {
     Vec3d t_accumulated = Vec3d::Zero();
     Vec3d path_accumulated =Vec3d::Zero();
     Mat3d Rotation_accumulated = Mat3d::Identity();
-    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
-    pcl::PointCloud<pcl::PointXYZ>::Ptr targetCloud(new pcl::PointCloud<pcl::PointXYZ>); 
-
+    pcl::PointCloud<pcl::PointXYZ>::Ptr globalMap(new pcl::PointCloud<pcl::PointXYZ>); 
 
     for(int i = 0; i <= FLAGS_max_iteration; i++) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
@@ -50,36 +46,30 @@ int main(int argc, char* argv[]) {
         std::vector<Eigen::Vector3d> fileData = readXYFromFile_double(filename);
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
 
-
-
-        
         pcl::PointCloud<pcl::PointXYZ>::Ptr currentCloud = vectorToPointCloud_2D<pcl::PointXYZ>(fileData);
+
         if (i == 0) {
-            targetCloud = currentCloud;
+            *globalMap = *currentCloud;
             continue;
         }
-        
-        // Updating the targetCloud by getting the aligned version of the current targetCloud.
-        // This means that the transformation found in the previous ICP iteration is applied to the targetCloud,
-        // making it aligned with the previous source cloud (currentCloud in the previous iteration).
-        //targetCloud = icp_processor.getAlignedTargetCloud(targetCloud);
 
-        // Performing the ICP alignment using the currentCloud as the source and the updated targetCloud.
-        // The ICP processor will find the best transformation to align currentCloud to the targetCloud,
-        // preparing it for the next iteration.
-        icp_processor.align(currentCloud, targetCloud);
+        icp_processor.align(currentCloud, globalMap); 
 
-        Eigen::Matrix4f R_t;
+        Mat3d R;
+        Vec3d t;
         if(icp_processor.hasConverged()) {
-            R_t = icp_processor.getFinalTransformation() ;
+            Eigen::Matrix4f R_t = icp_processor.getFinalTransformation();
             std::cout << "ICP has converged. Transformation Matrix: \n";
-            std::cout << R_t<< std::endl;
+            std::cout << R_t << std::endl;
+            R =  R_t.block<3,3>(0,0).cast<double>();
+            t =  R_t.block<3,1>(0,3).cast<double>();
+            pcl::PointCloud<pcl::PointXYZ> transformedCloud;
+            pcl::transformPointCloud(*currentCloud, transformedCloud, R_t);
+            *globalMap += transformedCloud;
+
         } else {
             std::cout << "ICP did not converge for point cloud " << i << std::endl;
         }
-
-        Mat3d R =  R_t.block<3,3>(0,0).cast<double>();
-        Vec3d t =  R_t.block<3,1>(0,3).cast<double>();
 
         LOG(INFO) << "R:\n" << R;
         LOG(INFO) << "t:\n" << t;
@@ -88,21 +78,19 @@ int main(int argc, char* argv[]) {
             path_accumulated += t;
             Rotation_accumulated = R *  Rotation_accumulated;
             odometry.push_back(MovementData(0.0, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
-            LOG(INFO) << "*R_accumulated:\n" << R_accumulated;
-            LOG(INFO) << "*t_accumulated:******************\n" << t_accumulated;
+            LOG(INFO) << "*R_accumulated:\n" << Rotation_accumulated;
+            LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 
             for(Eigen::Vector3d  point: fileDataRadius) {
-                Eigen::Vector3d frame_in_global= R_accumulated *  point + t_accumulated;
+                Eigen::Vector3d frame_in_global= Rotation_accumulated *  point + path_accumulated;
                 //Eigen::Vector3d frame_in_global= R_accumulated *  point + t_accumulated;
                 global_map.push_back(frame_in_global);
             }
         } else {
             LOG(ERROR) << "********************************  t is NAN  In current iteration \n********************************";
         }
-
-        targetCloud = currentCloud;
-        //icp_2d.SetSource(fileData); //oct 18, update source only after valid R and t have been aquired
     }
+
 
     LOG(INFO) << "final displacement is believed to be\n:" << t_accumulated.transpose();
     LOG(INFO) << "final ROTATION is believed to be:\n" << R_accumulated;
@@ -152,13 +140,8 @@ int main(int argc, char* argv[]) {
         save_vec3(fout2, reading);
         fout2 << std::endl;
     }
-
-
-
     LOG(INFO) << "done";
     google::FlushLogFiles(google::INFO);
 
     return 0;
 }
-
-

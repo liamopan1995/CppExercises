@@ -67,22 +67,21 @@ int main(int argc, char* argv[]) {
         LOG(INFO) << "t:\n" << t;
 
         if(!t.hasNaN()&& !R.hasNaN()) {
-
-            t_accumulated += t;
-            R_accumulated *= R;
+            // because the swaped use of target and source in the code : bfnn
+            // the t and R is the transformation for aligning the older scan to the newst scan.
             path_accumulated -= t;
-            //Rotation_accumulated = R *  Rotation_accumulated;
             Rotation_accumulated = R.inverse() *  Rotation_accumulated;
+
             odometry.push_back(MovementData(0.0, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
             LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
-            LOG(INFO) << "*t_accumulated:******************\n" << -t_accumulated;
+            LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 
 
 
             for(Eigen::Vector3d  point: fileDataRadius) {
                 //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
-                Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
-
+                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
+                Eigen::Vector3d frame_in_global= Rotation_accumulated * point + path_accumulated;
                 global_map.push_back(frame_in_global);
             }
             icp_2d.SetSource(fileData);//oct 18

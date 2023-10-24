@@ -22,8 +22,8 @@
 
 
 // Define gflags
-DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
-DEFINE_int32(max_iteration, 253, "Max iteration number");
+DEFINE_string(filename_prefix, "../scans/Fendt_new/single_scan_", "Prefix of the filename");
+DEFINE_int32(max_iteration, 474, "Max iteration number");
 
 std::vector<MovementData> odometry;
 std::vector<Eigen::Vector3d> global_map;
@@ -36,8 +36,6 @@ int main(int argc, char* argv[]) {
     FLAGS_logtostderr = false; // set to true to flush info to console
 
     pcl_icp icp_processor;
-    // Mat3d R_accumulated = Mat3d::Identity();
-    // Vec3d t_accumulated = Vec3d::Zero();
     Vec3d path_accumulated =Vec3d::Zero();
     Mat3d Rotation_accumulated = Mat3d::Identity();
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
@@ -94,6 +92,7 @@ int main(int argc, char* argv[]) {
             for(Eigen::Vector3d  point: fileDataRadius) {
                /// !
                 Eigen::Vector3d frame_in_global= ( Rotation_accumulated *  point) + path_accumulated;
+                //Eigen::Vector3d frame_in_global= Rotation_accumulated *  (point + path_accumulated);
                 //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
                 global_map.push_back(frame_in_global);
             }

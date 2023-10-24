@@ -150,6 +150,9 @@ public:
         // Configuration of ICP parameters can be done here
         // e.g., setting max iterations, transformation epsilon, etc.
         icp.setMaximumIterations(50);
+        // icp.setRANSACOutlierRejectionThreshold(0.05);
+        icp.setMaxCorrespondenceDistance(0.5);
+        icp.setEuclideanFitnessEpsilon(0.1);
     }
 
     void align(const pcl::PointCloud<pcl::PointXYZ>::Ptr source,
