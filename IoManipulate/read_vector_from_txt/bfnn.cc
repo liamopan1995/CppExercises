@@ -32,7 +32,7 @@ bool bfnn_point_reversion(std::vector<Vec3f> cloud, const Vec3f& point, std::vec
 void bfnn_cloud_mt( std::vector<Vec3d> cloud1,std::vector<Vec3d> cloud2, std::vector<std::pair<size_t, size_t>>& matches){
 /// for each pt in cloud 2, find  its match in cloud 1
     // generate index
-    std::cout<<"\n bfnn_cloud_mt is called\n";
+    //std::cout<<"\n bfnn_cloud_mt is called\n";
     std::vector<size_t>index(cloud2.size());
     std::for_each(index.begin(),index.end() ,[idx=0] (size_t& i) mutable {i= idx++;});
 

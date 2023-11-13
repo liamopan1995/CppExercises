@@ -18,11 +18,27 @@
 #include <glog/logging.h>
 #include <gflags/gflags.h>
 #include <pcl/registration/icp.h>
+#include <pcl/filters/voxel_grid.h>
 
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
 DEFINE_int32(max_iteration, 253, "Max iteration number");
 
+
+pcl::PointCloud<pcl::PointXYZ>::Ptr voxelFilterPointCloud(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, float leafSize) {
+    pcl::PointCloud<pcl::PointXYZ>::Ptr filteredCloud(new pcl::PointCloud<pcl::PointXYZ>());
+    
+    pcl::VoxelGrid<pcl::PointXYZ> voxelFilter;
+    voxelFilter.setInputCloud(cloud);
+    voxelFilter.setLeafSize(leafSize, leafSize, leafSize);
+    voxelFilter.filter(*filteredCloud);
+    
+    return filteredCloud;
+}
+
+
+
+float leafSize = 2;
 std::vector<MovementData> odometry;
 std::vector<Eigen::Vector3d> global_map;
 
@@ -46,6 +62,12 @@ int main(int argc, char* argv[]) {
         std::vector<Eigen::Vector3d> fileData = readXYFromFile_double(filename);
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
 
+        //  before align it is necessary to map/ align the currentCloud into the global frame first
+        // for(Eigen::Vector3d&  point: fileData) {
+        //         point= Rotation_accumulated *  point + path_accumulated;
+        //     }
+        
+        /// cast to pcl::point cloud and apply the alignment
         pcl::PointCloud<pcl::PointXYZ>::Ptr currentCloud = vectorToPointCloud_2D<pcl::PointXYZ>(fileData);
 
         if (i == 0) {
@@ -66,6 +88,15 @@ int main(int argc, char* argv[]) {
             pcl::PointCloud<pcl::PointXYZ> transformedCloud;
             pcl::transformPointCloud(*currentCloud, transformedCloud, R_t);
             *globalMap += transformedCloud;
+            //Downsampling
+            globalMap = voxelFilterPointCloud(globalMap, leafSize);
+            //Other option :
+            // tranform globalMap and transformedCloud into vectors
+            // iterate over POINTS in transformedCloud 
+            // if no " point" in globalMap has a distance to it that is smaller than the threshol
+            // add this POINT into globalMap
+            // otherwise update the point by taking a average of the pair.
+            
 
         } else {
             std::cout << "ICP did not converge for point cloud " << i << std::endl;
@@ -85,7 +116,20 @@ int main(int argc, char* argv[]) {
                 Eigen::Vector3d frame_in_global= Rotation_accumulated *  point + path_accumulated;
                 //Eigen::Vector3d frame_in_global= R_accumulated *  point + t_accumulated;
                 global_map.push_back(frame_in_global);
+
+
+                // "Downsampling" the gloabal map for removal of duplicated points.
+                pcl::PointCloud<pcl::PointXYZ>::Ptr place_holder_global_map = vectorToPointCloud<pcl::PointXYZ>(global_map);
+                place_holder_global_map = voxelFilterPointCloud(place_holder_global_map, leafSize);//Downsampling
+                global_map = pointCloudToVector(*place_holder_global_map);
             }
+
+            
+
+
+
+
+
         } else {
             LOG(ERROR) << "********************************  t is NAN  In current iteration \n********************************";
         }

@@ -62,22 +62,10 @@ class Icp2d {
         LOG(INFO) << "source center: " << source_center_.transpose();
     }
 
-
-
-    // void SetTargetCloud(pcl::PointCloud<pcl::PointXYZ>::Ptr p) {
-    //     targetcloud_  = p;
-    // }
-
     void SetGroundTruth(const SE2& gt_pose) {
         gt_pose_ = gt_pose;
         gt_set_ = true;
     }
-
-    /// 使用gauss-newton方法进行配准, 点到点
-    //bool AlignP2P(SE3& init_pose);
-
-    /// 使用gauss-newton方法进行配准, 点到点, find nn via brutal force
-    /// Implement this
 
     int check_matches(std::vector<std::pair<size_t, size_t>>& matches);
 
@@ -94,29 +82,10 @@ class Icp2d {
         return MovementData(0, R_,Vec3d(0, 0, 0), t_);
     }
 
-
-    // /*  followings are for PCL  ICP  
-
-
-
-
-    // */
-
-
-    // bool isTargetCloudSet()const {
-    //     return !(targetcloud_ == nullptr);
-    // } 
-
    private:
     // 建立目标点云的Kdtree
     //void BuildTargetKdTree();
 
-    // /// ******Followings are for pcl icp 
-
-    // pcl::PointCloud<pcl::PointXYZ>::Ptr targetcloud_ = nullptr;
-    // pcl::PointCloud<pcl::PointXYZ>::Ptr sourcecloud_ = nullptr;
-
-    // /// ******
     std::shared_ptr<sad::KdTree> kdtree_ = nullptr;  // 第5章的kd树
 
     std::vector<Vec3d>  target_ ;
@@ -143,7 +112,7 @@ class Icp2d {
     // */
 };
 
-
+//  ICP exported by PCL
 class pcl_icp {
 public:
     pcl_icp() {
@@ -151,7 +120,7 @@ public:
         // e.g., setting max iterations, transformation epsilon, etc.
         icp.setMaximumIterations(50);
         // icp.setRANSACOutlierRejectionThreshold(0.05);
-        icp.setMaxCorrespondenceDistance(0.5);
+        //icp.setMaxCorrespondenceDistance(0.5);
         icp.setEuclideanFitnessEpsilon(0.1);
     }
 

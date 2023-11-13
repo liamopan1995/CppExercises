@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 
         std::vector<Eigen::Vector3d> fileData = readXYFromFile_double(filename);
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
-
+        double timestamp = readTimeFromFile(filename);
 
 
         
@@ -85,7 +85,7 @@ int main(int argc, char* argv[]) {
         if(!t.hasNaN()&& !R.hasNaN()) {
             path_accumulated += t;
             Rotation_accumulated = R *  Rotation_accumulated;
-            odometry.push_back(MovementData(0.0, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
+            odometry.push_back(MovementData(timestamp, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
             LOG(INFO) << "*R_accumulated:\n" << Rotation_accumulated;
             LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 

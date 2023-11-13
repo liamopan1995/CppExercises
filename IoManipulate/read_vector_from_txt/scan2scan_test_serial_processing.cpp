@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
 
     for(int i = 0; i <= FLAGS_max_iteration; i++) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
-
+        double timestamp = readTimeFromFile(filename);
         std::vector<Eigen::Vector3d> fileData = readXYFromFile_double(filename);
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
 
@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
             path_accumulated -= t;
             Rotation_accumulated = R.inverse() *  Rotation_accumulated;
 
-            odometry.push_back(MovementData(0.0, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
+            odometry.push_back(MovementData(timestamp, Rotation_accumulated, Vec3d::Zero(), path_accumulated));
             LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
             LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 

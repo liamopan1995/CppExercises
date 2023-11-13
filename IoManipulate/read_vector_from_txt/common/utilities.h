@@ -35,14 +35,11 @@ inline PointType ToPointType(const Eigen::Matrix<S, 3, 1>& pt) {
     return p;
 }
 
-
-
-
 // Function to convert a pcl::PointCloud to a std::vector of Eigen::Vector3d
 template <typename PointT>
-std::vector<Eigen::Vector3d> pointCloudToVector(const typename pcl::PointCloud<PointT>::ConstPtr &cloud) {
+std::vector<Eigen::Vector3d> pointCloudToVector(const typename pcl::PointCloud<PointT>&cloud) {
     std::vector<Eigen::Vector3d> vec;
-    for (const auto& point : cloud->points) {
+    for (const auto& point : cloud.points) {
         vec.emplace_back(static_cast<double>(point.x), 
                          static_cast<double>(point.y), 
                          static_cast<double>(point.z));
@@ -66,32 +63,20 @@ typename pcl::PointCloud<PointT>::Ptr vectorToPointCloud_2D(const std::vector<Ei
     return cloud;
 }
 
-// // Example usage
-// int main() {
-//     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
-//     // Populate your cloud...
-
-//     // Convert PointCloud to Vector
-//     std::vector<Eigen::Vector3d> vec = pointCloudToVector<pcl::PointXYZ>(cloud);
-
-//     // Convert Vector to PointCloud
-//     pcl::PointCloud<pcl::PointXYZ>::Ptr newCloud = vectorToPointCloud<pcl::PointXYZ>(vec);
-    
-//     return 0;
-// }
-// Brief Explanation:
-// pointCloudToVector: Converts a point cloud to a vector of 3D Eigen vectors with double precision.
-// vectorToPointCloud: Converts a vector of 3D Eigen vectors with double precision back to a point cloud.
-// In the main() function, an example usage of these functions is provided.
-// This code is written assuming you have the PCL and Eigen libraries properly included in your project. Ensure your point types have the x, y, and z fields, and modify the code if there are additional fields you would like to consider (like color, intensity, etc.).
-
-
-
-
-
-
-
-
-
+// Function to convert a std::vector of Eigen::Vector3d to a pcl::PointCloud
+template <typename PointT>
+typename pcl::PointCloud<PointT>::Ptr vectorToPointCloud(const std::vector<Eigen::Vector3d> &vec) {
+    typename pcl::PointCloud<PointT>::Ptr cloud(new pcl::PointCloud<PointT>);
+    for (const auto& point : vec) {
+        PointT p;
+        p.x = point(0);
+        p.y = point(1);
+        p.z = point(2);
+        cloud->points.push_back(p);
+    }
+    cloud->width = cloud->points.size();
+    cloud->height = 1;
+    return cloud;
+}
 
 #endif

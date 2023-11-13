@@ -9,7 +9,7 @@
 #include <Eigen/Dense>
 
 using namespace std;
-
+// Return a vec of float including x  y 0
 vector<Eigen::Vector3f> readXYFromFile(const string &filename) {
     vector<Eigen::Vector3f> data;
     ifstream file(filename);
@@ -21,8 +21,8 @@ vector<Eigen::Vector3f> readXYFromFile(const string &filename) {
     string line;
     while (getline(file, line)) {
         istringstream iss(line);
-        double time, x, y, radius;
-        if (!(iss >> time >> x >> y >> radius)) {
+        double time, x, y, radius,stemIdx;
+        if (!(iss >> time >> x >> y >> radius >> stemIdx)) {
             break;  // Error in reading
         }
         Eigen::Vector3f vec(x, y, 0.0f);
@@ -32,7 +32,7 @@ vector<Eigen::Vector3f> readXYFromFile(const string &filename) {
     file.close();
     return data;
 }
-
+// Return a vec of double  including x y r
 vector<Eigen::Vector3d> readXYRFromFile_double(const string &filename) {
     vector<Eigen::Vector3d> data;
     ifstream file(filename);
@@ -44,8 +44,8 @@ vector<Eigen::Vector3d> readXYRFromFile_double(const string &filename) {
     string line;
     while (getline(file, line)) {
         istringstream iss(line);
-        double time, x, y, radius;
-        if (!(iss >> time >> x >> y >> radius)) {
+        double time, x, y, radius, stemIdx;
+        if (!(iss >> time >> x >> y >> radius >> stemIdx)) {
             break;  // Error in reading
         }
         Eigen::Vector3d vec(x, y,radius);
@@ -56,7 +56,7 @@ vector<Eigen::Vector3d> readXYRFromFile_double(const string &filename) {
     return data;
 }
 
-
+// Return a vec of double  including x y 0
 vector<Eigen::Vector3d> readXYFromFile_double(const string &filename) {
     vector<Eigen::Vector3d> data;
     ifstream file(filename);
@@ -68,8 +68,8 @@ vector<Eigen::Vector3d> readXYFromFile_double(const string &filename) {
     string line;
     while (getline(file, line)) {
         istringstream iss(line);
-        double time, x, y, radius;
-        if (!(iss >> time >> x >> y >> radius)) {
+        double time, x, y, radius,stemIdx;
+        if (!(iss >> time >> x >> y >> radius >> stemIdx)) {
             break;  // Error in reading
         }
         Eigen::Vector3d vec(x, y, 0.0f);
@@ -79,6 +79,25 @@ vector<Eigen::Vector3d> readXYFromFile_double(const string &filename) {
     file.close();
     return data;
 }
-
+// Return a double representing timestamp
+double readTimeFromFile(const std::string &filename) {
+    double time = -1;
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << filename << std::endl;
+        return time;
+    }
+    
+    std::string line;
+    if (getline(file, line)) { 
+        std::istringstream iss(line);
+        if (!(iss >> time)) { 
+            std::cerr << "Error in reading time from file: " << filename << std::endl;
+        }
+    }
+    
+    file.close();
+    return time;
+}
 
 #endif

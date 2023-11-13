@@ -31,7 +31,7 @@ y_min, y_max = min(y), max(y)
 # Set axis labels and title
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
-ax.set_title("Global Map--scan by scan matching")
+ax.set_title("Result: Map and Path")
 
 # Show the plot
 plt.gca().set_aspect('equal', adjustable='box')  # Equal aspect ratio

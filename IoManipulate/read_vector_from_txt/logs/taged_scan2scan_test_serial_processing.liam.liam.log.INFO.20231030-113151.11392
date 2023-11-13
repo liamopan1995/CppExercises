@@ -1,0 +1,512 @@
+Log file created at: 2023/10/30 11:31:51
+Running on machine: liam
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1030 11:31:51.938258 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_0.txt
+I1030 11:31:51.938398 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938437 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_1.txt
+I1030 11:31:51.938442 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938467 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_2.txt
+I1030 11:31:51.938469 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938493 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_3.txt
+I1030 11:31:51.938498 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938519 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_4.txt
+I1030 11:31:51.938524 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938545 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_5.txt
+I1030 11:31:51.938549 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938572 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_6.txt
+I1030 11:31:51.938575 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938598 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_7.txt
+I1030 11:31:51.938602 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938625 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_8.txt
+I1030 11:31:51.938628 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938652 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_9.txt
+I1030 11:31:51.938655 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938679 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_10.txt
+I1030 11:31:51.938683 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938705 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_11.txt
+I1030 11:31:51.938709 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938732 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_12.txt
+I1030 11:31:51.938735 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938760 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_13.txt
+I1030 11:31:51.938762 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938786 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_14.txt
+I1030 11:31:51.938789 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938812 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_15.txt
+I1030 11:31:51.938815 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938838 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_16.txt
+I1030 11:31:51.938841 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938864 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_17.txt
+I1030 11:31:51.938868 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938899 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_18.txt
+I1030 11:31:51.938906 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938941 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_19.txt
+I1030 11:31:51.938947 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.938984 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_20.txt
+I1030 11:31:51.938992 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939026 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_21.txt
+I1030 11:31:51.939042 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939079 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_22.txt
+I1030 11:31:51.939085 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939108 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_23.txt
+I1030 11:31:51.939112 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939136 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_24.txt
+I1030 11:31:51.939138 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939160 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_25.txt
+I1030 11:31:51.939164 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939186 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_26.txt
+I1030 11:31:51.939190 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939213 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_27.txt
+I1030 11:31:51.939216 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939239 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_28.txt
+I1030 11:31:51.939244 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939265 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_29.txt
+I1030 11:31:51.939270 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939292 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_30.txt
+I1030 11:31:51.939296 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939319 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_31.txt
+I1030 11:31:51.939322 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939345 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_32.txt
+I1030 11:31:51.939348 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939371 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_33.txt
+I1030 11:31:51.939375 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939397 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_34.txt
+I1030 11:31:51.939401 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939424 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_35.txt
+I1030 11:31:51.939426 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939450 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_36.txt
+I1030 11:31:51.939453 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939476 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_37.txt
+I1030 11:31:51.939478 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939502 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_38.txt
+I1030 11:31:51.939505 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939527 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_39.txt
+I1030 11:31:51.939532 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939553 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_40.txt
+I1030 11:31:51.939556 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939579 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_41.txt
+I1030 11:31:51.939590 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939615 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_42.txt
+I1030 11:31:51.939620 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939642 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_43.txt
+I1030 11:31:51.939646 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939667 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_44.txt
+I1030 11:31:51.939671 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939693 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_45.txt
+I1030 11:31:51.939697 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939719 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_46.txt
+I1030 11:31:51.939723 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939746 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_47.txt
+I1030 11:31:51.939749 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939797 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_48.txt
+I1030 11:31:51.939802 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939836 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_49.txt
+I1030 11:31:51.939867 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939916 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_50.txt
+I1030 11:31:51.939921 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939955 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_51.txt
+I1030 11:31:51.939960 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.939998 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_52.txt
+I1030 11:31:51.940007 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940076 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_53.txt
+I1030 11:31:51.940081 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940122 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_54.txt
+I1030 11:31:51.940126 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940148 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_55.txt
+I1030 11:31:51.940152 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940174 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_56.txt
+I1030 11:31:51.940178 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940200 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_57.txt
+I1030 11:31:51.940204 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940227 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_58.txt
+I1030 11:31:51.940230 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940253 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_59.txt
+I1030 11:31:51.940258 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940279 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_60.txt
+I1030 11:31:51.940284 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.940305 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_61.txt
+I1030 11:31:51.940308 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943210 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_62.txt
+I1030 11:31:51.943217 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943245 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_63.txt
+I1030 11:31:51.943249 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943292 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_64.txt
+I1030 11:31:51.943295 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943349 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_65.txt
+I1030 11:31:51.943356 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943380 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_66.txt
+I1030 11:31:51.943406 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943447 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_67.txt
+I1030 11:31:51.943451 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943475 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_68.txt
+I1030 11:31:51.943480 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943501 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_69.txt
+I1030 11:31:51.943506 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943527 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_70.txt
+I1030 11:31:51.943531 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943553 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_71.txt
+I1030 11:31:51.943557 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943580 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_72.txt
+I1030 11:31:51.943584 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943607 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_73.txt
+I1030 11:31:51.943610 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943634 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_74.txt
+I1030 11:31:51.943636 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943660 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_75.txt
+I1030 11:31:51.943665 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943687 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_76.txt
+I1030 11:31:51.943691 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943713 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_77.txt
+I1030 11:31:51.943717 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943740 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_78.txt
+I1030 11:31:51.943743 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943766 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_79.txt
+I1030 11:31:51.943769 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943792 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_80.txt
+I1030 11:31:51.943795 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943818 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_81.txt
+I1030 11:31:51.943821 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943845 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_82.txt
+I1030 11:31:51.943857 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943883 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_83.txt
+I1030 11:31:51.943887 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943910 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_84.txt
+I1030 11:31:51.943914 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943936 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_85.txt
+I1030 11:31:51.943940 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943964 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_86.txt
+I1030 11:31:51.943967 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.943990 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_87.txt
+I1030 11:31:51.943993 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944016 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_88.txt
+I1030 11:31:51.944041 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944092 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_89.txt
+I1030 11:31:51.944097 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944119 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_90.txt
+I1030 11:31:51.944123 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944146 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_91.txt
+I1030 11:31:51.944149 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944172 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_92.txt
+I1030 11:31:51.944175 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944198 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_93.txt
+I1030 11:31:51.944201 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944224 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_94.txt
+I1030 11:31:51.944228 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944250 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_95.txt
+I1030 11:31:51.944254 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944276 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_96.txt
+I1030 11:31:51.944279 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944303 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_97.txt
+I1030 11:31:51.944306 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944329 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_98.txt
+I1030 11:31:51.944332 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944355 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_99.txt
+I1030 11:31:51.944358 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944381 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_100.txt
+I1030 11:31:51.944384 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944407 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_101.txt
+I1030 11:31:51.944411 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944432 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_102.txt
+I1030 11:31:51.944444 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944469 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_103.txt
+I1030 11:31:51.944473 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944496 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_104.txt
+I1030 11:31:51.944499 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944522 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_105.txt
+I1030 11:31:51.944526 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944548 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_106.txt
+I1030 11:31:51.944552 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944576 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_107.txt
+I1030 11:31:51.944578 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944617 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_108.txt
+I1030 11:31:51.944619 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944644 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_109.txt
+I1030 11:31:51.944648 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944672 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_110.txt
+I1030 11:31:51.944675 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944700 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_111.txt
+I1030 11:31:51.944703 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944728 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_112.txt
+I1030 11:31:51.944732 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944757 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_113.txt
+I1030 11:31:51.944761 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944785 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_114.txt
+I1030 11:31:51.944789 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944813 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_115.txt
+I1030 11:31:51.944818 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944841 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_116.txt
+I1030 11:31:51.944845 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944869 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_117.txt
+I1030 11:31:51.944873 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944897 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_118.txt
+I1030 11:31:51.944901 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944926 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_119.txt
+I1030 11:31:51.944931 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944954 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_120.txt
+I1030 11:31:51.944958 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.944983 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_121.txt
+I1030 11:31:51.944988 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945012 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_122.txt
+I1030 11:31:51.945015 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945050 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_123.txt
+I1030 11:31:51.945053 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945080 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_124.txt
+I1030 11:31:51.945083 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945108 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_125.txt
+I1030 11:31:51.945111 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945137 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_126.txt
+I1030 11:31:51.945139 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945163 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_127.txt
+I1030 11:31:51.945168 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945191 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_128.txt
+I1030 11:31:51.945195 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945220 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_129.txt
+I1030 11:31:51.945223 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945248 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_130.txt
+I1030 11:31:51.945252 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945276 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_131.txt
+I1030 11:31:51.945281 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945304 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_132.txt
+I1030 11:31:51.945308 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945333 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_133.txt
+I1030 11:31:51.945336 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945361 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_134.txt
+I1030 11:31:51.945364 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945389 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_135.txt
+I1030 11:31:51.945394 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945418 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_136.txt
+I1030 11:31:51.945421 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945446 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_137.txt
+I1030 11:31:51.945451 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945474 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_138.txt
+I1030 11:31:51.945478 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945503 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_139.txt
+I1030 11:31:51.945506 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945531 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_140.txt
+I1030 11:31:51.945535 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945559 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_141.txt
+I1030 11:31:51.945564 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945587 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_142.txt
+I1030 11:31:51.945591 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945616 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_143.txt
+I1030 11:31:51.945628 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945655 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_144.txt
+I1030 11:31:51.945659 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945684 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_145.txt
+I1030 11:31:51.945688 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945713 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_146.txt
+I1030 11:31:51.945716 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945741 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_147.txt
+I1030 11:31:51.945744 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945770 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_148.txt
+I1030 11:31:51.945772 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945797 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_149.txt
+I1030 11:31:51.945801 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945825 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_150.txt
+I1030 11:31:51.945829 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945853 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_151.txt
+I1030 11:31:51.945858 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945881 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_152.txt
+I1030 11:31:51.945885 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945909 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_153.txt
+I1030 11:31:51.945914 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945938 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_154.txt
+I1030 11:31:51.945941 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945966 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_155.txt
+I1030 11:31:51.945971 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.945994 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_156.txt
+I1030 11:31:51.945998 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946022 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_157.txt
+I1030 11:31:51.946027 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946050 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_158.txt
+I1030 11:31:51.946054 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946079 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_159.txt
+I1030 11:31:51.946082 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946106 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_160.txt
+I1030 11:31:51.946110 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946135 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_161.txt
+I1030 11:31:51.946139 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946163 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_162.txt
+I1030 11:31:51.946167 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946192 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_163.txt
+I1030 11:31:51.946204 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946230 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_164.txt
+I1030 11:31:51.946234 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946259 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_165.txt
+I1030 11:31:51.946262 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946287 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_166.txt
+I1030 11:31:51.946290 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946316 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_167.txt
+I1030 11:31:51.946319 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946343 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_168.txt
+I1030 11:31:51.946347 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946372 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_169.txt
+I1030 11:31:51.946375 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946400 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_170.txt
+I1030 11:31:51.946403 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946429 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_171.txt
+I1030 11:31:51.946432 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946456 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_172.txt
+I1030 11:31:51.946460 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946484 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_173.txt
+I1030 11:31:51.946488 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946512 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_174.txt
+I1030 11:31:51.946516 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946540 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_175.txt
+I1030 11:31:51.946544 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946568 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_176.txt
+I1030 11:31:51.946573 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946596 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_177.txt
+I1030 11:31:51.946600 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946624 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_178.txt
+I1030 11:31:51.946628 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946653 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_179.txt
+I1030 11:31:51.946656 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946681 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_180.txt
+I1030 11:31:51.946684 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946708 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_181.txt
+I1030 11:31:51.946712 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946738 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_182.txt
+I1030 11:31:51.946740 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946765 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_183.txt
+I1030 11:31:51.946768 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946802 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_184.txt
+I1030 11:31:51.946807 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946832 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_185.txt
+I1030 11:31:51.946836 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946861 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_186.txt
+I1030 11:31:51.946864 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946888 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_187.txt
+I1030 11:31:51.946892 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946916 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_188.txt
+I1030 11:31:51.946920 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946944 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_189.txt
+I1030 11:31:51.946949 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.946972 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_190.txt
+I1030 11:31:51.946976 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947001 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_191.txt
+I1030 11:31:51.947005 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947029 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_192.txt
+I1030 11:31:51.947032 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947057 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_193.txt
+I1030 11:31:51.947060 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947086 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_194.txt
+I1030 11:31:51.947089 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947114 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_195.txt
+I1030 11:31:51.947118 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947142 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_196.txt
+I1030 11:31:51.947146 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947171 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_197.txt
+I1030 11:31:51.947175 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947199 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_198.txt
+I1030 11:31:51.947203 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947227 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_199.txt
+I1030 11:31:51.947232 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947257 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_200.txt
+I1030 11:31:51.947259 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947284 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_201.txt
+I1030 11:31:51.947288 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947312 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_202.txt
+I1030 11:31:51.947316 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947340 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_203.txt
+I1030 11:31:51.947343 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947376 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_204.txt
+I1030 11:31:51.947381 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947407 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_205.txt
+I1030 11:31:51.947410 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947434 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_206.txt
+I1030 11:31:51.947438 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947463 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_207.txt
+I1030 11:31:51.947466 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947490 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_208.txt
+I1030 11:31:51.947494 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947520 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_209.txt
+I1030 11:31:51.947522 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947547 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_210.txt
+I1030 11:31:51.947551 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947575 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_211.txt
+I1030 11:31:51.947579 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947603 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_212.txt
+I1030 11:31:51.947607 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947633 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_213.txt
+I1030 11:31:51.947635 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947660 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_214.txt
+I1030 11:31:51.947664 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947688 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_215.txt
+I1030 11:31:51.947691 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947716 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_216.txt
+I1030 11:31:51.947721 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947744 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_217.txt
+I1030 11:31:51.947748 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947772 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_218.txt
+I1030 11:31:51.947775 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947800 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_219.txt
+I1030 11:31:51.947804 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947829 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_220.txt
+I1030 11:31:51.947832 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947856 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_221.txt
+I1030 11:31:51.947860 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947885 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_222.txt
+I1030 11:31:51.947887 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947912 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_223.txt
+I1030 11:31:51.947916 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947940 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_224.txt
+I1030 11:31:51.947952 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.947979 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_225.txt
+I1030 11:31:51.947983 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948007 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_226.txt
+I1030 11:31:51.948011 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948035 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_227.txt
+I1030 11:31:51.948040 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948071 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_228.txt
+I1030 11:31:51.948074 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948100 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_229.txt
+I1030 11:31:51.948103 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948128 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_230.txt
+I1030 11:31:51.948132 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948158 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_231.txt
+I1030 11:31:51.948160 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948185 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_232.txt
+I1030 11:31:51.948189 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948213 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_233.txt
+I1030 11:31:51.948217 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948241 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_234.txt
+I1030 11:31:51.948246 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948269 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_235.txt
+I1030 11:31:51.948273 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948298 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_236.txt
+I1030 11:31:51.948302 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948326 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_237.txt
+I1030 11:31:51.948329 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948354 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_238.txt
+I1030 11:31:51.948357 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948381 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_239.txt
+I1030 11:31:51.948385 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948410 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_240.txt
+I1030 11:31:51.948412 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948437 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_241.txt
+I1030 11:31:51.948441 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948465 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_242.txt
+I1030 11:31:51.948469 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948493 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_243.txt
+I1030 11:31:51.948498 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948521 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_244.txt
+I1030 11:31:51.948534 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948560 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_245.txt
+I1030 11:31:51.948565 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948590 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_246.txt
+I1030 11:31:51.948593 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948617 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_247.txt
+I1030 11:31:51.948621 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948645 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_248.txt
+I1030 11:31:51.948648 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948673 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_249.txt
+I1030 11:31:51.948678 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948701 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_250.txt
+I1030 11:31:51.948705 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948729 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_251.txt
+I1030 11:31:51.948732 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948757 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_252.txt
+I1030 11:31:51.948761 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948786 11392 taged_scan2scan_test_serial_processing.cpp:90] ***Read data from:*** ../scans/Fendt/single_scan_253.txt
+I1030 11:31:51.948789 11392 icp2d.h:62] source center: -nan -nan -nan
+I1030 11:31:51.948932 11392 taged_scan2scan_test_serial_processing.cpp:234] done
