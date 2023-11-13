@@ -11,22 +11,6 @@ Class: ICP 2d  Implementation
 #include <pcl/registration/icp.h>
 #include <pcl/common/transforms.h> 
 
-struct MovementData {
-    double timestamp_;
-    Mat3d R_= Mat3d::Identity();
-    Eigen::Vector3d v_;
-    Eigen::Vector3d p_;
-
-    MovementData() 
-        : timestamp_(0.0), v_(Eigen::Vector3d::Zero()), p_(Eigen::Vector3d::Zero()) {} 
-    
-    MovementData(double timestamp, 
-            const Mat3d &rotation_matrix = Mat3d::Identity(),
-            const Eigen::Vector3d &velocity = Eigen::Vector3d::Zero(),
-            const Eigen::Vector3d &position = Eigen::Vector3d::Zero())
-        : timestamp_(timestamp),  v_(velocity), p_(position),R_(rotation_matrix) {}
-};
-
 
 class Icp2d {
    public:

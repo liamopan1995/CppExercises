@@ -79,6 +79,10 @@ vector<Eigen::Vector3d> readXYFromFile_double(const string &filename) {
     file.close();
     return data;
 }
+
+
+
+
 // Return a double representing timestamp
 double readTimeFromFile(const std::string &filename) {
     double time = -1;
@@ -98,6 +102,29 @@ double readTimeFromFile(const std::string &filename) {
     
     file.close();
     return time;
+}
+
+vector<Eigen::Vector2d> readXYFromFile_double_vec2d(const string &filename) {
+    vector<Eigen::Vector2d> data;
+    ifstream file(filename);
+    if (!file.is_open()) {
+        cerr << "Failed to open file: " << filename << endl;
+        return data;
+    }
+
+    string line;
+    while (getline(file, line)) {
+        istringstream iss(line);
+        double time, x, y, radius,stemIdx;
+        if (!(iss >> time >> x >> y >> radius >> stemIdx)) {
+            break;  // Error in reading
+        }
+        Eigen::Vector2d vec(x, y);
+        data.push_back(vec);
+    }
+
+    file.close();
+    return data;
 }
 
 #endif

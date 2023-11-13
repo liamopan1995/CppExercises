@@ -16,6 +16,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 find_package(PCL 1.7 REQUIRED)
 # Include PCL directories
 include_directories(${PCL_INCLUDE_DIR})
+
 # Find Sophus
 find_package(Sophus REQUIRED) 
 # Include PCL directories
@@ -24,6 +25,7 @@ include_directories(${Sophus_INCLUDE_DIRS})
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
+
 # Include PCL directories
 include_directories(${OpenCV_INCLUDE_DIRS})
 
@@ -60,6 +62,10 @@ add_executable( taged_scan2scan_test_serial_processing taged_scan2scan_test_seri
 target_include_directories(taged_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(taged_scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
 
+
+add_executable( taged_scan2scan_test_serial_processing_nl taged_scan2map_test_serial_processing_nonlinear_icp.cpp icp_2d_gauss_newton.cc )
+target_include_directories(taged_scan2scan_test_serial_processing_nl PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
 
 
 

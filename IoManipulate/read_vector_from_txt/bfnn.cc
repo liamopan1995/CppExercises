@@ -5,7 +5,7 @@ Brutal Force Nearest Neighbour Search
 #include <execution>
 
 
-
+// find one point's nearest point in the given cloud
 int bfnn_point(std::vector<Vec3d> cloud, const Vec3d& point){
 
     return std::min_element (cloud.begin(),cloud.end(),
@@ -28,7 +28,7 @@ bool bfnn_point_reversion(std::vector<Vec3f> cloud, const Vec3f& point, std::vec
 }
 
 
-
+// A implementation that  finds the corresponding idxes in two scans by brutal force method. 
 void bfnn_cloud_mt( std::vector<Vec3d> cloud1,std::vector<Vec3d> cloud2, std::vector<std::pair<size_t, size_t>>& matches){
 /// for each pt in cloud 2, find  its match in cloud 1
     // generate index

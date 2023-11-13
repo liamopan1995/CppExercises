@@ -2,6 +2,7 @@
 #include "bfnn.h"
 #include "icp3d.h"
 #include "icp2d.h"
+#include "icp_2d_gauss_newton.h"
 int main(int argc, char* argv[]) {
     // vector<Eigen::Vector3f> cloud1 = readXYFromFile("../scans/single_scan_0.txt");
     // vector<Eigen::Vector3f> cloud2 = readXYFromFile("../scans/single_scan_1.txt");
