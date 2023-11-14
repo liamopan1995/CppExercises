@@ -6,6 +6,8 @@ project(patchworkpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_BUILD_TYPE "Debug")
+# Include an additional directory where CMake should look for modules. 
+list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
 
 # Find Eigen3
 find_package(Eigen3 REQUIRED)
@@ -22,6 +24,11 @@ find_package(Sophus REQUIRED)
 # Include PCL directories
 include_directories(${Sophus_INCLUDE_DIRS})
 
+# Find G2O
+find_package( G2O REQUIRED )
+include_directories( 
+    ${G2O_INCLUDE_DIRS}
+)
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
@@ -66,6 +73,11 @@ target_link_libraries(taged_scan2scan_test_serial_processing  Eigen3::Eigen ${PC
 add_executable( taged_scan2scan_test_serial_processing_nl taged_scan2map_test_serial_processing_nonlinear_icp.cpp icp_2d_gauss_newton.cc )
 target_include_directories(taged_scan2scan_test_serial_processing_nl PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
+
+add_executable( g2o_taged_scan2scan_test_serial_processing_nl g2o_taged_scan2map_test_serial_processing_nonlinear_icp.cpp icp_2d_gauss_newton.cc )
+target_include_directories(g2o_taged_scan2scan_test_serial_processing_nl PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(g2o_taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags g2o_core g2o_stuff)
+
 
 
 

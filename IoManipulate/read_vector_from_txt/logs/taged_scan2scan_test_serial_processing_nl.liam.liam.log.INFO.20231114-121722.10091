@@ -1,0 +1,1224 @@
+Log file created at: 2023/11/14 12:17:22
+Running on machine: liam
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1114 12:17:22.754010 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_0.txt
+I1114 12:17:22.755865 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_5.txt
+I1114 12:17:22.756556 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.000556888, effect num: 14
+I1114 12:17:22.757347 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.000461079, effect num: 14
+I1114 12:17:22.757987 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.000461078, effect num: 14
+I1114 12:17:22.758550 10091 icp_2d_gauss_newton.cc:76] estimated pose: -0.00959956 -0.00194804, theta: -4.90727e-06
+I1114 12:17:22.758693 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 04.90727e-06
+-4.90727e-06 000000000001
+I1114 12:17:22.758744 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+-0.00959956
+-0.00194804
+I1114 12:17:22.758769 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.758802 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+-0.00959956
+-0.00194804
+I1114 12:17:22.759271 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_10.txt
+I1114 12:17:22.759820 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.340038, effect num: 13
+I1114 12:17:22.760375 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00139418, effect num: 13
+I1114 12:17:22.760924 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00139418, effect num: 13
+I1114 12:17:22.761473 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00139418, effect num: 13
+I1114 12:17:22.762059 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.00139418, effect num: 13
+I1114 12:17:22.762610 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.574972 -0.0373289, theta: -0.00297381
+I1114 12:17:22.762740 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999996 00.00297381
+-0.00297381 0000.999996
+I1114 12:17:22.762780 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.574972
+-0.0373289
+I1114 12:17:22.762804 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.762835 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+00.565373
+-0.039277
+I1114 12:17:22.763298 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_15.txt
+I1114 12:17:22.763890 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.0238, effect num: 15
+I1114 12:17:22.764492 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00232363, effect num: 15
+I1114 12:17:22.765089 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00232355, effect num: 15
+I1114 12:17:22.765790 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.39574 -0.129815, theta: -0.00975334
+I1114 12:17:22.765928 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999952 00.00975319
+-0.00975319 0000.999952
+I1114 12:17:22.765969 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.39574
+-0.129815
+I1114 12:17:22.765991 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.766023 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+001.96111
+-0.169092
+I1114 12:17:22.766577 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_20.txt
+I1114 12:17:22.767131 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.21115, effect num: 11
+I1114 12:17:22.767817 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.198392, effect num: 17
+I1114 12:17:22.768499 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.185107, effect num: 17
+I1114 12:17:22.769264 10091 icp_2d_gauss_newton.cc:76] estimated pose: 01.80394 -0.20833, theta: -0.0063895
+I1114 12:17:22.769402 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+00000.99998 00.00638946
+-0.00638946 00000.99998
+I1114 12:17:22.769495 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+01.80394
+-0.20833
+I1114 12:17:22.769522 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.769598 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+003.76505
+-0.377423
+I1114 12:17:22.770201 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_25.txt
+I1114 12:17:22.770794 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.06774, effect num: 12
+I1114 12:17:22.771574 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.186115, effect num: 20
+I1114 12:17:22.772632 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.125375, effect num: 20
+I1114 12:17:22.773540 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.89218 -0.224368, theta: 0.000918923
+I1114 12:17:22.773730 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 -0.000918923
+00.000918923 000000000001
+I1114 12:17:22.773759 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.89218
+-0.224368
+I1114 12:17:22.773777 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.773799 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+005.65723
+-0.601791
+I1114 12:17:22.774195 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_30.txt
+I1114 12:17:22.774471 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.774502 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.774518 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.774539 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+005.65723
+-0.601791
+I1114 12:17:22.774899 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_35.txt
+I1114 12:17:22.775389 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.03858, effect num: 17
+I1114 12:17:22.775857 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0210854, effect num: 17
+I1114 12:17:22.776322 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00294372, effect num: 17
+I1114 12:17:22.776784 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.78392 -0.106483, theta: -0.00088414
+I1114 12:17:22.776885 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+00000000001 00.00088414
+-0.00088414 00000000001
+I1114 12:17:22.776912 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.78392
+-0.106483
+I1114 12:17:22.776928 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.776950 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+007.44115
+-0.708274
+I1114 12:17:22.777379 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_40.txt
+I1114 12:17:22.777937 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.33805, effect num: 20
+I1114 12:17:22.778384 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0530258, effect num: 20
+I1114 12:17:22.778789 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00401568, effect num: 20
+I1114 12:17:22.779194 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00401566, effect num: 20
+I1114 12:17:22.779599 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.00401566, effect num: 20
+I1114 12:17:22.780005 10091 icp_2d_gauss_newton.cc:68] iter 5 cost = 0.00401566, effect num: 20
+I1114 12:17:22.780411 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0001.57172 -0.0822295, theta: -0.000143726
+I1114 12:17:22.780483 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 00.000143726
+-0.000143726 000000000001
+I1114 12:17:22.780532 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0001.57172
+-0.0822295
+I1114 12:17:22.780547 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.780565 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+009.01288
+-0.790503
+I1114 12:17:22.780865 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_45.txt
+I1114 12:17:22.781222 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.14041, effect num: 16
+I1114 12:17:22.781674 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0789838, effect num: 23
+I1114 12:17:22.782107 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00203295, effect num: 23
+I1114 12:17:22.782538 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00203289, effect num: 23
+I1114 12:17:22.782967 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.00203288, effect num: 23
+I1114 12:17:22.783344 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0001.86014 -0.0942957, theta: 0.00402979
+I1114 12:17:22.783409 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999992 -0.00402977
+00.00402977 0000.999992
+I1114 12:17:22.783427 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0001.86014
+-0.0942957
+I1114 12:17:22.783437 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.783450 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+00010.873
+-0.884799
+I1114 12:17:22.783668 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_50.txt
+I1114 12:17:22.783807 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.783825 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.783834 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.783847 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+00010.873
+-0.884799
+I1114 12:17:22.784036 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_55.txt
+I1114 12:17:22.784157 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.784175 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.784185 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.784198 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+00010.873
+-0.884799
+I1114 12:17:22.784384 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_60.txt
+I1114 12:17:22.784596 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.79033, effect num: 10
+I1114 12:17:22.784843 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.157844, effect num: 14
+I1114 12:17:22.785089 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0132402, effect num: 14
+I1114 12:17:22.785336 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.0132395, effect num: 14
+I1114 12:17:22.785599 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0001.83466 -0.0485037, theta: 0.00549567
+I1114 12:17:22.785656 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999985 -0.00549564
+00.00549564 0000.999985
+I1114 12:17:22.785673 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0001.83466
+-0.0485037
+I1114 12:17:22.785682 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.785696 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0012.7077
+-0.933303
+I1114 12:17:22.785894 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_65.txt
+I1114 12:17:22.786052 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.786070 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.786080 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.786093 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0012.7077
+-0.933303
+I1114 12:17:22.786311 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_70.txt
+I1114 12:17:22.786435 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.786453 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.786463 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.786476 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0012.7077
+-0.933303
+I1114 12:17:22.786661 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_75.txt
+I1114 12:17:22.786880 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.37353, effect num: 11
+I1114 12:17:22.787106 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0923296, effect num: 12
+I1114 12:17:22.787330 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0119648, effect num: 12
+I1114 12:17:22.787556 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.0119647, effect num: 12
+I1114 12:17:22.787781 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.61833 -0.107219, theta: 0.00290236
+I1114 12:17:22.787835 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999996 -0.00290236
+00.00290236 0000.999996
+I1114 12:17:22.787853 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.61833
+-0.107219
+I1114 12:17:22.787863 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.787875 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0014.326
+-1.04052
+I1114 12:17:22.788071 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_80.txt
+I1114 12:17:22.788173 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.788188 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.788197 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.788208 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0014.326
+-1.04052
+I1114 12:17:22.788353 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_85.txt
+I1114 12:17:22.788437 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.788451 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.788460 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.788470 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0014.326
+-1.04052
+I1114 12:17:22.788615 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_90.txt
+I1114 12:17:22.788746 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.00534, effect num: 4
+I1114 12:17:22.788875 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 1.13442, effect num: 4
+I1114 12:17:22.789003 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 1.13437, effect num: 4
+I1114 12:17:22.789131 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 1.13437, effect num: 4
+I1114 12:17:22.789275 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.256173 -0.750866, theta: -0.0260762
+I1114 12:17:22.789322 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.99966 00.0260732
+-0.0260732 0000.99966
+I1114 12:17:22.789336 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.256173
+-0.750866
+I1114 12:17:22.789345 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.789355 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+014.5822
+-1.79139
+I1114 12:17:22.789500 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_95.txt
+I1114 12:17:22.789623 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.789639 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.789646 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.789657 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+014.5822
+-1.79139
+I1114 12:17:22.789824 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_100.txt
+I1114 12:17:22.789961 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.495109, effect num: 4
+I1114 12:17:22.790129 10091 icp_2d_gauss_newton.cc:76] estimated pose: -0.00102005 00-0.409789, theta: -0.0362017
+I1114 12:17:22.790177 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000.999345 00.0361937
+-0.0361937 000.999345
+I1114 12:17:22.790191 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+-0.00102005
+00-0.409789
+I1114 12:17:22.790199 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.790211 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+014.5812
+-2.20118
+I1114 12:17:22.790380 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_105.txt
+I1114 12:17:22.790518 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 1.65368, effect num: 4
+I1114 12:17:22.790661 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 1.62812, effect num: 5
+I1114 12:17:22.790827 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0.245394 -1.05367, theta: 0.110881
+I1114 12:17:22.790875 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+00.993859 -0.110654
+00.110654 00.993859
+I1114 12:17:22.790889 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0.245394
+-1.05367
+I1114 12:17:22.790897 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.790908 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+014.8266
+-3.25485
+I1114 12:17:22.791069 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_110.txt
+I1114 12:17:22.791282 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.55161, effect num: 15
+I1114 12:17:22.791496 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.136089, effect num: 15
+I1114 12:17:22.791709 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00418537, effect num: 15
+I1114 12:17:22.791921 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00418527, effect num: 15
+I1114 12:17:22.792135 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.67595 -0.126434, theta: 0.00486555
+I1114 12:17:22.792181 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999988 -0.00486553
+00.00486553 0000.999988
+I1114 12:17:22.792196 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.67595
+-0.126434
+I1114 12:17:22.792203 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.792232 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.792398 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_115.txt
+I1114 12:17:22.792521 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.792536 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.792544 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.792555 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.792724 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_120.txt
+I1114 12:17:22.792833 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.792847 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.792855 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.792866 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.793009 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_125.txt
+I1114 12:17:22.793116 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.793128 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.793135 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.793144 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.793264 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_130.txt
+I1114 12:17:22.793332 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.793344 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.793350 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.793359 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.793480 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_135.txt
+I1114 12:17:22.793558 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.793571 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.793577 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.793587 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+016.5025
+-3.38128
+I1114 12:17:22.793712 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_140.txt
+I1114 12:17:22.793824 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.14905, effect num: 4
+I1114 12:17:22.793988 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0154547, effect num: 12
+I1114 12:17:22.794150 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0116179, effect num: 12
+I1114 12:17:22.794312 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0001.95843 0.00607813, theta: 0.00762609
+I1114 12:17:22.794351 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999971 -0.00762602
+00.00762602 0000.999971
+I1114 12:17:22.794363 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0001.95843
+0.00607813
+I1114 12:17:22.794371 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.794394 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+18.4609
+-3.3752
+I1114 12:17:22.794564 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_145.txt
+I1114 12:17:22.794660 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.794673 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.794680 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.794689 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+18.4609
+-3.3752
+I1114 12:17:22.794822 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_150.txt
+I1114 12:17:22.794936 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.20863, effect num: 5
+I1114 12:17:22.795094 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0137818, effect num: 12
+I1114 12:17:22.795253 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0105636, effect num: 12
+I1114 12:17:22.795411 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.0105636, effect num: 12
+I1114 12:17:22.795608 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00001.99323 -0.00437415, theta: 0.0123815
+I1114 12:17:22.795650 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000.999923 -0.0123812
+00.0123812 000.999923
+I1114 12:17:22.795662 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00001.99323
+-0.00437415
+I1114 12:17:22.795670 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.795679 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.795791 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_155.txt
+I1114 12:17:22.795850 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.795861 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.795868 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.795877 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.795992 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_160.txt
+I1114 12:17:22.796059 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.796072 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.796078 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.796087 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.796211 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_165.txt
+I1114 12:17:22.796289 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.796314 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.796327 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.796347 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.796469 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_170.txt
+I1114 12:17:22.796535 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.796564 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.796571 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.796581 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.796696 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_175.txt
+I1114 12:17:22.796762 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.796774 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.796782 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.796790 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.796906 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_180.txt
+I1114 12:17:22.796984 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.796998 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.797004 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.797013 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.797128 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_185.txt
+I1114 12:17:22.797206 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.797219 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.797225 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.797235 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.797364 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_190.txt
+I1114 12:17:22.797463 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.797477 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.797482 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.797492 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.797647 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_195.txt
+I1114 12:17:22.797740 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.797753 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.797760 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.797770 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.797919 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_200.txt
+I1114 12:17:22.798028 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.798041 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.798048 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.798058 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.798202 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_205.txt
+I1114 12:17:22.798274 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.798285 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.798290 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.798300 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.798405 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_210.txt
+I1114 12:17:22.798475 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.798485 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.798491 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.798499 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.798604 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_215.txt
+I1114 12:17:22.798681 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.798691 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.798697 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.798705 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.798815 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_220.txt
+I1114 12:17:22.798888 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.798899 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.798905 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.798913 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799018 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_225.txt
+I1114 12:17:22.799086 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.799098 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.799103 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.799111 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799217 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_230.txt
+I1114 12:17:22.799299 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.799310 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.799316 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.799324 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799430 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_235.txt
+I1114 12:17:22.799500 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.799512 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.799517 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.799539 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799646 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_240.txt
+I1114 12:17:22.799705 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.799715 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.799721 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.799729 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799816 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_245.txt
+I1114 12:17:22.799863 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.799875 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.799880 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.799888 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.799976 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_250.txt
+I1114 12:17:22.800029 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800038 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800045 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800052 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.800137 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_255.txt
+I1114 12:17:22.800195 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800206 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800212 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800220 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.800313 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_260.txt
+I1114 12:17:22.800367 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800379 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800383 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800392 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.800485 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_265.txt
+I1114 12:17:22.800547 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800558 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800565 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800572 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.800655 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_270.txt
+I1114 12:17:22.800721 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800733 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800738 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800747 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.800840 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_275.txt
+I1114 12:17:22.800907 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.800920 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.800925 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.800933 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.801033 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_280.txt
+I1114 12:17:22.801106 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.801117 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.801123 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.801131 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.801240 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_285.txt
+I1114 12:17:22.801319 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.801330 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.801337 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.801344 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+020.4542
+-3.37957
+I1114 12:17:22.801450 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_290.txt
+I1114 12:17:22.801563 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 3.18945, effect num: 5
+I1114 12:17:22.801700 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.170562, effect num: 11
+I1114 12:17:22.801836 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00405289, effect num: 11
+I1114 12:17:22.801970 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00405283, effect num: 11
+I1114 12:17:22.802103 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.89948 -0.104151, theta: 0.00911602
+I1114 12:17:22.802137 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999958 -0.00911589
+00.00911589 0000.999958
+I1114 12:17:22.802148 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.89948
+-0.104151
+I1114 12:17:22.802155 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.802162 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+022.3536
+-3.48373
+I1114 12:17:22.802249 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_295.txt
+I1114 12:17:22.802350 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.71106, effect num: 7
+I1114 12:17:22.802453 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.145851, effect num: 7
+I1114 12:17:22.802552 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00447409, effect num: 7
+I1114 12:17:22.802654 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00447408, effect num: 7
+I1114 12:17:22.802753 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.00447406, effect num: 7
+I1114 12:17:22.802868 10091 icp_2d_gauss_newton.cc:68] iter 5 cost = 0.00447405, effect num: 7
+I1114 12:17:22.802969 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.66268 -0.070749, theta: 0.00662197
+I1114 12:17:22.803001 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999978 -0.00662192
+00.00662192 0000.999978
+I1114 12:17:22.803011 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.66268
+-0.070749
+I1114 12:17:22.803017 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.803026 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+024.0163
+-3.55447
+I1114 12:17:22.803119 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_300.txt
+I1114 12:17:22.803210 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.41799, effect num: 7
+I1114 12:17:22.803303 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00212977, effect num: 7
+I1114 12:17:22.803395 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.55324 -0.112477, theta: -0.00137681
+I1114 12:17:22.803422 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999999 00.00137681
+-0.00137681 0000.999999
+I1114 12:17:22.803432 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.55324
+-0.112477
+I1114 12:17:22.803437 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.803445 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+025.5696
+-3.66695
+I1114 12:17:22.803520 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_305.txt
+I1114 12:17:22.803612 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.58463, effect num: 7
+I1114 12:17:22.803709 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.0108749, effect num: 8
+I1114 12:17:22.803805 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00982493, effect num: 8
+I1114 12:17:22.803901 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00982492, effect num: 8
+I1114 12:17:22.803997 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.65394 -0.175367, theta: -0.00794305
+I1114 12:17:22.804025 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999968 00.00794297
+-0.00794297 0000.999968
+I1114 12:17:22.804035 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.65394
+-0.175367
+I1114 12:17:22.804040 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.804049 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+027.2235
+-3.84232
+I1114 12:17:22.804129 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_310.txt
+I1114 12:17:22.804234 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 1.94011, effect num: 9
+I1114 12:17:22.804339 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00665043, effect num: 9
+I1114 12:17:22.804445 10091 icp_2d_gauss_newton.cc:76] estimated pose: 001.40775 -0.147166, theta: -0.00756364
+I1114 12:17:22.804472 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999971 00.00756356
+-0.00756356 0000.999971
+I1114 12:17:22.804481 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+001.40775
+-0.147166
+I1114 12:17:22.804487 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.804494 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+028.6312
+-3.98949
+I1114 12:17:22.804569 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_315.txt
+I1114 12:17:22.804653 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 2.89154, effect num: 6
+I1114 12:17:22.804754 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.7055, effect num: 7
+I1114 12:17:22.804844 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.703534, effect num: 7
+I1114 12:17:22.804934 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.703534, effect num: 7
+I1114 12:17:22.805023 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.703534, effect num: 7
+I1114 12:17:22.805112 10091 icp_2d_gauss_newton.cc:68] iter 5 cost = 0.703533, effect num: 7
+I1114 12:17:22.805202 10091 icp_2d_gauss_newton.cc:76] estimated pose: 01.54786 0.151757, theta: -0.0427377
+I1114 12:17:22.805229 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000.999087 00.0427247
+-0.0427247 000.999087
+I1114 12:17:22.805239 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+01.54786
+0.151757
+I1114 12:17:22.805244 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.805253 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+030.1791
+-3.83773
+I1114 12:17:22.805316 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_320.txt
+I1114 12:17:22.805397 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.915606, effect num: 6
+I1114 12:17:22.805478 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00261906, effect num: 6
+I1114 12:17:22.805565 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00261898, effect num: 6
+I1114 12:17:22.805647 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0000.96071 -0.0369909, theta: -0.00917831
+I1114 12:17:22.805675 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999958 00.00917818
+-0.00917818 0000.999958
+I1114 12:17:22.805683 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0000.96071
+-0.0369909
+I1114 12:17:22.805689 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.805696 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+031.1398
+-3.87472
+I1114 12:17:22.805748 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_325.txt
+I1114 12:17:22.805812 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.647141, effect num: 4
+I1114 12:17:22.805878 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00781288, effect num: 4
+I1114 12:17:22.805944 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.79273 -0.106988, theta: 0.000786485
+I1114 12:17:22.805994 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 -0.000786485
+00.000786485 000000000001
+I1114 12:17:22.806011 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.79273
+-0.106988
+I1114 12:17:22.806017 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.806025 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+031.9325
+-3.98171
+I1114 12:17:22.806074 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_330.txt
+I1114 12:17:22.806121 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.806133 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.806138 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.806144 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+031.9325
+-3.98171
+I1114 12:17:22.806200 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_335.txt
+I1114 12:17:22.806252 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+01 -0
+00 01
+I1114 12:17:22.806262 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0
+0
+I1114 12:17:22.806277 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.806285 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+031.9325
+-3.98171
+I1114 12:17:22.806340 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_340.txt
+I1114 12:17:22.806412 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.255492, effect num: 5
+I1114 12:17:22.806485 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00174546, effect num: 5
+I1114 12:17:22.806557 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00174524, effect num: 5
+I1114 12:17:22.806630 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.447879 0.0192866, theta: 0.00888689
+I1114 12:17:22.806656 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999961 -0.00888677
+00.00888677 0000.999961
+I1114 12:17:22.806665 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.447879
+0.0192866
+I1114 12:17:22.806671 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.806679 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+032.3804
+-3.96242
+I1114 12:17:22.806732 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_345.txt
+I1114 12:17:22.806803 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.300378, effect num: 5
+I1114 12:17:22.806876 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00128076, effect num: 5
+I1114 12:17:22.806949 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0012805, effect num: 5
+I1114 12:17:22.807021 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.490329 -0.0208826, theta: 0.0100901
+I1114 12:17:22.807047 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000.999949 -0.0100899
+00.0100899 000.999949
+I1114 12:17:22.807056 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.490329
+-0.0208826
+I1114 12:17:22.807062 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.807070 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+32.8708
+-3.9833
+I1114 12:17:22.807126 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_350.txt
+I1114 12:17:22.807199 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.252661, effect num: 5
+I1114 12:17:22.807274 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00173594, effect num: 5
+I1114 12:17:22.807348 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00173587, effect num: 5
+I1114 12:17:22.807422 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.454851 0.0237533, theta: 0.00760658
+I1114 12:17:22.807448 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000.999971 -0.0076065
+00.0076065 000.999971
+I1114 12:17:22.807457 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.454851
+0.0237533
+I1114 12:17:22.807462 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.807471 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+033.3256
+-3.95955
+I1114 12:17:22.807528 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_355.txt
+I1114 12:17:22.807596 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.140435, effect num: 4
+I1114 12:17:22.807665 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00061849, effect num: 4
+I1114 12:17:22.807734 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.000618479, effect num: 4
+I1114 12:17:22.807803 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00000.365994 -0.000272335, theta: 0.00405145
+I1114 12:17:22.807829 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999992 -0.00405144
+00.00405144 0000.999992
+I1114 12:17:22.807848 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00000.365994
+-0.000272335
+I1114 12:17:22.807855 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.807863 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+033.6916
+-3.95982
+I1114 12:17:22.807981 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_360.txt
+I1114 12:17:22.808072 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.0864014, effect num: 6
+I1114 12:17:22.808147 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00176617, effect num: 6
+I1114 12:17:22.808223 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00176615, effect num: 6
+I1114 12:17:22.808297 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.294881 -0.012842, theta: 0.00236442
+I1114 12:17:22.808326 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999997 -0.00236442
+00.00236442 0000.999997
+I1114 12:17:22.808336 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.294881
+-0.012842
+I1114 12:17:22.808341 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.808348 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+033.9865
+-3.97266
+I1114 12:17:22.808408 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_365.txt
+I1114 12:17:22.808485 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.0594352, effect num: 6
+I1114 12:17:22.808562 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00232823, effect num: 6
+I1114 12:17:22.808637 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.0023282, effect num: 6
+I1114 12:17:22.808714 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0000.236621 -0.00272838, theta: 0.0060521
+I1114 12:17:22.808738 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999982 -0.00605206
+00.00605206 0000.999982
+I1114 12:17:22.808748 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0000.236621
+-0.00272838
+I1114 12:17:22.808753 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.808759 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.2231
+-3.97539
+I1114 12:17:22.808818 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_370.txt
+I1114 12:17:22.808890 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.029621, effect num: 6
+I1114 12:17:22.808964 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00351971, effect num: 6
+I1114 12:17:22.809038 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.157705 0.0292603, theta: -0.000985366
+I1114 12:17:22.809062 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 00.000985366
+-0.000985366 000000000001
+I1114 12:17:22.809072 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.157705
+0.0292603
+I1114 12:17:22.809077 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.809083 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.3808
+-3.94613
+I1114 12:17:22.809136 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_375.txt
+I1114 12:17:22.809209 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.0131428, effect num: 6
+I1114 12:17:22.809283 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00126563, effect num: 6
+I1114 12:17:22.809356 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0000.108241 -0.00627528, theta: 0.00298756
+I1114 12:17:22.809381 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999996 -0.00298756
+00.00298756 0000.999996
+I1114 12:17:22.809398 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0000.108241
+-0.00627528
+I1114 12:17:22.809404 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.809412 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+0034.489
+-3.95241
+I1114 12:17:22.809465 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_380.txt
+I1114 12:17:22.809533 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.00718549, effect num: 5
+I1114 12:17:22.809659 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00228879, effect num: 5
+I1114 12:17:22.809727 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00228877, effect num: 5
+I1114 12:17:22.809796 10091 icp_2d_gauss_newton.cc:76] estimated pose: 00.0502042 -0.0098495, theta: -0.00274282
+I1114 12:17:22.809820 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999996 00.00274282
+-0.00274282 0000.999996
+I1114 12:17:22.809829 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+00.0502042
+-0.0098495
+I1114 12:17:22.809834 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.809841 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.5393
+-3.96226
+I1114 12:17:22.809897 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_385.txt
+I1114 12:17:22.809965 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.00339695, effect num: 5
+I1114 12:17:22.810034 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.000653836, effect num: 5
+I1114 12:17:22.810103 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.000653828, effect num: 5
+I1114 12:17:22.810173 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.050406 -0.0200213, theta: 0.000620599
+I1114 12:17:22.810196 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 -0.000620599
+00.000620599 000000000001
+I1114 12:17:22.810205 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.050406
+-0.0200213
+I1114 12:17:22.810210 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.810217 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.5897
+-3.98228
+I1114 12:17:22.810276 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_390.txt
+I1114 12:17:22.810351 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.00357951, effect num: 6
+I1114 12:17:22.810428 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00121489, effect num: 6
+I1114 12:17:22.810504 10091 icp_2d_gauss_newton.cc:76] estimated pose: 0.0407938 0.0190071, theta: 0.000984153
+I1114 12:17:22.810529 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 -0.000984153
+00.000984153 000000000001
+I1114 12:17:22.810537 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+0.0407938
+0.0190071
+I1114 12:17:22.810544 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.810550 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.6305
+-3.96327
+I1114 12:17:22.810608 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_395.txt
+I1114 12:17:22.810683 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.001485, effect num: 6
+I1114 12:17:22.810757 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00107483, effect num: 6
+I1114 12:17:22.810832 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00107483, effect num: 6
+I1114 12:17:22.810907 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00107482, effect num: 6
+I1114 12:17:22.810982 10091 icp_2d_gauss_newton.cc:68] iter 4 cost = 0.00107482, effect num: 6
+I1114 12:17:22.811139 10091 icp_2d_gauss_newton.cc:76] estimated pose: -0.0093008 -0.0151686, theta: -0.000330549
+I1114 12:17:22.811183 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 00.000330549
+-0.000330549 000000000001
+I1114 12:17:22.811192 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+-0.0093008
+-0.0151686
+I1114 12:17:22.811197 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.811204 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.6212
+-3.97844
+I1114 12:17:22.811347 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_400.txt
+I1114 12:17:22.811429 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.000765143, effect num: 7
+I1114 12:17:22.811511 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.000461139, effect num: 7
+I1114 12:17:22.811591 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.000461129, effect num: 7
+I1114 12:17:22.811672 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.0175235 -0.00601006, theta: 0.000883988
+I1114 12:17:22.811697 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+000000000001 -0.000883987
+00.000883987 000000000001
+I1114 12:17:22.811707 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.0175235
+-0.00601006
+I1114 12:17:22.811712 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.811718 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+034.6387
+-3.98445
+I1114 12:17:22.811776 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:94] ***Read data from:*** ../scans/Fendt_with_time_stamp/single_scan_405.txt
+I1114 12:17:22.811856 10091 icp_2d_gauss_newton.cc:68] iter 0 cost = 0.0129494, effect num: 7
+I1114 12:17:22.811935 10091 icp_2d_gauss_newton.cc:68] iter 1 cost = 0.00125358, effect num: 7
+I1114 12:17:22.812014 10091 icp_2d_gauss_newton.cc:68] iter 2 cost = 0.00125357, effect num: 7
+I1114 12:17:22.812094 10091 icp_2d_gauss_newton.cc:68] iter 3 cost = 0.00125357, effect num: 7
+I1114 12:17:22.812173 10091 icp_2d_gauss_newton.cc:76] estimated pose: 000.109739 0.00965105, theta: 0.00185457
+I1114 12:17:22.812198 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:118] R:
+0000.999998 -0.00185457
+00.00185457 0000.999998
+I1114 12:17:22.812207 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:119] t:
+000.109739
+0.00965105
+I1114 12:17:22.812212 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:120] *R_accumulated:
+01 -0
+-0 01
+I1114 12:17:22.812219 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:121] *t_accumulated:******************
+34.7484
+-3.9748
+I1114 12:17:22.819665 10091 taged_scan2map_test_serial_processing_nonlinear_icp.cpp:229] done

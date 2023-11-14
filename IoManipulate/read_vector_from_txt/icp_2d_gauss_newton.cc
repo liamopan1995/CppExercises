@@ -16,7 +16,7 @@ bool Icp2d::AlignGaussNewton(SE2& init_pose) {
     int iterations = 10;
     double cost = 0, lastCost = 0;
     SE2 current_pose = init_pose;
-    const float max_dis2 = 3.5;    // 最近邻时的最远距离（平方） //1st: 0.5 2nd:2.5; 3rd:2.5 4th:3.5
+    const float max_dis2 = 2.5;    // 最近邻时的最远距离（平方） //1st: 0.5 2nd:2.5; 3rd:2.5 4th:3.5
     const int min_effect_pts = 4;  // 最小有效点数 //1st 4 2nd: 4 3rd: 6 ;4th:4
 
     for (int iter = 0; iter < iterations; ++iter) {

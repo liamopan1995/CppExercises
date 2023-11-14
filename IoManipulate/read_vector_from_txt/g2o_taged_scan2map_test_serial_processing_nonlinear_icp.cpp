@@ -19,11 +19,23 @@
 
 #include "read_vector_from_txt.hpp"
 #include "common/utilities.h"
-#include "icp2d.h"
+//#include "icp2d.h"
 #include <vector>
 #include <iomanip>
 #include <glog/logging.h>
 #include <gflags/gflags.h>
+#include "icp_2d_gauss_newton.h"
+
+
+#include <g2o/core/base_vertex.h>
+#include <g2o/core/base_unary_edge.h>
+#include <g2o/core/block_solver.h>
+#include <g2o/core/optimization_algorithm_levenberg.h>
+#include <g2o/core/optimization_algorithm_gauss_newton.h>
+#include <g2o/core/optimization_algorithm_dogleg.h>
+#include <g2o/solvers/dense/linear_solver_dense.h>
+
+
 
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
@@ -77,46 +89,38 @@ int main(int argc, char* argv[]) {
     FLAGS_log_dir = "../logs";
     FLAGS_logtostderr = false; // set to true to flush info to console
 
-    Icp2d icp_2d;
-    Mat3d R_accumulated = Mat3d::Identity();
-    Vec3d t_accumulated = Vec3d::Zero();
-    Vec3d path_accumulated =Vec3d::Zero();
-    Mat3d Rotation_accumulated = Mat3d::Identity();
+    sad::Icp2d icp_2d;
+    Mat2d R_accumulated = Mat2d::Identity();
+    Vec2d t_accumulated = Vec2d::Zero();
+    Vec2d path_accumulated =Vec2d::Zero();
+    Mat2d Rotation_accumulated = Mat2d::Identity();
 
-    for(int i = 0; i <= FLAGS_max_iteration; i+=2) {
+    for(int i = 0; i <= FLAGS_max_iteration; i+=5) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
         double timestamp = readTimeFromFile(filename);
-        std::vector<Eigen::Vector3d> fileData = readXYFromFile_double(filename);
+        std::vector<Eigen::Vector2d> fileData = readXYFromFile_double_vec2d(filename);
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
 
         LOG(INFO) << "***Read data from:*** " << filename;
 
-        if(!icp_2d.isSourceSet()) {
-            icp_2d.SetSource(fileData);  
+        if(!icp_2d.isTargetSet()) {
+            icp_2d.SetTarget(fileData);  
             continue;
         }
 
+        icp_2d.SetSource(fileData);
+        SE2 pose ; 
+        icp_2d.AlignGaussNewton(pose);
+        Mat2d R = pose.so2().matrix();
+        Vec2d t = pose.translation();
         icp_2d.SetTarget(fileData);
-
-        if (!icp_2d.pose_estimation_3d3d()) {
-            // icp_2d.SetSource(fileData);
-            // not update source instead
-            // still try to match the last scan , but this would require a 
-            // larger threshold for min_distance of pair, which was increased to 5 in pose_esimation()
-            continue;
-        }
-
-        Mat3d R = icp_2d.Get_Odometry().R_;
-        Vec3d t = icp_2d.Get_Odometry().p_;
-
-        if(!t.hasNaN()&& !R.hasNaN()) {
-            // because the swaped use of target and source in the code : bfnn
-            // the t and R is the transformation for aligning the older scan to the newst scan.
-            path_accumulated -= t;
-            Rotation_accumulated = R.inverse() *  Rotation_accumulated;
-            // Save the translation between consective poses
-            translation_pose2pose.push_back(MovementData(timestamp, R, 
-            Vec3d::Zero(), t));
+        // path_accumulated -= t;
+        // Rotation_accumulated = R.inverser()*  Rotation_accumulated;
+        path_accumulated += t;
+        Rotation_accumulated = R*  Rotation_accumulated;
+        // Save the translation between consective poses
+        translation_pose2pose.push_back(MovementData(timestamp, R, 
+        Vec3d::Zero(), t));
             // Save the translation from the current pose to the origin
             odometry.push_back(MovementData(timestamp, Rotation_accumulated, 
             Vec3d::Zero(), path_accumulated));
@@ -131,12 +135,16 @@ int main(int argc, char* argv[]) {
             for(Eigen::Vector3d  point: fileDataRadius) {
                 //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
                 //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
-                Eigen::Vector3d frame_in_global = Rotation_accumulated * point + path_accumulated;
+                
+
+                double radius = point(2);
+                Vec2d point_xy = Vec2d(point(0),point(1));
+                Eigen::Vector2d frame_in_global = Rotation_accumulated * point_xy + path_accumulated;
 
                 Vec6d frame_in_global_time_idx_clusteridx;
                 frame_in_global_time_idx_clusteridx<<frame_in_global(0),
                 frame_in_global(1),
-                frame_in_global(2),
+                radius,
                 timestamp,
                 idx++,
                 0.;
@@ -144,12 +152,7 @@ int main(int argc, char* argv[]) {
                 //timestamp
                 global_map.push_back(frame_in_global_time_idx_clusteridx);
             }
-            icp_2d.SetSource(fileData);//oct 18
-        } else {
-            LOG(ERROR) << "********************************  t is NAN  In current iteration \n********************************";
-        }
-
-        //icp_2d.SetSource(fileData); //oct 18, update source only after valid R and t have been aquired
+        
     }
 
 
@@ -187,7 +190,7 @@ int main(int argc, char* argv[]) {
 
     // Save Results
     // save every single poses in the global map(frame)
-    std::string fullPath = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/state_cloud_2d.txt";
+    std::string fullPath = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/Gauss_Newton_ICPSCAN2SCAN/state_cloud_2d.txt";
     std::ofstream fout(fullPath);
     if (!fout) {
         LOG(ERROR) << "Error: Unable to open file for writing.";
@@ -205,7 +208,7 @@ int main(int argc, char* argv[]) {
     }
 
     // save landmarks in the global map 
-    std::string fullPath_2 = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/global_map.txt";
+    std::string fullPath_2 = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/Gauss_Newton_ICPSCAN2SCAN/global_map.txt";
     std::ofstream fout2(fullPath_2);
     if (!fout2) {
         LOG(ERROR) << "Error: Unable to open file for writing.";
@@ -218,7 +221,7 @@ int main(int argc, char* argv[]) {
     }
 
     // save translations of consective poses 
-    std::string fullPath_3 = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/translation_consective_poses.txt";
+    std::string fullPath_3 = std::string(homeDir) + "/git/CppExercises/IoManipulate/read_vector_from_txt/scans/Gauss_Newton_ICPSCAN2SCAN/translation_consective_poses.txt";
     std::ofstream fout3(fullPath_3);
     if (!fout3) {
         LOG(ERROR) << "Error: Unable to open file for writing.";
@@ -237,3 +240,4 @@ int main(int argc, char* argv[]) {
     google::FlushLogFiles(google::INFO);
     return 0;
 }
+

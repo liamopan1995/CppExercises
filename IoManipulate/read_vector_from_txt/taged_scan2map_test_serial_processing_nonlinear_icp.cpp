@@ -85,7 +85,7 @@ int main(int argc, char* argv[]) {
     Vec2d path_accumulated =Vec2d::Zero();
     Mat2d Rotation_accumulated = Mat2d::Identity();
 
-    for(int i = 0; i <= FLAGS_max_iteration; i++) {
+    for(int i = 0; i <= FLAGS_max_iteration; i+=5) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
         double timestamp = readTimeFromFile(filename);
         std::vector<Eigen::Vector2d> fileData = readXYFromFile_double_vec2d(filename);
