@@ -35,7 +35,8 @@ int main( int argc, char** argv )
     typedef BlockSolver<BlockSolverTraits<-1, -1>> Block;
     Block::LinearSolverType* linearSolver = new LinearSolverDense<Block::PoseMatrixType>();
     Block* solver_ptr = new Block(std::unique_ptr<Block::LinearSolverType>(linearSolver));
-    // choose one of these 2 optimizers
+
+    // choose one of the following optimizers ( so far GN performs better)
     //OptimizationAlgorithmLevenberg* solver = new OptimizationAlgorithmLevenberg(std::unique_ptr<Block>(solver_ptr));
     OptimizationAlgorithmGaussNewton* solver = new OptimizationAlgorithmGaussNewton(std::unique_ptr<Block>(solver_ptr));
     

@@ -21,10 +21,22 @@
 #include "common/utilities.h"
 #include "icp2d.h"
 #include <vector>
+#include <unordered_map>
+#include <unordered_set>
 #include <iomanip>
 #include <glog/logging.h>
 #include <gflags/gflags.h>
+#include <mlpack/methods/dbscan/dbscan.hpp>
+#include <armadillo>
+#include <limits>
+#include <g2o/types/slam2d/types_slam2d.h>
+#include <g2o/core/block_solver.h>
+#include <g2o/core/optimization_algorithm_levenberg.h>
+#include <g2o/core/optimization_algorithm_gauss_newton.h>
+#include <g2o/solvers/dense/linear_solver_dense.h>
 
+using namespace mlpack;
+using namespace mlpack::dbscan;
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
 DEFINE_int32(max_iteration, 253, "Max iteration number");
@@ -32,6 +44,10 @@ DEFINE_int32(max_iteration, 253, "Max iteration number");
 std::vector<MovementData> odometry;
 std::vector<MovementData> translation_pose2pose;
 std::vector<Vec6d> global_map;
+
+
+
+
 // Data file's name, layout, description, and format example
 
 // landmarks' x y and radius  under the global frame at timestamp t and idx for assosiation and a cluster_index
@@ -54,7 +70,7 @@ std::vector<Vec6d> global_map;
 
 // Robot's poses in global frame is saved in:
 
-// state cloud 2d: 
+// state cloud 2d( converted from odometry): 
 //  time stamp    x,     y,     quaternion.w    quaternion.x  quaternion.y quaternion.z   0, 0, 0 , yaw, pitch, roll
 // 1674207936.16734028 -0.00246779501 0.000972316053 1.1386308e-313 0.999999952 0 0 0.000311146919 0 0 0 0.0356548112 -0 0
 // 1674207936.26819897 -0.00857342122 -0.00717347218 2.2772616e-313 0.999999914 0 0 0.000413781293 0 0 0 0.0474158448 -0 0
@@ -71,6 +87,13 @@ std::vector<Vec6d> global_map;
 
 
 int main(int argc, char* argv[]) {
+    // Set the information (or covariance) matrix
+    Mat3d information_edge_se2;
+    information_edge_se2 << 100.0, 0., 0.,
+                            0., 100.0, 0.,
+                            0., 0., 1000.0;
+
+
     google::ParseCommandLineFlags(&argc, &argv, true);
     google::InitGoogleLogging(argv[0]);
 
@@ -83,6 +106,21 @@ int main(int argc, char* argv[]) {
     Vec3d path_accumulated =Vec3d::Zero();
     Mat3d Rotation_accumulated = Mat3d::Identity();
 
+
+
+
+    // Setting up the g2o optimizer
+
+    typedef g2o::BlockSolver<g2o::BlockSolverTraits<-1, -1>> Block;
+    Block::LinearSolverType* linearSolver = new g2o::LinearSolverDense<Block::PoseMatrixType>();
+    Block* solver_ptr = new Block(std::unique_ptr<Block::LinearSolverType>(linearSolver));
+
+    g2o::OptimizationAlgorithmGaussNewton* solver = new g2o::OptimizationAlgorithmGaussNewton(std::unique_ptr<Block>(solver_ptr));
+    
+    g2o::SparseOptimizer optimizer;
+    optimizer.setAlgorithm(solver);
+
+
     for(int i = 0; i <= FLAGS_max_iteration; i++) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
         double timestamp = readTimeFromFile(filename);
@@ -90,9 +128,27 @@ int main(int argc, char* argv[]) {
         std::vector<Eigen::Vector3d> fileDataRadius = readXYRFromFile_double(filename);
 
         LOG(INFO) << "***Read data from:*** " << filename;
-
+        // if it is first scan, set it ot source ,add it directly to global map and skip the rest
+        // part of the code.
         if(!icp_2d.isSourceSet()) {
-            icp_2d.SetSource(fileData);  
+            icp_2d.SetSource(fileData);
+            
+            int idx = 0;  
+            for(Eigen::Vector3d  point: fileDataRadius) {
+                Vec6d frame_in_global_time_idx_clusteridx;
+                frame_in_global_time_idx_clusteridx<<point(0),
+                point(1),
+                point(2),
+                timestamp,
+                idx++,
+                0.;
+                global_map.push_back(frame_in_global_time_idx_clusteridx);
+                // following line leads to error in comipling , look into it when time is sufficient.
+                // global_map.emplace_back(point(0), point(1), point(2), timestamp, static_cast<double>(idx++), 0.);
+
+            }
+            // origin in the odometry
+            odometry.push_back(MovementData(timestamp));            
             continue;
         }
 
@@ -176,6 +232,191 @@ int main(int argc, char* argv[]) {
         double roll = euler_angles[2] ; 
         fout << yaw << " " << pitch << " " << roll;
     };
+
+
+    /*
+    *   Clustering , Pose graph construction and solving..
+    *
+    */
+
+    // Assuming global_map is a std::vector<Vec6d>
+    arma::mat data;
+    for (const auto& point : global_map) {
+        // Include only x, y, r
+        data.insert_cols(data.n_cols, arma::vec({point(0,0), point(1,0), point(2,0)}));
+    }
+
+    DBSCAN<> dbscan(0.5, 5); // Example values for eps and min_samples
+    arma::Row<size_t> assignments;
+    dbscan.Cluster(data, assignments);
+
+    std::vector<Vec6d> clusteredData;
+    for (size_t i = 0; i < global_map.size(); ++i) {
+        Vec6d objectWithCluster = global_map[i];
+        size_t clusterId = assignments[i];
+
+        // Append the cluster ID to the object's existing data
+        // Assuming the 5th index of Vec6d is free to store the cluster ID
+        if (clusterId == std::numeric_limits<size_t>::max()) {
+        // If the point is considered noise, set the cluster ID to -1
+            objectWithCluster(5, 0) = -1;
+        } else {
+        // Otherwise, use the actual cluster ID
+            objectWithCluster(5, 0) = static_cast<double>(clusterId);
+        }
+
+        clusteredData.push_back(objectWithCluster);
+    }
+    // update global_map so it now has global cluster idex
+    global_map = clusteredData;
+
+
+//  Averaging the features in global_map(clusteredData) by clusters  ( find centriod of each cluster, 
+//  which will be used as initial guess for stem centers in the global map)
+
+    // First, calculate the centroids of each cluster
+    std::unordered_map<size_t, std::pair<Vec6d, size_t>> clusterSums;
+    for (const auto& point : clusteredData) {
+        size_t clusterId = static_cast<size_t>(point(5, 0));
+        if (clusterId != std::numeric_limits<size_t>::max()) {
+            clusterSums[clusterId].first(0, 0) += point(0, 0); // Sum x
+            clusterSums[clusterId].first(1, 0) += point(1, 0); // Sum y
+            clusterSums[clusterId].second += 1; // Count
+        }
+    }
+    std::unordered_map<size_t, Vec6d> centroids;
+    for (const auto& pair : clusterSums) {
+        size_t clusterId = pair.first;
+        Vec6d sum = pair.second.first;
+        size_t count = pair.second.second;
+        centroids[clusterId](0, 0) = sum(0, 0) / count; // Average x
+        centroids[clusterId](1, 0) = sum(1, 0) / count; // Average y
+    }
+
+    // Now replace x and y of each point with the centroid of its cluster
+    for (auto& point : clusteredData) {
+        size_t clusterId = static_cast<size_t>(point(5, 0));
+        if (clusterId != std::numeric_limits<size_t>::max()) {
+            point(0, 0) = centroids[clusterId](0, 0); // Centroid x
+            point(1, 0) = centroids[clusterId](1, 0); // Centroid y
+        }
+    }
+    // clusteredData is that version of global_map where each stem's cneter is replaced
+    // by the centroid of its cluster.
+
+
+    //  Pose graph construction 
+
+    //  0. construct vertexXY from clusteredData:
+    //  {x, y, r, time stamp ,  idx_in_local_scan [from 0 to n], cluster_index [-1 outlier]}
+    //  use a set to check wheter the current clusterId already has been processed.)
+    std::unordered_set<size_t> processedClusters;
+    int vertex_cnt = 0;
+    for (size_t i = 0; i < clusteredData.size(); ++i) {
+        size_t clusterId = assignments[i];
+
+        if (clusterId == std::numeric_limits<size_t>::max() || processedClusters.count(clusterId) > 0) {
+            // Skip if it's noise or already processed
+            continue;
+        } else {
+            // Process this cluster
+            g2o::VertexPointXY* vertex = new g2o::VertexPointXY();
+            vertex->setId(clusterId);
+            vertex->setEstimate(Eigen::Vector2d(clusteredData[i](0), clusteredData[i](1))); // Set the x, y position
+            optimizer.addVertex(vertex);
+            vertex_cnt++;
+            processedClusters.insert(clusterId); // Mark this clusterId as processed
+        }
+    }
+    cout<< "vertex_cnt in the end :"<< vertex_cnt<<endl;// Notice: Vertex idx is started from 0 !
+
+
+    //  1. construct vertexSE2 from odometry { a vec<MovementData} 
+    // struct MovementData {
+    //     double timestamp_;
+    //     Mat3d R_= Mat3d::Identity();
+    //     Eigen::Vector3d v_;
+    //     Eigen::Vector3d p_;
+    // usefull : timestamp_ , p_, R_ () 
+
+    //Eigen::Vector3d euler_angles = R.eulerAngles(2, 1, 0); // ZYX order
+        // double yaw = euler_angles[0] ; 
+        // double pitch = euler_angles[1] ; 
+        // double roll = euler_angles[2] ; 
+
+
+
+
+    // g2o::VertexSE2* v = new g2o::VertexSE2();
+    // v->setId(pose_id);
+    // v->setEstimate(g2o::SE2(pose.x, pose.y, pose.orientation));
+    // optimizer.addVertex(v);
+
+    int test_use = 0;
+    // in order to differ from the idices occupied by VertexXY in above.
+    for ( size_t i = 0; i < odometry.size() ; ++i) {
+        int vertex_se2_id = i + vertex_cnt + 1; // this is the vertex ID we going to start with
+        auto pose = odometry[i];
+        Eigen::Vector3d euler_angles = pose.R_.eulerAngles(2, 1, 0);
+        double x = pose.p_(0);
+        double y = pose.p_(1);
+        double yaw = euler_angles[0] ;
+
+        // added a vertex , 
+        //cout<< i + vertex_cnt + 1 <<"  !"<<endl;  // this is the vertex ID we going to use here
+
+        g2o::VertexSE2* v = new g2o::VertexSE2();
+        v->setId(vertex_se2_id);
+        v->setEstimate(g2o::SE2(x, y, yaw));
+
+        // Fix the first vertex
+        if(vertex_se2_id == vertex_cnt + 1) {
+            v->setFixed(true); 
+            cout<< "first node is set fix\n";
+            
+        } else {
+            // set a edege EDGE_SE2 to the previous  node : i.e : vertex_se2_id-1
+            int to_idx = vertex_se2_id;//'from_idx' is the ID of the previous vertex
+            int from_idx = to_idx-1; //'to_idx' is the ID of the current vertex
+            // since first tranlation in the vec: translation_pose2pose is the move from id:0 to id:1
+            auto translation = translation_pose2pose[i-1];
+            Eigen::Vector3d euler_angles = translation.R_.eulerAngles(2, 1, 0);
+            double x = translation.p_(0);
+            double y = translation.p_(1);
+            double yaw = euler_angles[0];
+   
+
+            g2o::EdgeSE2* e = new g2o::EdgeSE2();
+
+            // Set the connecting vertices (nodes)
+            e->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(from_idx)));
+            e->setVertex(1, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(to_idx)));
+
+            // Set the measurement (relative pose)
+            g2o::SE2 relative_pose(x, y, yaw);
+            e->setMeasurement(relative_pose);
+            e->setInformation(information_edge_se2);// defined at the beginning of main()
+
+            // Add the edge to the optimizer
+            optimizer.addEdge(e);
+            cout<< "edge se2 has been added in between from: "<<from_idx<<" to " << to_idx <<endl;
+        }
+        optimizer.addVertex(v);
+        test_use = vertex_se2_id;
+        // add the egeXY between current pose and landmarks:
+
+        // timestamp
+        // iterate over global_map  ! ! !
+        // global_map : x, y, r, time stamp ,  idx_in_local_scan [from 0 to n], cluster_index [0 by default]
+        // find cluster_index
+        // pose.timestamp_;
+    }
+
+    cout<< "final vertex id of se2vertex: "<<test_use<<endl;
+
+
+
+
 
 
     // IO

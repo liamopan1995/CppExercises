@@ -1,6 +1,4 @@
-//
-// Created by xiang on 2022/3/15.
-//
+
 
 #ifndef SLAM_IN_AUTO_DRIVING_ICP_2D_H
 #define SLAM_IN_AUTO_DRIVING_ICP_2D_H

@@ -5,6 +5,11 @@ project(patchworkpp)
 #add_compile_options(-std=c++17)
 set(CMAKE_CXX_STANDARD 17)
 
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
+
+
+
 set(CMAKE_BUILD_TYPE "Debug")
 # Include an additional directory where CMake should look for modules. 
 list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
@@ -32,9 +37,17 @@ include_directories(
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
-
-# Include PCL directories
 include_directories(${OpenCV_INCLUDE_DIRS})
+# Find Armadillo
+find_package(Armadillo REQUIRED)
+include_directories(${ARMADILLO_INCLUDE_DIRS})
+
+# Find mlpack
+include_directories(/usr/include/mlpack)
+link_directories(/usr/lib/x86_64-linux-gnu) 
+
+
+
 
 # Find glong
 # find_package(glog REQUIRED) could not find it as the apt downloaded version of glog does not contain a cmakeconfig file
@@ -69,14 +82,32 @@ add_executable( taged_scan2scan_test_serial_processing taged_scan2scan_test_seri
 target_include_directories(taged_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(taged_scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
 
+#  testing the clustering algorithm
+add_executable( cluster_taged_scan2scan_test_serial_processing cluster_taged_scan2scan_test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
+target_include_directories(cluster_taged_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(cluster_taged_scan2scan_test_serial_processing  Eigen3::Eigen 
+${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags 
+${ARMADILLO_LIBRARIES} 
+mlpack
+g2o_core g2o_stuff g2o_types_slam2d
+)
+
+
 
 add_executable( taged_scan2scan_test_serial_processing_nl taged_scan2map_test_serial_processing_nonlinear_icp.cpp icp_2d_gauss_newton.cc )
 target_include_directories(taged_scan2scan_test_serial_processing_nl PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
 
+
+
+
 add_executable( g2o_taged_scan2scan_test_serial_processing_nl g2o_taged_scan2map_test_serial_processing_nonlinear_icp.cpp icp_2d_gauss_newton.cc )
 target_include_directories(g2o_taged_scan2scan_test_serial_processing_nl PRIVATE ${CMAKE_SOURCE_DIR})
-target_link_libraries(g2o_taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags g2o_core g2o_stuff)
+target_link_libraries(g2o_taged_scan2scan_test_serial_processing_nl  Eigen3::Eigen ${PCL_LIBRARIES} 
+${Sophus_LIBRARIES} 
+tbb  glog gflags g2o_core g2o_stuff
+${ARMADILLO_LIBRARIES} 
+mlpack)
 
 
 

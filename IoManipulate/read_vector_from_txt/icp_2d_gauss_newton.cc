@@ -1,6 +1,4 @@
-//
-// Created by xiang on 2022/3/15.
-//
+
 
 #include "icp_2d_gauss_newton.h"
 #include "common/math_utils.h"

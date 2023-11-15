@@ -85,7 +85,7 @@ int main(int argc, char* argv[]) {
     Vec2d path_accumulated =Vec2d::Zero();
     Mat2d Rotation_accumulated = Mat2d::Identity();
 
-    for(int i = 0; i <= FLAGS_max_iteration; i+=5) {
+    for(int i = 0; i <= FLAGS_max_iteration; i++) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
         double timestamp = readTimeFromFile(filename);
         std::vector<Eigen::Vector2d> fileData = readXYFromFile_double_vec2d(filename);
@@ -111,37 +111,37 @@ int main(int argc, char* argv[]) {
         // Save the translation between consective poses
         translation_pose2pose.push_back(MovementData(timestamp, R, 
         Vec3d::Zero(), t));
-            // Save the translation from the current pose to the origin
-            odometry.push_back(MovementData(timestamp, Rotation_accumulated, 
-            Vec3d::Zero(), path_accumulated));
+        // Save the translation from the current pose to the origin
+        odometry.push_back(MovementData(timestamp, Rotation_accumulated, 
+        Vec3d::Zero(), path_accumulated));
 
-            LOG(INFO) << "R:\n" << R;
-            LOG(INFO) << "t:\n" << t;
-            LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
-            LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
+        LOG(INFO) << "R:\n" << R;
+        LOG(INFO) << "t:\n" << t;
+        LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
+        LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 
 
-            int idx = 0;
-            for(Eigen::Vector3d  point: fileDataRadius) {
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
-                
+        int idx = 0;
+        for(Eigen::Vector3d  point: fileDataRadius) {
+            //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
+            //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
+            
 
-                double radius = point(2);
-                Vec2d point_xy = Vec2d(point(0),point(1));
-                Eigen::Vector2d frame_in_global = Rotation_accumulated * point_xy + path_accumulated;
+            double radius = point(2);
+            Vec2d point_xy = Vec2d(point(0),point(1));
+            Eigen::Vector2d frame_in_global = Rotation_accumulated * point_xy + path_accumulated;
 
-                Vec6d frame_in_global_time_idx_clusteridx;
-                frame_in_global_time_idx_clusteridx<<frame_in_global(0),
-                frame_in_global(1),
-                radius,
-                timestamp,
-                idx++,
-                0.;
+            Vec6d frame_in_global_time_idx_clusteridx;
+            frame_in_global_time_idx_clusteridx<<frame_in_global(0),
+            frame_in_global(1),
+            radius,
+            timestamp,
+            idx++,
+            0.;
 
-                //timestamp
-                global_map.push_back(frame_in_global_time_idx_clusteridx);
-            }
+            //timestamp
+            global_map.push_back(frame_in_global_time_idx_clusteridx);
+        }
         
     }
 

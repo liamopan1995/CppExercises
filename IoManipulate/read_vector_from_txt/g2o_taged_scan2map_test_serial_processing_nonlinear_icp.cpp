@@ -25,17 +25,17 @@
 #include <glog/logging.h>
 #include <gflags/gflags.h>
 #include "icp_2d_gauss_newton.h"
-
-
-#include <g2o/core/base_vertex.h>
-#include <g2o/core/base_unary_edge.h>
+#include <g2o/types/slam2d/types_slam2d.h>
 #include <g2o/core/block_solver.h>
 #include <g2o/core/optimization_algorithm_levenberg.h>
 #include <g2o/core/optimization_algorithm_gauss_newton.h>
-#include <g2o/core/optimization_algorithm_dogleg.h>
 #include <g2o/solvers/dense/linear_solver_dense.h>
 
+#include <mlpack/methods/dbscan/dbscan.hpp>
+#include <armadillo>
 
+using namespace mlpack;
+using namespace mlpack::dbscan;
 
 // Define gflags
 DEFINE_string(filename_prefix, "../scans/Fendt/single_scan_", "Prefix of the filename");
@@ -95,7 +95,7 @@ int main(int argc, char* argv[]) {
     Vec2d path_accumulated =Vec2d::Zero();
     Mat2d Rotation_accumulated = Mat2d::Identity();
 
-    for(int i = 0; i <= FLAGS_max_iteration; i+=5) {
+    for(int i = 0; i <= FLAGS_max_iteration; i++) {
         std::string filename = FLAGS_filename_prefix + std::to_string(i) + ".txt";
         double timestamp = readTimeFromFile(filename);
         std::vector<Eigen::Vector2d> fileData = readXYFromFile_double_vec2d(filename);
@@ -105,6 +105,7 @@ int main(int argc, char* argv[]) {
 
         if(!icp_2d.isTargetSet()) {
             icp_2d.SetTarget(fileData);  
+
             continue;
         }
 
@@ -114,6 +115,10 @@ int main(int argc, char* argv[]) {
         Mat2d R = pose.so2().matrix();
         Vec2d t = pose.translation();
         icp_2d.SetTarget(fileData);
+
+
+
+
         // path_accumulated -= t;
         // Rotation_accumulated = R.inverser()*  Rotation_accumulated;
         path_accumulated += t;
@@ -121,39 +126,68 @@ int main(int argc, char* argv[]) {
         // Save the translation between consective poses
         translation_pose2pose.push_back(MovementData(timestamp, R, 
         Vec3d::Zero(), t));
-            // Save the translation from the current pose to the origin
-            odometry.push_back(MovementData(timestamp, Rotation_accumulated, 
-            Vec3d::Zero(), path_accumulated));
+        // Save the translation from the current pose to the origin
+        odometry.push_back(MovementData(timestamp, Rotation_accumulated, 
+        Vec3d::Zero(), path_accumulated));
 
-            LOG(INFO) << "R:\n" << R;
-            LOG(INFO) << "t:\n" << t;
-            LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
-            LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
+        LOG(INFO) << "R:\n" << R;
+        LOG(INFO) << "t:\n" << t;
+        LOG(INFO) << "*R_accumulated:\n" << R_accumulated.inverse();
+        LOG(INFO) << "*t_accumulated:******************\n" << path_accumulated;
 
 
-            int idx = 0;
-            for(Eigen::Vector3d  point: fileDataRadius) {
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
-                
+        int idx = 0;
+        for(Eigen::Vector3d  point: fileDataRadius) {
+            //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
+            //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
+            
 
-                double radius = point(2);
-                Vec2d point_xy = Vec2d(point(0),point(1));
-                Eigen::Vector2d frame_in_global = Rotation_accumulated * point_xy + path_accumulated;
+            double radius = point(2);
+            Vec2d point_xy = Vec2d(point(0),point(1));
+            Eigen::Vector2d frame_in_global = Rotation_accumulated * point_xy + path_accumulated;
 
-                Vec6d frame_in_global_time_idx_clusteridx;
-                frame_in_global_time_idx_clusteridx<<frame_in_global(0),
-                frame_in_global(1),
-                radius,
-                timestamp,
-                idx++,
-                0.;
+            Vec6d frame_in_global_time_idx_clusteridx;
+            frame_in_global_time_idx_clusteridx<<frame_in_global(0),
+            frame_in_global(1),
+            radius,
+            timestamp,
+            idx++,
+            0.;
 
-                //timestamp
-                global_map.push_back(frame_in_global_time_idx_clusteridx);
-            }
+            //timestamp
+            global_map.push_back(frame_in_global_time_idx_clusteridx);
+        }
+
+
+
         
     }
+    
+    // when time is sufficient also try : keeping a global map and updating by adding new features which 
+    // failed to find a nearest neighbour and to those whom  found one, update their value by averaging.
+    // keep a global idx there.
+
+
+
+    // create the first vertexSE2 and its edges here ( fixed starting point with ID 0)
+    // create the initial guess of the global landmark maps via clustering, keeping track of tree idx 
+    // after clustering.  from this initial guess create/(update per idx) the VertexPointXY 
+    
+    // 1. finsh the clustering ? or how to maintain the gloabl map and its indexing ? 
+
+    // global_map 
+    // stems in global_map( non duplicate ) should have the same idx as in vec edgeSE2PointXY
+    // hashmap ? 
+
+
+        // create the vertexSE2 and its edgeSE2(from last to cur) here 
+        // create the edgeSE2PointXY here 
+
+
+    // run optimizer and save the result as .g2o to local for verification.
+    
+    // get the clustering done
+
 
 
 
@@ -179,6 +213,46 @@ int main(int argc, char* argv[]) {
         double roll = euler_angles[2] ; 
         fout << yaw << " " << pitch << " " << roll;
     };
+
+
+
+
+    // Assuming global_map is a std::vector<Vec6d>
+    arma::mat data;
+    for (const auto& point : global_map) {
+        // Include only x, y, r
+        data.insert_cols(data.n_cols, arma::vec({point(0,0), point(1,0), point(2,0)}));
+    }
+
+    DBSCAN<> dbscan(0.5, 5); // Example values for eps and min_samples
+    arma::Row<size_t> assignments;
+    dbscan.Cluster(data, assignments);
+
+    // // Assuming 'assignments' is your arma::Row<size_t> from DBSCAN
+    // for (size_t i = 0; i < assignments.n_elem; ++i) {
+    //     if
+    //     std::cout << "Point " << i << " is in cluster " << assignments[i] << std::endl;
+    // }
+
+    std::vector<Vec6d> clusteredData;
+    for (size_t i = 0; i < global_map.size(); ++i) {
+        Vec6d objectWithCluster = global_map[i];
+        size_t clusterId = assignments[i];
+
+        // Append the cluster ID to the object's existing data
+        // Assuming the 5th index of Vec6d is free to store the cluster ID
+        if (clusterId == std::numeric_limits<size_t>::max()) {
+        // If the point is considered noise, set the cluster ID to -1
+            objectWithCluster(5, 0) = -1;
+        } else {
+        // Otherwise, use the actual cluster ID
+            objectWithCluster(5, 0) = static_cast<double>(clusterId);
+        }
+
+        clusteredData.push_back(objectWithCluster);
+    }
+    global_map = clusteredData;
+
 
 
     // IO
@@ -238,6 +312,7 @@ int main(int argc, char* argv[]) {
     
     LOG(INFO) << "done";
     google::FlushLogFiles(google::INFO);
+
     return 0;
 }
 

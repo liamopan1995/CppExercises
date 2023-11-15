@@ -96,7 +96,7 @@ struct MovementData {
     double timestamp_;
     Mat3d R_= Mat3d::Identity();
     Eigen::Vector3d v_;
-    Eigen::Vector3d p_;
+    Eigen::Vector3d p_; //x y z
 
     MovementData() 
         : timestamp_(0.0), v_(Eigen::Vector3d::Zero()), p_(Eigen::Vector3d::Zero()) {} 
