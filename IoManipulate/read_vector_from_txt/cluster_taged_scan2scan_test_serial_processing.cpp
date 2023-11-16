@@ -48,6 +48,7 @@ std::vector<Vec6d> global_map;
 
 
 
+
 // Data file's name, layout, description, and format example
 
 // landmarks' x y and radius  under the global frame at timestamp t and idx for assosiation and a cluster_index
@@ -92,7 +93,11 @@ int main(int argc, char* argv[]) {
     information_edge_se2 << 100.0, 0., 0.,
                             0., 100.0, 0.,
                             0., 0., 1000.0;
-
+    Mat2d information_edge_xy;
+    information_edge_xy<< 100.0, 0.,
+                          0., 100.0;
+    information_edge_se2 = Mat3d::Identity();
+    information_edge_xy = Mat2d::Identity();
 
     google::ParseCommandLineFlags(&argc, &argv, true);
     google::InitGoogleLogging(argv[0]);
@@ -132,23 +137,24 @@ int main(int argc, char* argv[]) {
         // part of the code.
         if(!icp_2d.isSourceSet()) {
             icp_2d.SetSource(fileData);
-            
-            int idx = 0;  
-            for(Eigen::Vector3d  point: fileDataRadius) {
-                Vec6d frame_in_global_time_idx_clusteridx;
-                frame_in_global_time_idx_clusteridx<<point(0),
-                point(1),
-                point(2),
-                timestamp,
-                idx++,
-                0.;
-                global_map.push_back(frame_in_global_time_idx_clusteridx);
-                // following line leads to error in comipling , look into it when time is sufficient.
-                // global_map.emplace_back(point(0), point(1), point(2), timestamp, static_cast<double>(idx++), 0.);
+            // try  abandon first reading for pose graph
 
-            }
-            // origin in the odometry
-            odometry.push_back(MovementData(timestamp));            
+            // int idx = 0;  
+            // for(Eigen::Vector3d  point: fileDataRadius) {
+            //     Vec6d frame_in_global_time_idx_clusteridx;
+            //     frame_in_global_time_idx_clusteridx<<point(0),
+            //     point(1),
+            //     point(2),
+            //     timestamp,
+            //     idx++,
+            //     0.;
+            //     global_map.push_back(frame_in_global_time_idx_clusteridx);
+            //     // following line leads to error in comipling , look into it when time is sufficient.
+            //     // global_map.emplace_back(point(0), point(1), point(2), timestamp, static_cast<double>(idx++), 0.);
+
+            // }
+            // // origin in the odometry
+            // odometry.push_back(MovementData(timestamp));            
             continue;
         }
 
@@ -269,7 +275,7 @@ int main(int argc, char* argv[]) {
     }
     // update global_map so it now has global cluster idex
     global_map = clusteredData;
-
+    std::vector<Vec6d> global_map_test = global_map;
 
 //  Averaging the features in global_map(clusteredData) by clusters  ( find centriod of each cluster, 
 //  which will be used as initial guess for stem centers in the global map)
@@ -301,9 +307,10 @@ int main(int argc, char* argv[]) {
             point(1, 0) = centroids[clusterId](1, 0); // Centroid y
         }
     }
+    //************************************************************************************************                                                   ****/
     // clusteredData is that version of global_map where each stem's cneter is replaced
     // by the centroid of its cluster.
-
+    //************************************************************************************************ 
 
     //  Pose graph construction 
 
@@ -351,12 +358,14 @@ int main(int argc, char* argv[]) {
     // v->setId(pose_id);
     // v->setEstimate(g2o::SE2(pose.x, pose.y, pose.orientation));
     // optimizer.addVertex(v);
-
+    int iter_global_map = 0;
     int test_use = 0;
     // in order to differ from the idices occupied by VertexXY in above.
     for ( size_t i = 0; i < odometry.size() ; ++i) {
-        int vertex_se2_id = i + vertex_cnt + 1; // this is the vertex ID we going to start with
+        // int vertex_se2_id = i + vertex_cnt + 1; // this is the vertex ID we going to start with
+        int vertex_se2_id = i + vertex_cnt + 1      +49; //   let it be the same as the result in python
         auto pose = odometry[i];
+        double timestamp = pose.timestamp_;
         Eigen::Vector3d euler_angles = pose.R_.eulerAngles(2, 1, 0);
         double x = pose.p_(0);
         double y = pose.p_(1);
@@ -364,20 +373,23 @@ int main(int argc, char* argv[]) {
 
         // added a vertex , 
         //cout<< i + vertex_cnt + 1 <<"  !"<<endl;  // this is the vertex ID we going to use here
-
+        
         g2o::VertexSE2* v = new g2o::VertexSE2();
         v->setId(vertex_se2_id);
         v->setEstimate(g2o::SE2(x, y, yaw));
-
+        cout<< "new vertex ,  id: "<< vertex_se2_id <<"added\n";
         // Fix the first vertex
         if(vertex_se2_id == vertex_cnt + 1) {
-            v->setFixed(true); 
-            cout<< "first node is set fix\n";
+            v->setFixed(true);
+            optimizer.addVertex(v); 
+            cout<< "first node is set fix, first node id: "<< vertex_se2_id <<"\n";
             
         } else {
+            optimizer.addVertex(v);
             // set a edege EDGE_SE2 to the previous  node : i.e : vertex_se2_id-1
-            int to_idx = vertex_se2_id;//'from_idx' is the ID of the previous vertex
-            int from_idx = to_idx-1; //'to_idx' is the ID of the current vertex
+            int to_idx = vertex_se2_id;
+            int from_idx = to_idx-1; 
+            cout<< " from_idx and to_idx : "<<from_idx<<"   " << to_idx <<endl;
             // since first tranlation in the vec: translation_pose2pose is the move from id:0 to id:1
             auto translation = translation_pose2pose[i-1];
             Eigen::Vector3d euler_angles = translation.R_.eulerAngles(2, 1, 0);
@@ -385,9 +397,8 @@ int main(int argc, char* argv[]) {
             double y = translation.p_(1);
             double yaw = euler_angles[0];
    
-
+            cout<< "x ,y ,yaw : "<< x<<" "<< y<< " "<<yaw<<endl;
             g2o::EdgeSE2* e = new g2o::EdgeSE2();
-
             // Set the connecting vertices (nodes)
             e->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(from_idx)));
             e->setVertex(1, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(to_idx)));
@@ -400,8 +411,9 @@ int main(int argc, char* argv[]) {
             // Add the edge to the optimizer
             optimizer.addEdge(e);
             cout<< "edge se2 has been added in between from: "<<from_idx<<" to " << to_idx <<endl;
+            // return 0;
         }
-        optimizer.addVertex(v);
+        
         test_use = vertex_se2_id;
         // add the egeXY between current pose and landmarks:
 
@@ -410,11 +422,67 @@ int main(int argc, char* argv[]) {
         // global_map : x, y, r, time stamp ,  idx_in_local_scan [from 0 to n], cluster_index [0 by default]
         // find cluster_index
         // pose.timestamp_;
+
+        //  having timestamp  and vertex_se2_id
+
+        double specific_value = timestamp;
+        //cout<< "specific val: "<< specific_value<<endl;
+
+        // for (size_t j=0;j<global_map_test.size();++j){
+        //     cout<< "global_map_test[j]: "<< j <<" " << global_map_test[j]<<endl;
+        //     if(j>=10) break;
+        // }
+        // for (size_t j=0;j<global_map.size();++j){
+        //     cout<< "global_map[j]: " << global_map[j]<<endl;
+        // }
+        // Iterate over the data and print the 6th element where the 4th element matches the specific value
+        while(true){
+            // cout<< "global_map_test[iter_global_map]: " << global_map_test[iter_global_map]<<endl;
+            // cout<< "global_map_test[iter_global_map](3) : " << global_map_test[iter_global_map](3)<<endl;
+            if (specific_value == global_map_test[iter_global_map](3)) {
+                int vertex_xy_id = global_map_test[iter_global_map](5);
+    
+                if (vertex_xy_id == -1){
+                    //cout<<" 6th Element equal -1: skipping it" << endl;
+                    // Do nothing since it is a outlier
+                } else {
+                    double x =global_map_test[iter_global_map](0);
+                    double y =global_map_test[iter_global_map](1);
+                    // std::cout << "time stamp  " <<std::setprecision(18)<< global_map_test[iter_global_map](3)<<
+                    // " 6th Element (global idx,i.e vertexXY's ID): " << vertex_xy_id << "  x "<<
+                    // x<<"  y "<< y << std::endl;
+
+                    // BUILD THE EDGESE2PointXY :
+                    g2o::EdgeSE2PointXY* e = new g2o::EdgeSE2PointXY();
+                    // Set the connecting vertices (nodes)
+                    e->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(vertex_se2_id)));
+                    e->setVertex(1, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(vertex_xy_id)));
+                    //Eigen::Vector2d position(x, y); // Assuming x and y are defined earlier as the positions
+                    e->setMeasurement(Eigen::Vector2d(x, y));
+                    e->setInformation(information_edge_xy); // Define information_edge_xy appropriately
+                    optimizer.addEdge(e);
+                    //cout << "Edge XY has been added in between from: " << vertex_se2_id << " to " << vertex_xy_id << endl;
+
+                }
+                ++iter_global_map;
+            } else {break;}
+            
+        }
+        // if(iter_global_map>49) return 0;
     }
 
-    cout<< "final vertex id of se2vertex: "<<test_use<<endl;
+    cout<< "final vertex id of se2vertex (started from  vertex_cnt +1 ) : "<<test_use<<endl;
+    cout<< "final vertexXY count: " <<vertex_cnt<<endl;
+    cout<< "final iter_global_map final val: "<<iter_global_map<<endl;
 
+    // cout << "Preparing optimization..." << endl;
+    // optimizer.setVerbose(true);
+    // optimizer.initializeOptimization();
+    // cout << "Starting optimization..." << endl;
+    // optimizer.optimize(30);
 
+    cout << "Saving optimization results..." << endl;
+    optimizer.save("../result_g2o/result_2d.g2o");
 
 
 
