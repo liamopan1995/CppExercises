@@ -86,9 +86,25 @@ target_include_directories(taged_scan2scan_test_serial_processing PRIVATE ${CMAK
 target_link_libraries(taged_scan2scan_test_serial_processing  Eigen3::Eigen ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags)
 
 #  testing the clustering algorithm
-add_executable( cluster_taged_scan2scan_test_serial_processing cluster_taged_scan2scan_test_serial_processing.cpp bfnn.cc icp3d.cc icp2d.cc kdtree.cc )
+add_executable( cluster_taged_scan2scan_test_serial_processing cluster_taged_scan2scan_test_serial_processing.cpp bfnn.cc icp3d.cc 
+icp2d.cc 
+kdtree.cc 
+)
 target_include_directories(cluster_taged_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(cluster_taged_scan2scan_test_serial_processing  Eigen3::Eigen 
+${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags 
+${ARMADILLO_LIBRARIES} 
+mlpack
+g2o_core g2o_stuff g2o_types_slam2d
+cholmod
+)
+
+add_executable( encapsulized_cluster_taged_scan2scan_test_serial_processing encapsulized_cluster_taged_scan2scan_test_serial_processing.cpp
+ bfnn.cc icp3d.cc icp2d.cc kdtree.cc 
+ PoseGraphBuilder.cpp
+ )
+target_include_directories(encapsulized_cluster_taged_scan2scan_test_serial_processing PRIVATE ${CMAKE_SOURCE_DIR})
+target_link_libraries(encapsulized_cluster_taged_scan2scan_test_serial_processing  Eigen3::Eigen 
 ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags 
 ${ARMADILLO_LIBRARIES} 
 mlpack

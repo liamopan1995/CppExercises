@@ -36,6 +36,7 @@
 #include <g2o/core/optimization_algorithm_gauss_newton.h>
 #include <g2o/solvers/cholmod/linear_solver_cholmod.h>
 #include <g2o/solvers/dense/linear_solver_dense.h>
+#include "PoseGraphBuilder.hpp"
 
 using namespace mlpack;
 using namespace mlpack::dbscan;
@@ -107,16 +108,8 @@ std::vector<Vec6d> local_map;
 
 
 int main(int argc, char* argv[]) {
-    // Set the information (or covariance) matrix
-    // Mat3d information_edge_se2;
-    // information_edge_se2 << 100.0, 0., 0.,
-    //                         0., 100.0, 0.,
-    //                         0., 0., 1000.0;
-    // Mat2d information_edge_xy;
-    // information_edge_xy<< 100.0, 0.,
-    //                       0., 100.0;
-    Mat3d information_edge_se2 = Mat3d::Identity();
-    Mat2d information_edge_xy = Mat2d::Identity();
+    // Instantiate a pose graph processor.
+    PoseGraphBuilder poseGraphBuilder;
 
     google::ParseCommandLineFlags(&argc, &argv, true);
     google::InitGoogleLogging(argv[0]);
@@ -131,20 +124,6 @@ int main(int argc, char* argv[]) {
     Mat3d Rotation_accumulated = Mat3d::Identity();
 
 
-
-
-    g2o::SparseOptimizer optimizer;
-    optimizer.setVerbose(true);
-    // Choose the linear solver - CHOLMOD ( this one is especially fast)
-    auto linearSolver = std::make_unique<g2o::LinearSolverCholmod<g2o::BlockSolverX::PoseMatrixType>>();
-
-    // Create the block solver
-    auto blockSolver = std::make_unique<g2o::BlockSolverX>(std::move(linearSolver));
-
-    // Choose the algorithm - Gauss-Newton
-    auto algorithm = new g2o::OptimizationAlgorithmGaussNewton(std::move(blockSolver));
-
-    optimizer.setAlgorithm(algorithm);
 
     // In construction of graph, no kernel is involved , mainly due to computation -accuracy trade off
     for(int i = 0; i <= FLAGS_max_iteration; i++) {
@@ -167,7 +146,7 @@ int main(int argc, char* argv[]) {
             //    therefore following block is comment out.
             /*********************************************/ 
             //int idx = 0;  
-            for(Eigen::Vector3d  point: fileDataRadius) {
+            //for(Eigen::Vector3d  point: fileDataRadius) {
                 // Vec6d frame_in_global_time_idx_clusteridx;
                 // frame_in_global_time_idx_clusteridx<<point(0),
                 // point(1),
@@ -190,7 +169,7 @@ int main(int argc, char* argv[]) {
                 // following line leads to error in comipling , look into it when time is sufficient.
                 // global_map.emplace_back(point(0), point(1), point(2), timestamp, static_cast<double>(idx++), 0.);
 
-            }
+            //}
             // origin in the odometry
             //odometry.push_back(MovementData(timestamp));            
             continue;
@@ -229,8 +208,6 @@ int main(int argc, char* argv[]) {
 
             int idx = 0;
             for(Eigen::Vector3d  point: fileDataRadius) {
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  point - t_accumulated;
-                //Eigen::Vector3d frame_in_global= R_accumulated.inverse() *  (point - t_accumulated);
                 Eigen::Vector3d frame_in_global = Rotation_accumulated * point + path_accumulated;
 
                 Vec6d frame_in_global_time_idx_clusteridx;
@@ -259,7 +236,26 @@ int main(int argc, char* argv[]) {
             LOG(ERROR) << "********************************  t is NAN  In current iteration \n********************************";
         }
 
-        //icp_2d.SetSource(fileData); //oct 18, update source only after valid R and t have been aquired
+
+        //  **************************************************
+        //  Graph OPtimization Nov 17.
+        //  **************************************************
+
+        // Test run  graph opt  after every certain iteration
+        if(i % 10==0 || i==407){
+        // Run in every 10 scan
+            std::string filename = "result_2d_" + std::to_string(i) +".g2o";
+            std::cout<< "In iter: "<<filename<<endl;
+            //Reusing it by  just reseting all vertices and edges at here 
+            poseGraphBuilder.clear_edges_vertices();  
+            poseGraphBuilder.build_optimize_Graph(global_map, local_map, odometry, translation_pose2pose);
+            if(i % 50==0 || i==407){
+            // Run in every 50 scan
+                poseGraphBuilder.saveGraph("../result_g2o/r" + filename);
+                std::cout << "Pose graph optimization completed." << std::endl;
+            }
+            
+        }
     }
 
 
@@ -288,270 +284,29 @@ int main(int argc, char* argv[]) {
     };
 
 
-    /*
-    *   Clustering , Pose graph construction and solving..
-    *
-    */
-
-    // Assuming global_map is a std::vector<Vec6d>
-    arma::mat data;
-    for (const auto& point : global_map) {
-        // Include only x, y, r
-        data.insert_cols(data.n_cols, arma::vec({point(0,0), point(1,0), point(2,0)}));
-    }
-
-    DBSCAN<> dbscan(0.5, 5); // Example values for eps and min_samples
-    arma::Row<size_t> assignments;
-    dbscan.Cluster(data, assignments);
-
-    std::vector<Vec6d> clusteredData;
-    for (size_t i = 0; i < global_map.size(); ++i) {
-        Vec6d objectWithCluster = global_map[i];
-        size_t clusterId = assignments[i];
-
-        // Append the cluster ID to the object's existing data
-        // Assuming the 5th index of Vec6d is free to store the cluster ID
-        if (clusterId == std::numeric_limits<size_t>::max()) {
-        // If the point is considered noise, set the cluster ID to -1
-            objectWithCluster(5, 0) = -1;
-        } else {
-        // Otherwise, use the actual cluster ID
-            objectWithCluster(5, 0) = static_cast<double>(clusterId);
-        }
-
-        clusteredData.push_back(objectWithCluster);
-    }
 
 
-    
-    // Update global_map so it now has global cluster idex
-    global_map = clusteredData;
+    // // Pose Graph
+    // PoseGraphBuilder poseGraphBuilder;
+    // // This is an instance that is used for building and solving pose graph
+    // // **********************************************************************************************
+    // // Assuming you have globalMap, localMap, odometry, and translationPose2Pose filled...
+    // // Arguments are passed by parameter, no changes will be made to them . can be run parrellel as
+    // // new data is aqquisted. 
+    // // Everytime needs to run graph opt. just call this build_optimize_Graph and provide the 
+    // // latest updated of the four data structure.
+    // // Todo:  1. Write a function that iterates over the vertices and converts them to ros message type as 
+    // // landmark and navi pose. 
+    // // 2. review the main node  Cloudsegmentaion.cpp and see how the four necessary data structure 
+    // // should be saved and maitained parallely during running.
+    // // (3) add robust kernel during creating edges, (it may slow down the programm)
 
-    //  Update local_map so it now has global cluster idex
-    if(global_map.size() ==local_map.size()) {
-        cout<<"global map and local map are of same size" <<endl;
-        for(int i=0;i<global_map.size();++i) {
-            local_map[i](5) = global_map[i](5);
-            // cout<<global_map[i].transpose()<<"     global"<<endl;
-            // cout<<local_map[i].transpose()<<"      local"<<endl<<endl;
-            // if (i>100) return 0;
-        }
-    }
-    //return 0;
+    // //                                                              Nov 17
+    // // **********************************************************************************************
+    // poseGraphBuilder.build_optimize_Graph(global_map, local_map, odometry, translation_pose2pose);
+    // poseGraphBuilder.saveGraph();
 
-
-    std::vector<Vec6d> global_map_test = local_map;
-
-//  Averaging the features in global_map(clusteredData) by clusters  ( find centriod of each cluster, 
-//  which will be used as initial guess for stem centers in the global map)
-
-    // First, calculate the centroids of each cluster
-    std::unordered_map<size_t, std::pair<Vec6d, size_t>> clusterSums;
-    for (const auto& point : clusteredData) {
-        size_t clusterId = static_cast<size_t>(point(5, 0));
-        if (clusterId != std::numeric_limits<size_t>::max()) {
-            clusterSums[clusterId].first(0, 0) += point(0, 0); // Sum x
-            clusterSums[clusterId].first(1, 0) += point(1, 0); // Sum y
-            clusterSums[clusterId].second += 1; // Count
-        }
-    }
-    std::unordered_map<size_t, Vec6d> centroids;
-    for (const auto& pair : clusterSums) {
-        size_t clusterId = pair.first;
-        Vec6d sum = pair.second.first;
-        size_t count = pair.second.second;
-        centroids[clusterId](0, 0) = sum(0, 0) / count; // Average x
-        centroids[clusterId](1, 0) = sum(1, 0) / count; // Average y
-    }
-
-    // Now replace x and y of each point with the centroid of its cluster
-    for (auto& point : clusteredData) {
-        size_t clusterId = static_cast<size_t>(point(5, 0));
-        if (clusterId != std::numeric_limits<size_t>::max()) {
-            point(0, 0) = centroids[clusterId](0, 0); // Centroid x
-            point(1, 0) = centroids[clusterId](1, 0); // Centroid y
-        }
-    }
-
-    //************************************************************************************************                                                   ****/
-    // clusteredData is that version of global_map where each stem's cneter is replaced
-    // by the centroid of its cluster.
-    //************************************************************************************************ 
-
-    //  Pose graph construction 
-
-    //  0. construct vertexXY from clusteredData:
-    //  {x, y, r, time stamp ,  idx_in_local_scan [from 0 to n], cluster_index [-1 outlier]}
-    //  use a set to check wheter the current clusterId already has been processed.)
-    std::unordered_set<size_t> processedClusters;
-    int vertex_cnt = 0;
-    for (size_t i = 0; i < clusteredData.size(); ++i) {
-        size_t clusterId = assignments[i];
-
-        if (clusterId == std::numeric_limits<size_t>::max() || processedClusters.count(clusterId) > 0) {
-            // Skip if it's noise or already processed
-            continue;
-        } else {
-            // Process this cluster
-            g2o::VertexPointXY* vertex = new g2o::VertexPointXY();
-            vertex->setId(clusterId);
-            vertex->setEstimate(Eigen::Vector2d(clusteredData[i](0), clusteredData[i](1))); // Set the x, y position
-            optimizer.addVertex(vertex);
-            vertex_cnt++;
-            processedClusters.insert(clusterId); // Mark this clusterId as processed
-        }
-    }
-    cout<< "vertex_cnt in the end :"<< vertex_cnt<<endl;// Notice: Vertex idx is started from 0 !
-
-
-    //  1. construct vertexSE2 from odometry { a vec<MovementData} 
-    // struct MovementData {
-    //     double timestamp_;
-    //     Mat3d R_= Mat3d::Identity();
-    //     Eigen::Vector3d v_;
-    //     Eigen::Vector3d p_;
-    // usefull : timestamp_ , p_, R_ () 
-
-    //Eigen::Vector3d euler_angles = R.eulerAngles(2, 1, 0); // ZYX order
-        // double yaw = euler_angles[0] ; 
-        // double pitch = euler_angles[1] ; 
-        // double roll = euler_angles[2] ; 
-
-
-
-
-    // g2o::VertexSE2* v = new g2o::VertexSE2();
-    // v->setId(pose_id);
-    // v->setEstimate(g2o::SE2(pose.x, pose.y, pose.orientation));
-    // optimizer.addVertex(v);
-
-
-    int iter_local_map = 0;
-    int test_use = 0;
-    // in order to differ from the idices occupied by VertexXY in above.
-    for ( size_t i = 0; i < odometry.size() ; ++i) {
-        // int vertex_se2_id = i + vertex_cnt + 1; // this is the vertex ID we going to start with
-        int vertex_se2_id = i + vertex_cnt + 1   ; //  additionally +49 if want to let it be the same as the result in python
-        auto pose = odometry[i];
-        double timestamp = pose.timestamp_;
-        Eigen::Vector3d euler_angles = pose.R_.eulerAngles(2, 1, 0);
-        double x = pose.p_(0);
-        double y = pose.p_(1);
-        double yaw = euler_angles[0] ;
-
-        // added a vertex , 
-        //cout<< i + vertex_cnt + 1 <<"  !"<<endl;  // this is the vertex ID we going to use here
-        
-        g2o::VertexSE2* v = new g2o::VertexSE2();
-        v->setId(vertex_se2_id);
-        v->setEstimate(g2o::SE2(x, y, yaw));
-        cout<< "new vertex ,  id: "<< vertex_se2_id <<"added\n";
-        // Fix the first vertex
-        if(vertex_se2_id == vertex_cnt + 1    ) { //+49
-            v->setFixed(true);
-            optimizer.addVertex(v); 
-            cout<< "first node is set fix, first node id: "<< vertex_se2_id <<"\n";
-            
-        } else {
-            optimizer.addVertex(v);
-            // set a edege EDGE_SE2 to the previous  node : i.e : vertex_se2_id-1
-            int to_idx = vertex_se2_id;
-            int from_idx = to_idx-1; 
-            cout<< " from_idx and to_idx : "<<from_idx<<"   " << to_idx <<endl;
-            // since first tranlation in the vec: translation_pose2pose is the move from id:0 to id:1
-            auto translation = translation_pose2pose[i-1];
-            Eigen::Vector3d euler_angles = translation.R_.eulerAngles(2, 1, 0);
-            double x = translation.p_(0);
-            double y = translation.p_(1);
-            double yaw = euler_angles[0];
-   
-            cout<< "x ,y ,yaw : "<< x<<" "<< y<< " "<<yaw<<endl;
-            g2o::EdgeSE2* e = new g2o::EdgeSE2();
-            // Set the connecting vertices (nodes)
-            e->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(from_idx)));
-            e->setVertex(1, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(to_idx)));
-
-            // Set the measurement (relative pose)
-            g2o::SE2 relative_pose(x, y, yaw);
-            e->setMeasurement(relative_pose);
-            e->setInformation(information_edge_se2);// defined at the beginning of main()
-
-            // Add the edge to the optimizer
-            optimizer.addEdge(e);
-            cout<< "edge se2 has been added in between from: "<<from_idx<<" to " << to_idx <<endl;
-            // return 0;
-        }
-        
-        test_use = vertex_se2_id;
-        // add the egeXY between current pose and landmarks:
-
-        // timestamp
-        // iterate over global_map  ! ! !
-        // global_map : x, y, r, time stamp ,  idx_in_local_scan [from 0 to n], cluster_index [0 by default]
-        // find cluster_index
-        // pose.timestamp_;
-
-        //  having timestamp  and vertex_se2_id
-
-        double specific_value = timestamp;
-        //cout<< "specific val: "<< specific_value<<endl;
-
-        // for (size_t j=0;j<global_map_test.size();++j){
-        //     cout<< "global_map_test[j]: "<< j <<" " << global_map_test[j]<<endl;
-        //     if(j>=10) break;
-        // }
-        // for (size_t j=0;j<global_map.size();++j){
-        //     cout<< "global_map[j]: " << global_map[j]<<endl;
-        // }
-        // Iterate over the data and print the 6th element where the 4th element matches the specific value
-        while(true){
-            // cout<< "global_map_test[iter_local_map]: " << global_map_test[iter_local_map]<<endl;
-            // cout<< "global_map_test[iter_local_map](3) : " << global_map_test[iter_local_map](3)<<endl;
-            if (specific_value == global_map_test[iter_local_map](3)) {
-                int vertex_xy_id = global_map_test[iter_local_map](5);
-    
-                if (vertex_xy_id == -1){
-                    //cout<<" 6th Element equal -1: skipping it" << endl;
-                    // Do nothing since it is a outlier
-                } else {
-                    double x =global_map_test[iter_local_map](0);
-                    double y =global_map_test[iter_local_map](1);
-                    // std::cout << "time stamp  " <<std::setprecision(18)<< global_map_test[iter_global_map](3)<<
-                    // " 6th Element (global idx,i.e vertexXY's ID): " << vertex_xy_id << "  x "<<
-                    // x<<"  y "<< y << std::endl;
-
-                    // BUILD THE EDGESE2PointXY :
-                    g2o::EdgeSE2PointXY* e = new g2o::EdgeSE2PointXY();
-                    // Set the connecting vertices (nodes)
-                    e->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(vertex_se2_id)));
-                    e->setVertex(1, dynamic_cast<g2o::OptimizableGraph::Vertex*>(optimizer.vertex(vertex_xy_id)));
-                    //Eigen::Vector2d position(x, y); // Assuming x and y are defined earlier as the positions
-                    e->setMeasurement(Eigen::Vector2d(x, y));
-                    e->setInformation(information_edge_xy); // Define information_edge_xy appropriately
-                    optimizer.addEdge(e);
-                    //cout << "Edge XY has been added in between from: " << vertex_se2_id << " to " << vertex_xy_id << endl;
-
-                }
-                ++iter_local_map;
-            } else {break;}
-            
-        }
-        // if(iter_local_map>49) return 0;
-    }
-
-    cout<< "final vertex id of se2vertex (started from  vertex_cnt +1 ) : "<<test_use<<endl;
-    cout<< "final vertexXY count: " <<vertex_cnt<<endl;
-    cout<< "final iter_local_map final val: "<<iter_local_map<<endl;
-
-    cout << "Preparing optimization..." << endl;
-
-    optimizer.initializeOptimization();
-    cout << "Starting optimization..." << endl;
-    optimizer.optimize(30);
-
-    cout << "Saving optimization results..." << endl;
-    optimizer.save("../result_g2o/result_2d.g2o");
-
+    // std::cout << "Pose graph optimization completed." << std::endl;
 
 
 
