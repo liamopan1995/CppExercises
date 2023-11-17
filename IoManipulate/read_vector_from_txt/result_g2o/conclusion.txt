@@ -1,1 +1,11 @@
 after inspection of the both inital guesses of global landmarks, where one leads to success and the other failed,  it seems the problem is still in assosiation.
+
+
+
+
+
+After visually inspect the pose graph by comparing the resutl_g2o.g2o  and Fend.g2o on colab :
+
+Update:  17 Nov,   it seems the one from to_compare is more correct is actaully wrong,  what we did wrong in constructing to_compare was, we used the coords from global map ( under global map aspect ) to define our edges,  while the coords of edgeSE2XY were supposed to be how those landmarks were seem/ observed by the robot at current position .ie.: the edges should be values in local map ( which we can obtain from single scan) 
+
+To Fix it :  create a data structure along with global_map , which hold exact same values excepct in this one the x an y columns are holding the values of x y before they have been tranformed to global aspect ( like what was done in  updating global_map )

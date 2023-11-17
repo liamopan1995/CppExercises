@@ -34,6 +34,9 @@ find_package( G2O REQUIRED )
 include_directories( 
     ${G2O_INCLUDE_DIRS}
 )
+# g2o dependency for solver : CHOLMOD
+# Include CHOLMOD directories
+include_directories(/usr/include/suitesparse)
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
@@ -90,6 +93,7 @@ ${PCL_LIBRARIES} ${Sophus_LIBRARIES} tbb  glog gflags
 ${ARMADILLO_LIBRARIES} 
 mlpack
 g2o_core g2o_stuff g2o_types_slam2d
+cholmod
 )
 
 
