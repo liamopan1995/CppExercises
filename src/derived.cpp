@@ -6,7 +6,7 @@ namespace phx {
 
 void Derived::DoJob ()
 {
-    std::cout << "this is what derived do" << std::endl;
+    std::cout << "this is what derived no: " << m_id << " do " << std::endl;
 }
 };
 

@@ -9,6 +9,7 @@ public:
     Derived() = default;
     ~Derived() = default;
     void DoJob () override;
+    int m_id;
 };
 }
 #endif
