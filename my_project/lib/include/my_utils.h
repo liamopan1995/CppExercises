@@ -11,8 +11,9 @@ void ShowVec(const std::vector<T>& vec)
         std::cout << e << std::endl;
     }
 }
+void SayHello()
+{
+    std::cout << " hello " << std::endl;
+}
 }
 #endif
-
-
-

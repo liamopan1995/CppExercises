@@ -12,13 +12,18 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Threads REQUIRED)
 
 # Add an executable target
-add_executable(
-    MyApp main.cpp 
+add_executable( MyApp 
+    
+    main.cpp 
     src/derived.cpp
-    src/my_utils.cpp)
+    src/my_utils_dele.cpp)
 
 # Optionally, add include directories
-target_include_directories(MyApp PRIVATE include)
+target_include_directories( MyApp PRIVATE include)
 
 # Optionally, link libraries (e.g., a library named MyLibrary)
-target_link_libraries(MyApp PRIVATE Threads::Threads)
+target_link_libraries( MyApp 
+    PRIVATE 
+    Threads::Threads
+    MyLibrary
+    )
