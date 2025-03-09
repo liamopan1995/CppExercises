@@ -1,2 +1,3 @@
 # CppExercises
-Includes cpp exercises from book programming abstraction in c++ by Eric Roberts
+todo:
+用python脚本或者shell来构建和跑测试用例
