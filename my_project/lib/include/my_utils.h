@@ -5,18 +5,11 @@
 #include <string>
 namespace phx {
 
-void SayHello()
+static inline void SayHello() // 「 static 」ensures that the function is local to each translation unit and is not used outside the translation unit
 {
     std::cout << " hello " << std::endl;
 }
 
-size_t FindLastSlash(const std::string str)
-{
-    size_t pos{str.size()};
-    for (auto it = str.rbegin(); ((it != str.rend()) && (*it != '/')); ++it) {
-        --pos;
-    }
-    return (pos == 0U && (str.empty() || str[0U] != '/') ? std::string::npos : pos - 1U);
-}
+size_t FindLastSlash(const std::string str);
 }
 #endif

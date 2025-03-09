@@ -14,7 +14,7 @@ target_link_libraries(MyTests
                                         # 当你使用 find_package(GTest REQUIRED) 时，GTest 的 CMake 配置会生成目标 GTest::GTest 和 GTest::Main。
     gtest
     gtest_main
-    # MyLibrary  # 链接你的库
+    MyLibrary  # 链接你的库, 如果所有被用到的函数都在库的.h文件里定义了， 那么我们不需要这个依赖，如果用到的函数在库的.cpp文件定义我们就需要添加这里这个依赖
 )
 
 # Optionally, add include directories

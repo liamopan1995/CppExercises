@@ -99,3 +99,9 @@ However, it’s harder to read:
 - The compilation rule **executes first** because it is a dependency of the linking rule.
 
 **TL;DR**: **Order in the Makefile doesn’t control execution—dependencies do!** 🚀
+
+
+通过在要运行的二进制app的目录 执行命令：export LD_LIBRARY_PATH=/workspaces/CppExercises/my_project/build/lib/old_lib:$LD_LIBRARY_PATH
+这个二进制会优先在这个绝对目录声明的地方寻找要动态链接的库，给我们调试程序带来了很多方便。
+
+target_link_libraries 这个命令用来链接你的库, 但假如所有被用到的函数都在库的.h文件里定义了， 那么我们不需要用这个命令去加这个依赖，但如果用到的函数在库的.cpp文件定义我们就需要添加这里这个依赖

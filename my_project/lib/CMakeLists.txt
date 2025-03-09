@@ -10,9 +10,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add an executable target
 add_library(MyLibrary STATIC 
-    
-    src/my_utils.cpp)
-
+        
+    src/my_utils.cpp
+)
 # Optionally, add include directories
 target_include_directories(MyLibrary PUBLIC include)
 
