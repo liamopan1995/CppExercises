@@ -18,6 +18,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 # 添加库和应用程序的子目录
-add_subdirectory(lib)
+add_subdirectory(lib_static)
 add_subdirectory(app)
 add_subdirectory(tests)
