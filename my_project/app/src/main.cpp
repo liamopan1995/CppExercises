@@ -1,13 +1,13 @@
-#include <iostream>
-#include <thread>
-#include <vector>
 #include "my_utils.h"
 #include "modern_cpp.h"
 #include "derived.h"
-
+#include <iostream>
+#include <thread>
+#include <vector>
+#include <algorithm>
 int main() {
     unsigned int n = std::thread::hardware_concurrency();
-    std::cout << "Number of concurrent threads supported: " << n << std::endl;
+    std::cout << "number of concurrent threads supported: " << n << std::endl;
     phx::SayHello();
     std::vector<int> vec {1, 2, 3};
     phx::ShowVec(vec);
@@ -29,5 +29,10 @@ int main() {
 
     // t2.join();
     // t1.join();
+    phx::SmartPointerContainer container{{"have", "a", "nice", "day", "be", "happy"}};
+    std::cout << "counts tha fufills the rule is :" << std::count_if(container.m_container.begin(), container.m_container.end(),
+        [=] (const std::unique_ptr<std::string>& s) {return (*s)[0]=='h';}
+    )<< std::endl;
+    std::cout <<"reached here"<< std::endl;
     return 0;
 }
