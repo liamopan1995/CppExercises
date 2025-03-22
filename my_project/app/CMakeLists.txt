@@ -13,17 +13,17 @@ add_executable( MyApp
     
     src/main.cpp 
     src/derived.cpp
-    src/my_utils_dele.cpp)
+    src/modern_cpp.cpp)
 
 # Optionally, add include directories
 target_include_directories( MyApp PRIVATE 
-    ${CMAKE_SOURCE_DIR}/lib/include  # 添加 lib/include 目录
+    # ${CMAKE_SOURCE_DIR}/lib/include  # 添加 lib/include 目录
     include                         # 添加 app/include 目录
 )
 
-# Optionally, link libraries (e.g., a library named MyLibrary)
+# Optionally, link libraries (e.g., a library named MyStaticLibrary)
 target_link_libraries( MyApp 
     PRIVATE 
     Threads::Threads
-    MyLibrary
+    MyStaticLibrary
     )

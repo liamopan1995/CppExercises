@@ -5,57 +5,57 @@ TEST(ConfigurationTest, BasicTest) {
     EXPECT_EQ(1 + 1, 2);
 }
 
-TEST(MyLibraryTest, BasicTest) {
+TEST(MyStaticLibraryTest, BasicTest) {
     EXPECT_EQ(phx::FindLastSlash("myfolder/app"), 8U);
 }
 
-TEST(MyLibraryTest, EmptyString) {
+TEST(MyStaticLibraryTest, EmptyString) {
     EXPECT_EQ(phx::FindLastSlash(""), std::string::npos);
 }
 
-TEST(MyLibraryTest, NoSlash) {
+TEST(MyStaticLibraryTest, NoSlash) {
     EXPECT_EQ(phx::FindLastSlash("abcdef"), std::string::npos);
 }
 
-TEST(MyLibraryTest, SingleSlash) {
+TEST(MyStaticLibraryTest, SingleSlash) {
     EXPECT_EQ(phx::FindLastSlash("/"), 0U);
 }
 
-TEST(MyLibraryTest, MultipleSlashes) {
+TEST(MyStaticLibraryTest, MultipleSlashes) {
     EXPECT_EQ(phx::FindLastSlash("/////"), 4U);
 }
 
-TEST(MyLibraryTest, SlashAtEnd) {
+TEST(MyStaticLibraryTest, SlashAtEnd) {
     EXPECT_EQ(phx::FindLastSlash("path/to/file/"), 12U);
 }
 
-TEST(MyLibraryTest, SlashAtStart) {
+TEST(MyStaticLibraryTest, SlashAtStart) {
     EXPECT_EQ(phx::FindLastSlash("/home/user"), 5U);
 }
 
-TEST(MyLibraryTest, OnlyOneSlashAtStart) {
+TEST(MyStaticLibraryTest, OnlyOneSlashAtStart) {
     EXPECT_EQ(phx::FindLastSlash("/abc"), 0U);
 }
 
-TEST(MyLibraryTest, OnlyOneSlashInMiddle) {
+TEST(MyStaticLibraryTest, OnlyOneSlashInMiddle) {
     EXPECT_EQ(phx::FindLastSlash("abc/def"), 3U);
 }
 
-TEST(MyLibraryTest, OnlyOneSlashAtEnd) {
+TEST(MyStaticLibraryTest, OnlyOneSlashAtEnd) {
     EXPECT_EQ(phx::FindLastSlash("abc/"), 3U);
 }
 
-TEST(MyLibraryTest, ConsecutiveSlashes) {
+TEST(MyStaticLibraryTest, ConsecutiveSlashes) {
     EXPECT_EQ(phx::FindLastSlash("home//user///docs"), 12U);
 }
 
-TEST(MyLibraryTest, LargeStringWithSlash) {
+TEST(MyStaticLibraryTest, LargeStringWithSlash) {
     std::string largeStr(1000, 'a');
     largeStr[500] = '/';
     EXPECT_EQ(phx::FindLastSlash(largeStr), 500U);
 }
 
-TEST(MyLibraryTest, LargeStringWithoutSlash) {
+TEST(MyStaticLibraryTest, LargeStringWithoutSlash) {
     std::string largeStr(1000, 'a');
     EXPECT_EQ(phx::FindLastSlash(largeStr), std::string::npos);
 }

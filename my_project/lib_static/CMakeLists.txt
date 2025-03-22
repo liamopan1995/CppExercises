@@ -9,12 +9,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # find_package(Threads REQUIRED)
 
 # Add an executable target
-add_library(MyLibrary STATIC 
+add_library(MyStaticLibrary STATIC 
         
     src/my_utils.cpp
 )
 # Optionally, add include directories
-target_include_directories(MyLibrary PUBLIC include)
+target_include_directories(MyStaticLibrary PUBLIC include)
 
-# Optionally, link libraries (e.g., a library named MyLibrary)
+# Optionally, link libraries (e.g., a library named MyStaticLibrary)
 # target_link_libraries(MyApp PRIVATE Threads::Threads)
