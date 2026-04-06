@@ -7,8 +7,9 @@ CXX = g++
 # Add -I include helps to find headers
 CXXFLAGS = -g -Wall -I include 
 
-# In order to use multi threads
-LDFLAGS = -pthread
+# In order to use multi threads and link shared library
+LDFLAGS = -pthread -L ./lib/ -Wl,-rpath,./lib
+LIBS = -lmy_so
 # Name of the final executable
 TARGET = make_gen/main
 
@@ -37,7 +38,7 @@ $(OBJ_DIRS):
 
 # Link object files to create the final executable
 $(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)
 
 # Compile source files into object files
 $(BUILD_DIR)/%.o: %.cpp | $(OBJ_DIRS)

@@ -1,8 +1,10 @@
 #include <iostream>
 #include <thread>
 #include <vector>
+#include <cmath> 
 #include "my_utils.h"
 #include "derived.h"
+#include "my_so.h"
 
 int main() {
     unsigned int n = std::thread::hardware_concurrency();
@@ -23,10 +25,16 @@ int main() {
     
     dr.DoJob();
     std::thread t1(&phx::Derived::DoJob, &dr);
-    std::thread t2(lam);
+    //std::thread t2(lam);
     std::this_thread::sleep_for(std::chrono::milliseconds(5000));
 
-    t2.join();
+    // t2.join();
     t1.join();
+
+    double x = 4.0;
+    double sqrt_x = std::sqrt(x);
+    std::cout << "Number sqrt_x: " << sqrt_x;
+
+    dynamic_lib::SayHi();
     return 0;
 }

@@ -99,3 +99,48 @@ However, it’s harder to read:
 - The compilation rule **executes first** because it is a dependency of the linking rule.
 
 **TL;DR**: **Order in the Makefile doesn’t control execution—dependencies do!** 🚀
+
+
+
+
+### 构建并使用一个so
+
+@liamopan1995 ➜ /workspaces/CppExercises (main) $ cd lib/
+@liamopan1995 ➜ /workspaces/CppExercises/lib (main) $ g++ -fPIC -I ../include -c my_so.cpp -o my_so.o
+@liamopan1995 ➜ /workspaces/CppExercises/lib (main) $ g++ -shared -o libmy_so.so my_so.o 
+@liamopan1995 ➜ /workspaces/CppExercises/lib (main) $ cd ..
+@liamopan1995 ➜ /workspaces/CppExercises (main) $ g++ -g -Wall -I include  -pthread -o make_gen/main make_gen/main.o make_gen/src/derived.o make_gen/src/my_utils.o -L ./lib/ -lmy_so
+
+在依赖这个so文件后， 原有的makefile 不好用了 我们需要更新它
+---
+
+## **共享库(.so)运行时问题**
+
+**问题**："cannot open shared object file: libmy_so.so"
+- **编译时**：链接器知道去 `-L ./lib/` 找库 ✓
+- **运行时**：系统不知道去哪里找库 ✗
+
+**三个解决方案**：
+
+### **方案1：运行时设置环境变量（临时）**
+```bash
+LD_LIBRARY_PATH=./lib ./make_gen/main
+```
+
+### **方案2：编译时嵌入库路径（推荐）**
+```bash
+g++ -g -Wall -I include -pthread -o make_gen/main \
+    make_gen/main.o make_gen/src/derived.o make_gen/src/my_utils.o \
+    -L ./lib/ -lmy_so -Wl,-rpath,./lib
+```
+- `-Wl,-rpath,./lib`：把库路径写入可执行文件内部
+- 运行时动态链接器会按此路径查找库，无需环境变量
+
+### **方案3：在Makefile中永久配置（最佳）**
+```makefile
+LDFLAGS = -L ./lib/ -Wl,-rpath,./lib
+LIBS = -lmy_so
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJS) $(LDFLAGS) $(LIBS)
+```
